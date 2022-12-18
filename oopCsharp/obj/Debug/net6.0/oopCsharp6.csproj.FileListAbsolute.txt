@@ -1,0 +1,15 @@
+C:\Users\raden\Documents\Visual Studio 2022\WORKSHOP\JaCs\oopC#\oopCsharp6\bin\Debug\net6.0\oopCsharp6.exe
+C:\Users\raden\Documents\Visual Studio 2022\WORKSHOP\JaCs\oopC#\oopCsharp6\bin\Debug\net6.0\oopCsharp6.deps.json
+C:\Users\raden\Documents\Visual Studio 2022\WORKSHOP\JaCs\oopC#\oopCsharp6\bin\Debug\net6.0\oopCsharp6.runtimeconfig.json
+C:\Users\raden\Documents\Visual Studio 2022\WORKSHOP\JaCs\oopC#\oopCsharp6\bin\Debug\net6.0\oopCsharp6.dll
+C:\Users\raden\Documents\Visual Studio 2022\WORKSHOP\JaCs\oopC#\oopCsharp6\bin\Debug\net6.0\oopCsharp6.pdb
+C:\Users\raden\Documents\Visual Studio 2022\WORKSHOP\JaCs\oopC#\oopCsharp6\obj\Debug\net6.0\oopCsharp6.csproj.AssemblyReference.cache
+C:\Users\raden\Documents\Visual Studio 2022\WORKSHOP\JaCs\oopC#\oopCsharp6\obj\Debug\net6.0\oopCsharp6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\raden\Documents\Visual Studio 2022\WORKSHOP\JaCs\oopC#\oopCsharp6\obj\Debug\net6.0\oopCsharp6.AssemblyInfoInputs.cache
+C:\Users\raden\Documents\Visual Studio 2022\WORKSHOP\JaCs\oopC#\oopCsharp6\obj\Debug\net6.0\oopCsharp6.AssemblyInfo.cs
+C:\Users\raden\Documents\Visual Studio 2022\WORKSHOP\JaCs\oopC#\oopCsharp6\obj\Debug\net6.0\oopCsharp6.csproj.CoreCompileInputs.cache
+C:\Users\raden\Documents\Visual Studio 2022\WORKSHOP\JaCs\oopC#\oopCsharp6\obj\Debug\net6.0\oopCsharp6.dll
+C:\Users\raden\Documents\Visual Studio 2022\WORKSHOP\JaCs\oopC#\oopCsharp6\obj\Debug\net6.0\refint\oopCsharp6.dll
+C:\Users\raden\Documents\Visual Studio 2022\WORKSHOP\JaCs\oopC#\oopCsharp6\obj\Debug\net6.0\oopCsharp6.pdb
+C:\Users\raden\Documents\Visual Studio 2022\WORKSHOP\JaCs\oopC#\oopCsharp6\obj\Debug\net6.0\oopCsharp6.genruntimeconfig.cache
+C:\Users\raden\Documents\Visual Studio 2022\WORKSHOP\JaCs\oopC#\oopCsharp6\obj\Debug\net6.0\ref\oopCsharp6.dll
