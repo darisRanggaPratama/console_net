@@ -14,7 +14,7 @@ There's a button, there's a label, there's an entry.
 
 Your view model, you can think of it as code behind but completely decoupled, and what it is representing is what to display.
 
-It may have a list of objects or strings and may know what to do when a button is clicked and it may know what to display in a label, and the binding system inside of.Net MAUI is what brings it all together, enabling your UI to automatically update your code behind and vice versa.
+It may have a list of objects or strings and may know what to do when a button is clicked and it may know what to display in a label, and the binding system inside of .Net MAUI is what brings it all together, enabling your UI to automatically update your code behind and vice versa.
 
 It handles not only properties back and forth, but also events like those button clicks or swipe to deletes.
 
@@ -57,7 +57,7 @@ Now, there's some traditional ways of implementing MVVM into our application, wh
 
 Now INotify Property Changed gives us this system component model. When we implement this here, we can see that we get an event of property changed.
 
-Now this is an event that.Net MAUI will subscribe to automatically,
+Now this is an event that .Net MAUI will subscribe to automatically,
 
 which means that we can notify .Net MAUI when we wanted to update the user interface.
 
@@ -97,7 +97,7 @@ If you don't see 8.0, just check that include pre-release.
 
 Now here, we're just going to go ahead and install.
 
-What I love about the.Net Community Toolkit is that this works with any .Net application and it gives us source generators
+What I love about the .Net Community Toolkit is that this works with any .Net application and it gives us source generators
 to generate awesome code for us.
 
 Here's what we're going to do. We're going to delete all this code that we just wrote besides string.text.
@@ -140,571 +140,187 @@ Just like we were using a namespace in code,
 
 you can have a namespace in XAML.
 
-Here I can just type in
-"View model" and it'll find
+Here I can just type in "View model" and it'll find the namespace for us automatically in the IntelliSense.
 
-the namespace for us automatically
-in the IntelliSense.
+What I'm then going to do is do something called X colon data type.
 
-What I'm then going to do is do
+What this will do is it will automatically associate this content page with the view model and we saw the little squiggles now go away, which is pretty great.
 
-something called X colon data type.
+Now the other thing that we need to do inside of our view model is create an interaction.
 
-What this will do is it will
-automatically associate
+Basically what we want to do is we want to be able to tap this button and call a method.
 
-this content page with
-the view model and
+What we're now going to do is we're going to create something called a command.
 
-we saw the little squiggles now
-go away, which is pretty great.
+Now, commands are actually built into .Net MAUI, and you can use one there, but you can also use a command that is built into the MVVM Toolkit for .Net.
 
-Now the other thing that
-we need to do inside of
+What we're going to do is we're just going to go ahead and create a method called Add, there we go.
 
-our view model is
-create an interaction.
-
-Basically what we want
-to do is we want to be
-
-able to tap this button
-and call a method.
-
-What we're now going to
-
-do is we're going to create
-something called a command.
-
-Now, commands are actually
-built into.Net MAUI,
-
-and you can use one there,
-
-but you can also use a command
-
-that is built into the
-MVVM Toolkit for.Net.
-
-What we're going to do is we're
-just going to go ahead and create
-
-a method called Add, there we go.
-
-What we want to do
-here is we want to add
-
-our item and then we're going to
-
-set the text property
-to string.empty.
+What we want to do here is we want to add our item and then we're going to set the text property to string.empty.
 
 So we just clear it out.
 
-Now all we need to do is add
-another attribute called
+Now all we need to do is add another attribute called ICommand to the top of it, and ICommand is going to live inside of the Community Toolkit MVVM input.
 
-ICommand to the top of it,
+Just like we saw earlier, if I pull over my source generators there's ICommand and we can see that this generated a bunch of code for us as well.
 
-and ICommand is going
-to live inside of
+At the end of the day, this is going to give us an eye relay command and it's going to create a new command for us, and what it's going to do is call the add event automatically.
 
-the Community Toolkit MVVM input.
+This is really nice because if this was asynchronous, it would automatically handle that for us back and forth, and it's just really nice, tight code.
 
-Just like we saw earlier,
+The other thing we need to do is create another property here.
 
-if I pull over my source
-generators there's
+This is going to be an Observable Collection of type strain and we're going to call it Items.
 
-ICommand and we can see that
+Now, let's go ahead and bring that in the system collections object model.
 
-this generated a bunch
-of code for us as well.
+Again, we're also going to call this an Observable Property.
 
-At the end of the day,
+Perfect. Now, the final thing I'm going to do is I'm going to create a new one here.
 
-this is going to give
-us an eye relay command
-
-and it's going to create
-a new command for us,
-
-and what it's going to do is call
-the add event automatically.
-
-This is really nice because
-if this was asynchronous,
-
-it would automatically handle
-that for us back and forth,
-
-and it's just really
-nice, tight code.
-
-The other thing we need to do is
-create another property here.
-
-This is going to be an
-Observable Collection
-
-of type strain and we're
-going to call it Items.
-
-Now, let's go ahead and bring that
-
-in the system collections
-object model.
-
-Again, we're also going to call
-this an Observable Property.
-
-Perfect. Now, the final thing
-
-I'm going to do is I'm going
-to create a new one here.
-
-I'm going to say New
-Main View Model here,
-
-and I'm going to say items.
+I'm going to say New Main View Model here, and I'm going to say items.
 
 >> [MUSIC]
 
->> Equals new. Perfect. Now that
+>> Equals new. Perfect. Now that we have that newed up and we can data bind to it, what we'll be able to do is add that item.
 
-we have that newed up and
-we can data bind to it,
+I'm going to say Items.Add and I'm going to set the text property here.
 
-what we'll be able to
-do is add that item.
+Perfect. Now, I might want to also do something like say if string.IsNullOrWhitespace(text).
 
-I'm going to say Items.Add
+Let's go ahead and return. There we go.
 
-and I'm going to set
-the text property here.
+Also, just make sure we always use the capital text there, just to be sure. There we go.
 
-Perfect. Now, I might
-want to also do something
+We add it and then we empty it out and that'll be added in to our list.
 
-like say if
-string.IsNullOrWhitespace(text).
+Now if we go back into our main page we want to get rid of this item source.
 
-Let's go ahead and
-return. There we go.
+We're going to go ahead and delete that here.
 
-Also, just make sure we always
-use the capital text there,
+What we can do now is some data binding.
 
-just to be sure. There we go.
+I'm going to say item source and reset that equal to a binding to items.
 
-We add it and then we empty it
+Notice the IntelliSense automatically picks everything up for me.
 
-out and that'll be
-added in to our list.
+Now I need to do one more thing, just like we actually set a data type right here for the view model we also need to set it onto our data template because this data template isn't bound to this main view model,it's bound to a string.
 
-Now if we go back into our main page
+That is what is inside of here. I'm going to say x: DataType. I'm going to say x: Type, x: String. Well, that's going to do is associate the data template to be a string.
 
-we want to get rid
-of this item source.
+Now here, most likely we would have some model like to do item inside.
 
-We're going to go ahead
-and delete that here.
+Now the last thing I need to do here before it is ready to go is I actually need to come in and I need to say Command.
 
-What we can do now is
-some data binding.
+I need to set what the button is bound to. I'm going to give it a binding to the AddCommand.
 
-I'm going to say item
-source and reset
+Now, this isn't a clicked event, but it is a command, which means that when it is clicked or interacted with, it'll call the AddCommand that will execute Add.
 
-that equal to a binding to items.
+Notice that we're binding to the command. That is the one that was generated right here for us automatically.
 
-Notice the IntelliSense automatically
-picks everything up for me.
+We can see it's called AddCommand, whereas the method it's going to be calling is Add.
 
-Now I need to do one more thing,
+The last thing we need to do is actually create the binding context for this page.
 
-just like we actually
-set a data type right
+I could come in and say binding context, which all associated with this page to a new main view model.
 
-here for the view model
-we also need to set it
+That's one option that we can do here.
 
-onto our data template because
+If we bring this in that automatically created in our code behind.
 
-this data template isn't bound
-to this main view model,
+But we can actually use the built in dependency injection system to cascade these down.
 
-it's bound to a string.
+That's great when we add additional dependencies into the main view model, which we'll see in the future.
 
-That is what is inside of here.
+I'm just going to say vm and I'm going to pass in the vm.
 
-I'm going to say x: DataType.
+Now, the last thing we need to do is to register this system with the dependency service.
 
-I'm going to say x: Type, x: String.
+I'm going to go into the Maui program before we build it up I'm going to say builder.services.AddSingleton, and there's two different types of things that you can add into a service.
 
-Well, that's going
-to do is associate
+A singleton, which means it's like a global static it creates at once, or a transient which will create it every single time.
 
-the data template to be a string.
+We'll use that in the future. We're going to go ahead and add a singleton here and we're going to add a main page first.
 
-Now here, most likely we would have
+We're going to register the page. We're also going to add another singleton here.
 
-some model like to do item inside.
+Now we're going to call it main view model. Now, when we do this, these will now be automatically registered with the dependency service, which means that when I create this up and if I put a breakpoint on to the main page view model, we'll see that automatically be created for us.
 
-Now the last thing I need to do
-here before it is ready to go is
+This is really cool and one of my favorite features I've done in Maui in show.
 
-I actually need to come in
-and I need to say Command.
+There it is. It's automatically created for us and we can see that we have zero items here.
 
-I need to set what the
-button is bound to.
+Let's go ahead and continue on. Let's open up our application.
 
-I'm going to give it a
-binding to the AddCommand.
+Now what I'm able to do is say bananas and hit "Add". Now our bananas are there. Well, amazing. I can also add a breakpoint here so if I hit "Add", we can see that that ad is being called and boom, just like that.
 
-Now, this isn't a clicked
-event, but it is a command,
+The view comes in to the text and it says that it's empty. There we go.
 
-which means that when it is
-clicked or interacted with,
+I come in and say Apple's hit "Add" and sure enough, now we have Apple's right here.
 
-it'll call the AddCommand
-that will execute Add.
+You can see it in full glory. Now, the last thing we wanted to do is actually add that swipe to delete.
 
-Notice that we're
-binding to the command.
+What we're going to do now is we're going to go ahead and we are going to come in, stop debugging one more time, because we're going to add a little bit of code over here.
 
-That is the one that was generated
+Now what I'm going to do is I'm going to say ICommand and I'm going to say void Delete.
 
-right here for us automatically.
+I'm going to pass it in a string of s. Here, what I'm going to do is I'm going to say if Items.Contains(s).
 
-We can see it's called AddCommand,
+Then let's go ahead and remove it, so Items.Remove(s).
 
-whereas the method it's
-going to be calling is Add.
+There we go. That's all we're really going to do.
 
-The last thing we need
-to do is actually
+See if it contains it and then remove it.
 
-create the binding
-context for this page.
+That should remove it automatically from our list.
 
-I could come in and
-say binding context,
+You notice that when I added it, it also automatically added it to the user interface.
 
-which all associated with this
-page to a new main view model.
+That is because with the observable collection, it automatically will trigger different notifications when things are added or removed, so that's pretty great. There we go. Now we have our command. Now all we need to do is go into our main page and specifically add a command to the swipe item.
 
-That's one option
-that we can do here.
+Here's what we're going to do. We're going to come in and say Command.
 
-If we bring this in that automatically
-created in our code behind.
+Now, remember, though, that we're currently bound to this string, so it doesn't actually know anything about the view model.
 
-But we can actually use the built in
+We need to give it something called an ancestry binding, which basically means relative binding.
 
-dependency injection system
-to cascade these down.
+It says, Hey, don't use this data type or this binding.
 
-That's great when we add
+Use the one above it. Here's what we're going to do, is we're going to say binding source equals and it's going to be a relative source.
 
-additional dependencies
-into the main view model,
+Here what we're going to do is give it an ancestry type to say, go up the stack and find something for me.
 
-which we'll see in the future.
+We're going to say x:type in viewmodel MainViewModel.
 
-I'm just going to say vm and
-I'm going to pass in the vm.
-
-Now, the last thing we
-need to do is to register
-
-this system with the
-dependency service.
-
-I'm going to go into the Maui
-program before we build it
-
-up I'm going to say
-builder.services.AddSingleton,
-
-and there's two different types
-
-of things that you can
-add into a service.
-
-A singleton, which means it's like
-
-a global static it creates at once,
-
-or a transient which will
-create it every single time.
-
-We'll use that in the future.
-
-We're going to go ahead and
-add a singleton here and we're
-
-going to add a main page first.
-
-We're going to register the page.
-
-We're also going to add
-another singleton here.
-
-Now we're going to call
-it main view model.
-
-Now, when we do this,
-
-these will now be automatically
-
-registered with the
-dependency service,
-
-which means that when
-I create this up and
-
-if I put a breakpoint on to
-the main page view model,
-
-we'll see that automatically
-be created for us.
-
-This is really cool and one of
-
-my favorite features I've
-done in Maui in show.
-
-There it is. It's
-automatically created for
-
-us and we can see that
-we have zero items here.
-
-Let's go ahead and continue on.
-
-Let's open up our application.
-
-Now what I'm able to do is
-say bananas and hit "Add".
-
-Now our bananas are
-there. Well, amazing.
-
-I can also add a breakpoint
-here so if I hit "Add",
-
-we can see that that ad is being
-called and boom, just like that.
-
-The view comes in to
-
-the text and it says that
-it's empty. There we go.
-
-I come in and say Apple's
-hit "Add" and sure enough,
-
-now we have Apple's right here.
-
-You can see it in full glory.
-
-Now, the last thing
-we wanted to do is
-
-actually add that swipe to delete.
-
-What we're going to do
-now is we're going to go
-
-ahead and we are going to come in,
-
-stop debugging one more time,
-
-because we're going to add a
-little bit of code over here.
-
-Now what I'm going to do
-is I'm going to say I
-
-Command and I'm going
-to say void Delete.
-
-I'm going to pass it in
-a string of s. Here,
-
-what I'm going to do is I'm going
-to say if Items.Contains(s).
-
-Then let's go ahead and remove
-it, so Items.Remove(s).
-
-There we go. That's all
-we're really going to do.
-
-See if it contains it
-and then remove it.
-
-That should remove it
-automatically from our list.
-
-You notice that when I added it,
-
-it also automatically added
-it to the user interface.
-
-That is because with the
-observable collection,
-
-it automatically will trigger
-
-different notifications when
-things are added or removed,
-
-so that's pretty great. There we go.
-
-Now we have our command. Now
-all we need to do is go into
-
-our main page and specifically
-add a command to the swipe item.
-
-Here's what we're going
-to do. We're going
-
-to come in and say Command.
-
-Now, remember, though, that we're
-currently bound to this string,
-
-so it doesn't actually know
-anything about the view model.
-
-We need to give it something
-called an ancestry binding,
-
-which basically means
-relative binding.
-
-It says, Hey, don't use this
-data type or this binding.
-
-Use the one above it.
-
-Here's what we're going to do,
-is we're going to say binding
-
-source equals and it's going
-to be a relative source.
-
-Here what we're going to do is
-give it an ancestry type to say,
-
-go up the stack and
-find something for me.
-
-We're going to say x:type
-in viewmodel MainViewModel.
-
-That does seem a little bit complex,
-
-but bear with me here,
-
-because the last thing
-we need to do is
-
-a path and then we're going to say,
-
+That does seem a little bit complex, but bear with me here, because the last thing we need to do is a path and then we're going to say, 
 please find the delete command.
 
-If we walk through this,
-it's going to say,
+If we walk through this, it's going to say, don't use the source, use a relative source.
 
-don't use the source,
+It's an ancestor of type view model so walk up, look for view model and specifically called this command.
 
-use a relative source.
+Now we do need to pass it one more thing, though. We do need to pass it a command parameter.
 
-It's an ancestor of type
-view model so walk up,
+In that case, we are going to set it to bind just like this.
 
-look for view model and
-specifically called this command.
+This is going to pass the string to the command and delete it automatically.
 
-Now we do need to pass it
-one more thing, though.
+Let's go ahead and debug this now and add a break point into our delete.
 
-We do need to pass it
-a command parameter.
+What we'll see is that will have generated a command that automatically takes in a parameter.
 
-In that case, we are going to
-set it to bind just like this.
+That's pretty cool. Here's our application. I'm going to say Apples "Add", we had a break point. I'll say Bananas "Add" continue on. 
+Now we get our swipe. I'm going to hit "Delete" sure enough what's pass in here is our apples automatically.
 
-This is going to pass the string to
+We're now going to remove them and the animations are all completely built in. We've now gone from start to finish using MVVM and data binding to create a full application.
 
-the command and delete
-it automatically.
-
-Let's go ahead and debug this now
-
-and add a break point
-into our delete.
-
-What we'll see is that
-will have generated
-
-a command that automatically
-takes in a parameter.
-
-That's pretty cool.
-Here's our application.
-
-I'm going to say Apples "Add",
-
-we had a break point.
-
-I'll say Bananas "Add" continue on.
-
-Now we get our swipe. I'm
-going to hit "Delete" sure
-
-enough what's pass in here
-is our apples automatically.
-
-We're now going to remove them and
-
-the animations are all
-completely built in.
-
-We've now gone from
-start to finish using
-
-MVVM and data binding to
-create a full application.
-
-Well, there's a lot
-more that we can do.
-
-There you have it.
-We've just integrated
-
-an MVVM architecture pattern with
-
-data binding into our.Net
+Well, there's a lot more that we can do. There you have it. We've just integrated an MVVM architecture pattern with data binding into our .Net
 MAUI application.
 
-Now, next up is something very
-common that you're going to
-
-do in any of your applications,
-which is navigation.
-
-Navigating from page A to
+Now, next up is something very common that you're going to do in any of your applications, which is navigation. Navigating from page A to
 page B and back and forth.
 
-Stay tuned to the.Net
-MAUI Beginner Series.
+Stay tuned to the .Net MAUI Beginner Series.
 
->> [MUSIC].
+
 
