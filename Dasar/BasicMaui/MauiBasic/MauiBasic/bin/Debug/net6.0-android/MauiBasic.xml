@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MauiBasic</name>
+    </assembly>
+    <members>
+        <member name="P:MauiBasic.ViewModel.MainViewModel.Items">
+            <inheritdoc cref="F:MauiBasic.ViewModel.MainViewModel.items"/>
+        </member>
+        <member name="P:MauiBasic.ViewModel.MainViewModel.Text">
+            <inheritdoc cref="F:MauiBasic.ViewModel.MainViewModel.text"/>
+        </member>
+        <member name="F:MauiBasic.ViewModel.MainViewModel.addCommand">
+            <summary>The backing field for <see cref="P:MauiBasic.ViewModel.MainViewModel.AddCommand"/>.</summary>
+        </member>
+        <member name="P:MauiBasic.ViewModel.MainViewModel.AddCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MauiBasic.ViewModel.MainViewModel.Add"/>.</summary>
+        </member>
+        <member name="F:MauiBasic.ViewModel.MainViewModel.deleteCommand">
+            <summary>The backing field for <see cref="P:MauiBasic.ViewModel.MainViewModel.DeleteCommand"/>.</summary>
+        </member>
+        <member name="P:MauiBasic.ViewModel.MainViewModel.DeleteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:MauiBasic.ViewModel.MainViewModel.Delete(System.String)"/>.</summary>
+        </member>
+        <member name="F:MauiBasic.ViewModel.MainViewModel.tapCommand">
+            <summary>The backing field for <see cref="P:MauiBasic.ViewModel.MainViewModel.TapCommand"/>.</summary>
+        </member>
+        <member name="P:MauiBasic.ViewModel.MainViewModel.TapCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:MauiBasic.ViewModel.MainViewModel.Tap(System.String)"/>.</summary>
+        </member>
+    </members>
+</doc>

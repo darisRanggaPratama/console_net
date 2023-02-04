@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiBasic.MainPage"
+			 xmlns:viewmodel="clr-namespace:MauiBasic.ViewModel"
+			 x:DataType="viewmodel:MainViewModel"
+			 >
+
+	<!--Measure in density pixel(dp)-->
+	<!--75% & 25%-->
+	<Grid		
+		RowDefinitions = "100, Auto, *"		
+		ColumnDefinitions = ".75*, .25*"
+		Padding="10"
+		RowSpacing="10"
+		ColumnSpacing="10"
+		>
+
+		<Image
+			Grid.ColumnSpan="2"
+			Source="checkbox.png"
+			BackgroundColor="Transparent"
+			/>
+
+
+		<Entry 
+			x:Name="Entry"
+			Placeholder="Enter Task"
+			Text="{Binding Text}"
+			Grid.Row="1" 
+			BackgroundColor="#56A2FF" 
+			TextColor="#FF0000" 
+			PlaceholderColor="#FFFFFF" 
+			TextTransform="Uppercase"	
+			CharacterSpacing="1" 
+			VerticalTextAlignment="Center" 
+			HorizontalTextAlignment="Center" 
+			HorizontalOptions="Fill" 
+			
+			
+			
+			/>
+		<Button
+			Text="Add"
+			Grid.Row="1"
+			Grid.Column="1"
+			Command="{Binding AddCommand}"
+			/>
+		<CollectionView
+			Grid.Row="2"
+			Grid.ColumnSpan="2"
+			ItemsSource="{Binding Items}"
+			SelectionMode="None"
+			>
+			<CollectionView.ItemTemplate>
+				<DataTemplate x:DataType="{x:Type x:String}">
+					<SwipeView>
+						<SwipeView.RightItems>
+							<SwipeItems>
+								<SwipeItem
+									Text="Done"
+									BackgroundColor="IndianRed" 
+									Command="{Binding 
+									Source={RelativeSource 
+									AncestorType={x:Type viewmodel:MainViewModel}}, 
+									Path=DeleteCommand}"
+									CommandParameter="{Binding .}"
+									/>
+							</SwipeItems>
+						</SwipeView.RightItems>
+						<Grid Padding="0,5">
+							<Frame>
+								<Frame.GestureRecognizers>
+									<TapGestureRecognizer
+									Command="{Binding 
+									Source={RelativeSource 
+									AncestorType={x:Type viewmodel:MainViewModel}}, 
+									Path=TapCommand}"
+									CommandParameter="{Binding .}"
+									/>
+								</Frame.GestureRecognizers>
+								<Label 
+								FontSize="24"
+								Text="{Binding .}" 
+								/>
+							</Frame>
+						</Grid>
+					</SwipeView>
+				</DataTemplate>
+			</CollectionView.ItemTemplate>
+		</CollectionView>
+
+
+
+
+	</Grid>
+
+</ContentPage>
