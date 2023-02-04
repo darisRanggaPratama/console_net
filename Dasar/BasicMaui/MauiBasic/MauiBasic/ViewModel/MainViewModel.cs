@@ -3,8 +3,8 @@ using CommunityToolkit.Mvvm.Input;
 using System.Collections.ObjectModel;
 // using System.ComponentModel;
 
-namespace MauiBasic.ViewModel
-{ 
+namespace MauiBasic.ViewModel;
+
 	public partial class MainViewModel : ObservableObject
 	{
 		public MainViewModel()
@@ -45,4 +45,4 @@ namespace MauiBasic.ViewModel
 			await Shell.Current.GoToAsync($"{nameof(DetailPage)}?Text={s}");
 		}
 	}
-}
+

@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>497ef725-ffe5-48ea-aae5-b11edd0476e7</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>A13352127D88EE560987BAF9D1F8DB1A5FDC0B77521EAAA8CF65B83575D173CC</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>497ef725-ffe5-48ea-aae5-b11edd0476e7_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>497ef725-ffe5-48ea-aae5-b11edd0476e7_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -26,28 +26,28 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-02T15:08:32.588</Modified>
+      <Modified>2023-02-04T05:48:13.697</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-02-02T15:08:31.973</Modified>
+      <Modified>2023-02-04T05:48:12.277</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiBasic.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiBasic.runtimeconfig.json">
       <PackagePath>MauiBasic.runtimeconfig.json</PackagePath>
-      <Modified>2023-02-02T15:08:31.580</Modified>
+      <Modified>2023-02-04T05:48:11.407</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiBasic.dll">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiBasic.dll">
       <PackagePath>MauiBasic.dll</PackagePath>
-      <Modified>2023-02-02T15:08:26.991</Modified>
+      <Modified>2023-02-04T05:47:58.886</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiBasic.exe</PackagePath>
-      <Modified>2023-02-02T15:08:27.082</Modified>
+      <Modified>2023-02-04T05:47:59.044</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\raden\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.13\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -965,6 +965,10 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2022-11-16T01:34:42.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\raden\.nuget\packages\communitytoolkit.mvvm\8.1.0\lib\net6.0\CommunityToolkit.Mvvm.dll">
+      <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
+      <Modified>2023-01-17T22:56:14.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\raden\.nuget\packages\microsoft.extensions.configuration\6.0.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
       <Modified>2022-02-24T00:12:18.000</Modified>
@@ -1061,9 +1065,9 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-07-19T16:53:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiBasic.deps.json">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiBasic.deps.json">
       <PackagePath>MauiBasic.deps.json</PackagePath>
-      <Modified>2023-02-02T15:08:32.322</Modified>
+      <Modified>2023-02-04T05:48:13.123</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\raden\.nuget\packages\microsoft.maui.controls.ref.win\6.0.548\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1077,243 +1081,243 @@
       <PackagePath>Microsoft.Maui.pri</PackagePath>
       <Modified>2022-11-17T18:14:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2023-01-28T16:18:23.139</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
       <Modified>2023-02-02T15:08:25.910</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
       <Modified>2023-02-02T15:08:25.930</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
       <Modified>2023-02-02T15:08:25.956</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
       <Modified>2023-02-02T15:08:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2023-02-02T15:08:26.160</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2023-01-28T16:18:23.136</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2023-01-28T16:18:23.137</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
       <Modified>2023-02-02T15:08:26.240</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
       <Modified>2023-02-02T15:08:26.562</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
       <Modified>2023-02-02T15:08:26.583</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
       <Modified>2023-02-02T15:08:26.597</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
       <Modified>2023-02-02T15:08:26.623</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
       <Modified>2023-02-02T15:08:26.705</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
       <Modified>2023-02-02T15:08:26.329</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
       <Modified>2023-02-02T15:08:26.332</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
       <Modified>2023-02-02T15:08:26.350</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
       <Modified>2023-02-02T15:08:26.336</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
       <Modified>2023-02-02T15:08:26.340</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
       <Modified>2023-02-02T15:08:26.304</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
       <Modified>2023-02-02T15:08:26.308</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
       <Modified>2023-02-02T15:08:26.325</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
       <Modified>2023-02-02T15:08:26.312</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
       <Modified>2023-02-02T15:08:26.316</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
       <Modified>2023-02-02T15:08:26.250</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
       <Modified>2023-02-02T15:08:26.254</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
       <Modified>2023-02-02T15:08:26.259</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
       <Modified>2023-02-02T15:08:26.265</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
       <Modified>2023-02-02T15:08:26.271</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
       <Modified>2023-02-02T15:08:26.276</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
       <Modified>2023-02-02T15:08:26.280</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
       <Modified>2023-02-02T15:08:26.299</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
       <Modified>2023-02-02T15:08:26.285</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
       <Modified>2023-02-02T15:08:26.289</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
       <Modified>2023-02-02T15:08:26.410</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
       <Modified>2023-02-02T15:08:26.418</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
       <Modified>2023-02-02T15:08:26.427</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
       <Modified>2023-02-02T15:08:26.437</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
       <Modified>2023-02-02T15:08:26.457</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
       <Modified>2023-02-02T15:08:26.381</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
       <Modified>2023-02-02T15:08:26.386</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
       <Modified>2023-02-02T15:08:26.390</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
       <Modified>2023-02-02T15:08:26.395</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
       <Modified>2023-02-02T15:08:26.405</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
       <Modified>2023-02-02T15:08:26.355</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
       <Modified>2023-02-02T15:08:26.359</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
       <Modified>2023-02-02T15:08:26.364</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
       <Modified>2023-02-02T15:08:26.368</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
       <Modified>2023-02-02T15:08:26.377</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
       <Modified>2023-02-02T15:08:26.463</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
       <Modified>2023-02-02T15:08:26.472</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
       <Modified>2023-02-02T15:08:26.482</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
       <Modified>2023-02-02T15:08:26.504</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2023-02-02T15:08:26.546</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\checkbox.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\checkbox.scale-100.png">
       <PackagePath>checkbox.scale-100.png</PackagePath>
       <Modified>2023-02-02T14:09:16.453</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
       <Modified>2023-02-02T15:08:26.300</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
       <Modified>2023-02-02T15:08:26.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
       <Modified>2023-02-02T15:08:26.338</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
       <Modified>2023-02-02T15:08:26.370</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
       <Modified>2023-02-02T15:08:26.447</Modified>
     </AppxPackagedFile>
