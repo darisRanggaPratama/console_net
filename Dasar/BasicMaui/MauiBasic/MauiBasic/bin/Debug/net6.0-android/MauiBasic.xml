@@ -4,6 +4,15 @@
         <name>MauiBasic</name>
     </assembly>
     <members>
+        <member name="P:MauiBasic.ViewModel.DetailViewModel.Text">
+            <inheritdoc cref="F:MauiBasic.ViewModel.DetailViewModel.text"/>
+        </member>
+        <member name="F:MauiBasic.ViewModel.DetailViewModel.goBackCommand">
+            <summary>The backing field for <see cref="P:MauiBasic.ViewModel.DetailViewModel.GoBackCommand"/>.</summary>
+        </member>
+        <member name="P:MauiBasic.ViewModel.DetailViewModel.GoBackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MauiBasic.ViewModel.DetailViewModel.GoBack"/>.</summary>
+        </member>
         <member name="P:MauiBasic.ViewModel.MainViewModel.Items">
             <inheritdoc cref="F:MauiBasic.ViewModel.MainViewModel.items"/>
         </member>
@@ -14,7 +23,7 @@
             <summary>The backing field for <see cref="P:MauiBasic.ViewModel.MainViewModel.AddCommand"/>.</summary>
         </member>
         <member name="P:MauiBasic.ViewModel.MainViewModel.AddCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MauiBasic.ViewModel.MainViewModel.Add"/>.</summary>
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MauiBasic.ViewModel.MainViewModel.Add"/>.</summary>
         </member>
         <member name="F:MauiBasic.ViewModel.MainViewModel.deleteCommand">
             <summary>The backing field for <see cref="P:MauiBasic.ViewModel.MainViewModel.DeleteCommand"/>.</summary>

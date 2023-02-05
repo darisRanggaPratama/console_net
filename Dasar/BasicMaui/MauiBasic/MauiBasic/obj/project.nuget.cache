@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1fhoE8+ocqFmwW1gOFD4imZiKpjTJ8ae+AyW0FFXD8qBQ6FNINljUdbv/kHngc76cttrTyShHLGwk3juH7EAtQ==",
+  "dgSpecHash": "9BnOVmZ6nZXGIv+8e2KbZrYPAI4Y8yPMd5cw0mE8cl5fgGAmQyrMAnN+h7zFW5+H7x/jDZqO+4I4ur/vC+iwtw==",
   "success": true,
   "projectFilePath": "C:\\Users\\raden\\Documents\\UploadGithub\\Belajar_Csharp\\Net_MAUI\\Translate\\console_net\\Dasar\\BasicMaui\\MauiBasic\\MauiBasic\\MauiBasic.csproj",
   "expectedPackageFiles": [
@@ -124,8 +124,8 @@
     "C:\\Users\\raden\\.nuget\\packages\\microsoft.maui.core.ref.ios\\6.0.548\\microsoft.maui.core.ref.ios.6.0.548.nupkg.sha512",
     "C:\\Users\\raden\\.nuget\\packages\\microsoft.ios.ref\\16.1.228\\microsoft.ios.ref.16.1.228.nupkg.sha512",
     "C:\\Users\\raden\\.nuget\\packages\\microsoft.maui.controls.ref.ios\\6.0.548\\microsoft.maui.controls.ref.ios.6.0.548.nupkg.sha512",
+    "C:\\Users\\raden\\.nuget\\packages\\microsoft.ios.runtime.ios-arm64\\16.1.228\\microsoft.ios.runtime.ios-arm64.16.1.228.nupkg.sha512",
     "C:\\Users\\raden\\.nuget\\packages\\microsoft.maui.essentials.runtime.ios\\6.0.548\\microsoft.maui.essentials.runtime.ios.6.0.548.nupkg.sha512",
-    "C:\\Users\\raden\\.nuget\\packages\\microsoft.ios.runtime.iossimulator-x64\\16.1.228\\microsoft.ios.runtime.iossimulator-x64.16.1.228.nupkg.sha512",
     "C:\\Users\\raden\\.nuget\\packages\\microsoft.maui.core.runtime.ios\\6.0.548\\microsoft.maui.core.runtime.ios.6.0.548.nupkg.sha512",
     "C:\\Users\\raden\\.nuget\\packages\\microsoft.maui.controls.ref.maccatalyst\\6.0.548\\microsoft.maui.controls.ref.maccatalyst.6.0.548.nupkg.sha512",
     "C:\\Users\\raden\\.nuget\\packages\\microsoft.maccatalyst.runtime.maccatalyst-x64\\16.1.228\\microsoft.maccatalyst.runtime.maccatalyst-x64.16.1.228.nupkg.sha512",
