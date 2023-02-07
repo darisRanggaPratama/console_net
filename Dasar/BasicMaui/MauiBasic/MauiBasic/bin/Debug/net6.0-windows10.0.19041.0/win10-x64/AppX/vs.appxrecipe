@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-05T06:15:58.772</Modified>
+      <Modified>2023-02-06T12:08:09.540</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-02-05T06:15:57.727</Modified>
+      <Modified>2023-02-06T12:08:08.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiBasic.runtimeconfig.json">
       <PackagePath>MauiBasic.runtimeconfig.json</PackagePath>
-      <Modified>2023-02-05T06:15:57.095</Modified>
+      <Modified>2023-02-06T11:48:14.865</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiBasic.dll">
       <PackagePath>MauiBasic.dll</PackagePath>
-      <Modified>2023-02-05T06:15:48.620</Modified>
+      <Modified>2023-02-06T12:08:06.366</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiBasic.exe</PackagePath>
-      <Modified>2023-02-05T06:15:48.729</Modified>
+      <Modified>2023-02-06T12:08:06.435</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\raden\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.13\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1067,7 +1067,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiBasic.deps.json">
       <PackagePath>MauiBasic.deps.json</PackagePath>
-      <Modified>2023-02-05T06:15:58.341</Modified>
+      <Modified>2023-02-06T12:08:09.294</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\raden\.nuget\packages\microsoft.maui.controls.ref.win\6.0.548\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

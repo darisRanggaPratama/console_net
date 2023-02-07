@@ -25,7 +25,7 @@
 
 		<Entry 
 			x:Name="Entry"
-			Placeholder="Enter Task"
+			Placeholder="Input Activities"
 			Text="{Binding Text}"
 			Grid.Row="1" 
 			BackgroundColor="#56A2FF" 
@@ -35,17 +35,16 @@
 			CharacterSpacing="1" 
 			VerticalTextAlignment="Center" 
 			HorizontalTextAlignment="Center" 
-			HorizontalOptions="Fill" 
-			
-			
-			
+			HorizontalOptions="Fill" 			
 			/>
+		
 		<Button
 			Text="Add"
 			Grid.Row="1"
 			Grid.Column="1"
 			Command="{Binding AddCommand}"
 			/>
+		
 		<CollectionView
 			Grid.Row="2"
 			Grid.ColumnSpan="2"
@@ -58,7 +57,7 @@
 						<SwipeView.RightItems>
 							<SwipeItems>
 								<SwipeItem
-									Text="Done"
+									Text="Delete"
 									BackgroundColor="IndianRed" 
 									Command="{Binding 
 									Source={RelativeSource 
@@ -89,10 +88,6 @@
 				</DataTemplate>
 			</CollectionView.ItemTemplate>
 		</CollectionView>
-
-
-
-
 	</Grid>
 
 </ContentPage>

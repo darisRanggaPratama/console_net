@@ -38,11 +38,11 @@
             "targetAlias": "net6.0-android",
             "projectReferences": {}
           },
-          "net6.0-ios16.1": {
+          "net6.0-ios16.0": {
             "targetAlias": "net6.0-ios",
             "projectReferences": {}
           },
-          "net6.0-maccatalyst16.1": {
+          "net6.0-maccatalyst15.4": {
             "targetAlias": "net6.0-maccatalyst",
             "projectReferences": {}
           },
@@ -164,7 +164,7 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         },
-        "net6.0-ios16.1": {
+        "net6.0-ios16.0": {
           "targetAlias": "net6.0-ios",
           "dependencies": {
             "CommunityToolkit.Mvvm": {
@@ -201,11 +201,11 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.iOS.Ref",
-              "version": "[16.1.228, 16.1.228]"
+              "version": "[16.0.527, 16.0.527]"
             },
             {
               "name": "Microsoft.iOS.Runtime.ios-arm64",
-              "version": "[16.1.228, 16.1.228]"
+              "version": "[16.0.527, 16.0.527]"
             },
             {
               "name": "Microsoft.Maui.Controls.Ref.ios",
@@ -251,7 +251,7 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         },
-        "net6.0-maccatalyst16.1": {
+        "net6.0-maccatalyst15.4": {
           "targetAlias": "net6.0-maccatalyst",
           "dependencies": {
             "CommunityToolkit.Mvvm": {
@@ -289,11 +289,11 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.MacCatalyst.Ref",
-              "version": "[16.1.228, 16.1.228]"
+              "version": "[15.4.471, 15.4.471]"
             },
             {
               "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64",
-              "version": "[16.1.228, 16.1.228]"
+              "version": "[15.4.471, 15.4.471]"
             },
             {
               "name": "Microsoft.Maui.Controls.Ref.maccatalyst",
