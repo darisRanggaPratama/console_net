@@ -1909,10 +1909,10 @@ C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_
 C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
 C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
 C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-android\android\assets\System.Xml.dll
-C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-android\android\typemaps.x86.s
-C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-android\android\environment.x86.s
-C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-android\android\compressed_assemblies.x86.s
-C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-android\android\typemaps.x86.o
-C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-android\android\environment.x86.o
-C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-android\android\compressed_assemblies.x86.o
-C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-android\app_shared_libraries\x86\libxamarin-app.so
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-android\android\typemaps.x86_64.s
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-android\android\environment.x86_64.s
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-android\android\compressed_assemblies.x86_64.s
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-android\android\typemaps.x86_64.o
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-android\android\environment.x86_64.o
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-android\android\compressed_assemblies.x86_64.o
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\Dasar\BasicMaui\MauiBasic\MauiBasic\obj\Debug\net6.0-android\app_shared_libraries\x86_64\libxamarin-app.so
