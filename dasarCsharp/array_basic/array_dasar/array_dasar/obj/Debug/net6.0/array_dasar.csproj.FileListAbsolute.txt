@@ -1,0 +1,15 @@
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\array_basic\array_dasar\array_dasar\bin\Debug\net6.0\array_dasar.exe
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\array_basic\array_dasar\array_dasar\bin\Debug\net6.0\array_dasar.deps.json
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\array_basic\array_dasar\array_dasar\bin\Debug\net6.0\array_dasar.runtimeconfig.json
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\array_basic\array_dasar\array_dasar\bin\Debug\net6.0\array_dasar.dll
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\array_basic\array_dasar\array_dasar\bin\Debug\net6.0\array_dasar.pdb
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\array_basic\array_dasar\array_dasar\obj\Debug\net6.0\array_dasar.csproj.AssemblyReference.cache
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\array_basic\array_dasar\array_dasar\obj\Debug\net6.0\array_dasar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\array_basic\array_dasar\array_dasar\obj\Debug\net6.0\array_dasar.AssemblyInfoInputs.cache
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\array_basic\array_dasar\array_dasar\obj\Debug\net6.0\array_dasar.AssemblyInfo.cs
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\array_basic\array_dasar\array_dasar\obj\Debug\net6.0\array_dasar.csproj.CoreCompileInputs.cache
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\array_basic\array_dasar\array_dasar\obj\Debug\net6.0\array_dasar.dll
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\array_basic\array_dasar\array_dasar\obj\Debug\net6.0\refint\array_dasar.dll
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\array_basic\array_dasar\array_dasar\obj\Debug\net6.0\array_dasar.pdb
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\array_basic\array_dasar\array_dasar\obj\Debug\net6.0\array_dasar.genruntimeconfig.cache
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\array_basic\array_dasar\array_dasar\obj\Debug\net6.0\ref\array_dasar.dll
