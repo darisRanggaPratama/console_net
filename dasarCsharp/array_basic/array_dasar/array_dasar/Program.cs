@@ -12,7 +12,7 @@ namespace array_dasar
 
 		static void Main(string[] args)
 		{
-			valueArray();
+			ValueArray();
 
 			ShowArrayNumber();
 
@@ -35,7 +35,7 @@ namespace array_dasar
 			Console.ReadLine();
 		}
 
-		private static void valueArray()
+		private static void ValueArray()
 		{
 			// Mengisi elemen array (angka) dengan nilai
 			numbers[0] = 1;
