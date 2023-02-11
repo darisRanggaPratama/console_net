@@ -14,9 +14,9 @@ namespace array_dasar
 		{
 			valueArray();
 
-			 ShowArrayNumber();
+			ShowArrayNumber();
 
-			 ArrayNumberShow();
+			ArrayNumberShow();
 
 			// ArrayStringShow();
 
@@ -26,9 +26,11 @@ namespace array_dasar
 
 			// ArrayStringDescending();
 
-			 ArrayNumberDelete(3);
+			GetItemArrayNumber(2);
 
-			 ArrayNumberDeleteAll();
+			ArrayNumberDelete(3);
+
+			ArrayNumberDeleteAll();
 
 			Console.ReadLine();
 		}
@@ -116,6 +118,11 @@ namespace array_dasar
 			Console.WriteLine($"\nSort Descending");
 
 			ShowArrayString();
+		}
+
+		private static void GetItemArrayNumber(int item)
+		{
+			Console.WriteLine($"\nAmbilkan item di index {item}: {numbers[item]}");
 		}
 
 		private static void ArrayNumberDelete(int item)
