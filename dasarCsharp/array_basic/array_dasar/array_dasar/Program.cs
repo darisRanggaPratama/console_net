@@ -14,21 +14,21 @@ namespace array_dasar
 		{
 			valueArray();
 
-			ShowArrayNumber();
+			 ShowArrayNumber();
 
-			ArrayNumberShow();
+			 ArrayNumberShow();
 
-			ArrayStringShow();
+			// ArrayStringShow();
 
-			EditArrayString(4, "kontras");
+			// EditArrayString(4, "kontras");
 
-			ArrayStringAscending();
+			// ArrayStringAscending();
 
-			ArrayStringDescending();
+			// ArrayStringDescending();
 
-			ArrayNumberDelete(3);
+			 ArrayNumberDelete(3);
 
-			ArrayNumberDeleteAll();
+			 ArrayNumberDeleteAll();
 
 			Console.ReadLine();
 		}
