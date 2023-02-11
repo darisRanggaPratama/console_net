@@ -18,13 +18,13 @@ namespace array_dasar
 
 			ArrayNumberShow();
 
-			// ArrayStringShow();
+			ArrayStringShow();
 
-			// EditArrayString(4, "kontras");
+			EditArrayString(4, "kontras");
 
-			// ArrayStringAscending();
+			ArrayStringAscending();
 
-			// ArrayStringDescending();
+			ArrayStringDescending();
 
 			GetItemArrayNumber(2);
 
