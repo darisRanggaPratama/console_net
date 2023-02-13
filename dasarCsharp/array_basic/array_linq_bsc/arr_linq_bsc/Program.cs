@@ -1,89 +1,122 @@
 ﻿namespace arr_linq_bsc
 {
-	internal class Program
-	{
-		static void Main(string[] args)
-		{
-			// Ciptakan array dengan kapasitas 10 elemen yang berisi angka random dari 0 sampai dengan 100
-			int[] numbers = new int[10];
-			Random random = new Random();
+    class Program
+    {
+        // Ciptakan array dengan kapasitas 10 elemen yang berisi angka random dari 0 sampai dengan 100
+        private static int[] numbers = new int[10];
+        private static Random random = new Random();
 
-			// Ciptakan array dengan kapasitas 10 elemen yang berisi tipe data string, seperti: rangga, antika, oyen, nizham, mochi, haifa, panther, mikasa ackerman, levi ackerman, eren jeager, armin
-			string[] names = new string[] { "rangga", "antika", "oyen", "nizham", "mochi", "haifa", "panther", "mikasa ackerman", "levi ackerman", "eren jeager", "armin" };
+        // Ciptakan array yang berisi tipe data string
+        private static string[] names = new string[11];
 
+        static void Main(string[] args)
+        {
+            SetArrayValue();
+            GetNumberUnder(40);
+            GetNumberOverAndOdd(70);
+            GetNumberValue(10);
 
-			for (int i = 0; i < numbers.Length; i++)
-			{
-				numbers[i] = random.Next(0, 101);
-			}
+            GetMoreWords(3);
+            GetFirstWord("e");
+            GetName("mochi");
 
-			// Ambil elemen array yang bernilai kurang dari 50 menggunakan LINQ
-			var lessThan50 = from number in numbers
-							 where number < 50
-							 select number;
-			Console.WriteLine("Less than 50:");
-			foreach (var item in lessThan50)
-			{
-				Console.WriteLine(item);
-			}
+            Console.ReadLine();
+        }
 
-			// Ambil elemen array yang bernilai lebih dari 50 dan bernilai ganjil
-			var greaterThan50AndOdd = from number in numbers
-									  where number > 50 && number % 2 != 0
-									  select number;
-			Console.WriteLine("\nGreater than 50 and odd:");
-			foreach (var item in greaterThan50AndOdd)
-			{
-				Console.WriteLine(item);
-			}
+        private static void SetArrayValue()
+        {
+            // Array: integer
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                numbers[i] = random.Next(0, 101);
+            }
 
-			// Ambil 1 elemen array yang bernilai 10 jika ada
-			var ten = numbers.FirstOrDefault(x => x == 10);
-			if (ten != 0)
-			{
-				Console.WriteLine("\nThe first element with the value of 10 is: " + ten);
-			}
-			else
-			{
-				Console.WriteLine("\nThere is no element with the value of 10 in the array.");
-			}
+            // Array: string
+            names[0] = "raden rangga pratama";
+            names[1] = "antika";
+            names[2] = "oyen indra praja";
+            names[3] = "nizham";
+            names[4] = "mochi";
+            names[5] = "haifa";
+            names[6] = "panther";
+            names[7] = "mikasa ackerman";
+            names[8] = "eren jeager";
+            names[9] = "levi ackerman";
+            names[10] = "armin";
+        }
 
-			/*
-			 STRING DATA TYPE
-			 */
+        // Ambil elemen array yang bernilai kurang dari, misal 50 menggunakan LINQ
+        private static void GetNumberUnder(int value)
+        {
+            IEnumerable<int> lessThan = from number in numbers where number < value select number;
+            Console.WriteLine($"\nLess than {value}: ");
+            foreach (int item in lessThan)
+            {
+                Console.WriteLine($"{item} ");
+            }
+        }
 
-			// Ambil elemen array yang memiliki 2 kata
-			var twoWords = from name in names
-						   where name.Split().Length == 2
-						   select name;
-			Console.WriteLine("Names with 2 words:");
-			foreach (var item in twoWords)
-			{
-				Console.WriteLine(item);
-			}
+        // Ambil elemen array yang bernilai lebih dari 50 dan bernilai ganjil
+        private static void GetNumberOverAndOdd(int value)
+        {
+            IEnumerable<int> overThanNodd =
+                from number in numbers where number > value && number % 2 != 0 select number;
+            Console.WriteLine($"\nGreater than {value} and odd: ");
+            foreach (int item in overThanNodd)
+            {
+                Console.WriteLine($"{item} ");
+            }
+        }
 
-			// Ambil elemen array yang berawalan huruf a
-			var startsWithA = from name in names
-							  where name.StartsWith("a")
-							  select name;
-			Console.WriteLine("\nNames starting with the letter 'a':");
-			foreach (var item in startsWithA)
-			{
-				Console.WriteLine(item);
-			}
+        // Ambil 1 elemen array yang bernilai tertentu jika ada
+        private static void GetNumberValue(int value)
+        {
+            int getValue = numbers.FirstOrDefault(x => x == value);
+            if (getValue != 0)
+            {
+                Console.WriteLine($"\nThe first item with the value of {value} is: {getValue}");
+            }
+            else
+            {
+                Console.WriteLine($"\nThere is no element with the value of {value} in the array.");
+            }
+        }
 
-			// Ambil 1 elemen array yang bernilai rangga
-			var rangga = names.FirstOrDefault(x => x == "rangga");
-			if (rangga != null)
-			{
-				Console.WriteLine("\nThe first element with the value of 'rangga' is: " + rangga);
-			}
-			else
-			{
-				Console.WriteLine("\nThere is no element with the value of 'rangga' in the array.");
-			}
+        // Ambil elemen array yang memiliki suku kata tertentu
+        private static void GetMoreWords(int value)
+        {
+            IEnumerable<string> moreWords = from name in names where name.Split().Length == value select name;
+            Console.WriteLine($"\nNames with {value} words: ");
+            foreach (string item in moreWords)
+            {
+                Console.WriteLine($"{item} ");
+            }
+        }
 
-			Console.ReadLine();
-		}
-	}
+        // Ambil elemen array yang berawalan huruf tertentu
+        private static void GetFirstWord(string value)
+        {
+            IEnumerable<string> startWith = from name in names where name.StartsWith(value) select name;
+
+            Console.WriteLine($"\nNames starting with the letter {value}: ");
+            foreach (string item in startWith)
+            {
+                Console.WriteLine($"{item} ");
+            }
+        }
+
+        // Ambil 1 elemen array yang bernilai tertentu
+        private static void GetName(string value)
+        {
+            string? name = names.FirstOrDefault(x => x == value);
+            if (name != null)
+            {
+                Console.WriteLine($"\nThe first element with the value of {value} is: {name}");
+            }
+            else
+            {
+                Console.WriteLine($"\nThere is no item with the value of {value} in the array");
+            }
+        }
+    }
 }
