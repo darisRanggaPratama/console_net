@@ -1,0 +1,15 @@
+C:\Users\User\Documents\GitHub\Belajar_NetMaui\console_net\dasarCsharp\array_basic\array_linq_bsc\arr_linq_bsc\bin\Debug\net6.0\arr_linq_bsc.exe
+C:\Users\User\Documents\GitHub\Belajar_NetMaui\console_net\dasarCsharp\array_basic\array_linq_bsc\arr_linq_bsc\bin\Debug\net6.0\arr_linq_bsc.deps.json
+C:\Users\User\Documents\GitHub\Belajar_NetMaui\console_net\dasarCsharp\array_basic\array_linq_bsc\arr_linq_bsc\bin\Debug\net6.0\arr_linq_bsc.runtimeconfig.json
+C:\Users\User\Documents\GitHub\Belajar_NetMaui\console_net\dasarCsharp\array_basic\array_linq_bsc\arr_linq_bsc\bin\Debug\net6.0\arr_linq_bsc.dll
+C:\Users\User\Documents\GitHub\Belajar_NetMaui\console_net\dasarCsharp\array_basic\array_linq_bsc\arr_linq_bsc\bin\Debug\net6.0\arr_linq_bsc.pdb
+C:\Users\User\Documents\GitHub\Belajar_NetMaui\console_net\dasarCsharp\array_basic\array_linq_bsc\arr_linq_bsc\obj\Debug\net6.0\arr_linq_bsc.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\Belajar_NetMaui\console_net\dasarCsharp\array_basic\array_linq_bsc\arr_linq_bsc\obj\Debug\net6.0\arr_linq_bsc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\Belajar_NetMaui\console_net\dasarCsharp\array_basic\array_linq_bsc\arr_linq_bsc\obj\Debug\net6.0\arr_linq_bsc.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\Belajar_NetMaui\console_net\dasarCsharp\array_basic\array_linq_bsc\arr_linq_bsc\obj\Debug\net6.0\arr_linq_bsc.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\Belajar_NetMaui\console_net\dasarCsharp\array_basic\array_linq_bsc\arr_linq_bsc\obj\Debug\net6.0\arr_linq_bsc.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\Belajar_NetMaui\console_net\dasarCsharp\array_basic\array_linq_bsc\arr_linq_bsc\obj\Debug\net6.0\arr_linq_bsc.dll
+C:\Users\User\Documents\GitHub\Belajar_NetMaui\console_net\dasarCsharp\array_basic\array_linq_bsc\arr_linq_bsc\obj\Debug\net6.0\refint\arr_linq_bsc.dll
+C:\Users\User\Documents\GitHub\Belajar_NetMaui\console_net\dasarCsharp\array_basic\array_linq_bsc\arr_linq_bsc\obj\Debug\net6.0\arr_linq_bsc.pdb
+C:\Users\User\Documents\GitHub\Belajar_NetMaui\console_net\dasarCsharp\array_basic\array_linq_bsc\arr_linq_bsc\obj\Debug\net6.0\arr_linq_bsc.genruntimeconfig.cache
+C:\Users\User\Documents\GitHub\Belajar_NetMaui\console_net\dasarCsharp\array_basic\array_linq_bsc\arr_linq_bsc\obj\Debug\net6.0\ref\arr_linq_bsc.dll
