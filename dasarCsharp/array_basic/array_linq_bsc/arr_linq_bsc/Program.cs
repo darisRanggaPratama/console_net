@@ -12,13 +12,14 @@
         static void Main(string[] args)
         {
             SetArrayValue();
-            GetNumberUnder(40);
-            GetNumberOverAndOdd(70);
+            GetNumberUnder(500);
+            GetNumberOverAndOdd(100);
             GetNumberValue(10);
 
             GetMoreWords(3);
             GetFirstWord("e");
             GetName("mochi");
+            GetLastWord("ackerman");
 
             Console.ReadLine();
         }
@@ -28,7 +29,7 @@
             // Array: integer
             for (int i = 0; i < numbers.Length; i++)
             {
-                numbers[i] = random.Next(0, 101);
+                numbers[i] = random.Next(0, 1000);
             }
 
             // Array: string
@@ -45,14 +46,28 @@
             names[10] = "armin";
         }
 
-        // Ambil elemen array yang bernilai kurang dari, misal 50 menggunakan LINQ
+        private static void ShowAllArrayNumber()
+        {
+            // Sort Array item value
+            Array.Sort(numbers);
+            // Loop Array to show value
+            Console.WriteLine($"\nAll Array Number: ");
+            foreach (int number in numbers)
+            {
+                Console.Write($"{number} ");
+            }
+        }
+        
+        // Ambil elemen array yang bernilai kurang dari, misal 500 menggunakan LINQ
         private static void GetNumberUnder(int value)
         {
+            ShowAllArrayNumber();
+            
             IEnumerable<int> lessThan = from number in numbers where number < value select number;
-            Console.WriteLine($"\nLess than {value}: ");
+            Console.WriteLine($"\n\nLess than {value}: ");
             foreach (int item in lessThan)
             {
-                Console.WriteLine($"{item} ");
+                Console.Write($"{item} ");
             }
         }
 
@@ -61,10 +76,10 @@
         {
             IEnumerable<int> overThanNodd =
                 from number in numbers where number > value && number % 2 != 0 select number;
-            Console.WriteLine($"\nGreater than {value} and odd: ");
+            Console.WriteLine($"\n\nGreater than {value} and odd: ");
             foreach (int item in overThanNodd)
             {
-                Console.WriteLine($"{item} ");
+                Console.Write($"{item} ");
             }
         }
 
@@ -74,17 +89,29 @@
             int getValue = numbers.FirstOrDefault(x => x == value);
             if (getValue != 0)
             {
-                Console.WriteLine($"\nThe first item with the value of {value} is: {getValue}");
+                Console.WriteLine($"\n\nThe first item with the value of {value} is: {getValue}");
             }
             else
             {
-                Console.WriteLine($"\nThere is no element with the value of {value} in the array.");
+                Console.WriteLine($"\n\nThere is no element with the value of {value} in the array.");
+            }
+        }
+        
+        // Show All array string item
+        private static void ShowAllStringArray()
+        {
+            Console.WriteLine($"\nAll Array item: ");
+            foreach (string name in names)
+            {
+                Console.WriteLine($"{name}");
             }
         }
 
         // Ambil elemen array yang memiliki suku kata tertentu
         private static void GetMoreWords(int value)
         {
+            ShowAllStringArray();
+            
             IEnumerable<string> moreWords = from name in names where name.Split().Length == value select name;
             Console.WriteLine($"\nNames with {value} words: ");
             foreach (string item in moreWords)
@@ -116,6 +143,16 @@
             else
             {
                 Console.WriteLine($"\nThere is no item with the value of {value} in the array");
+            }
+        }
+        
+        // Ambil elemen array yang berakhiran kata tertentu
+        private static void GetLastWord(string value)
+        {
+            Console.WriteLine($"\nNames ended by the word {value}: ");
+            string[] lastWord = names.Where(name => name.EndsWith(value)).ToArray();
+            foreach (string word in lastWord) {
+                Console.WriteLine(word);
             }
         }
     }
