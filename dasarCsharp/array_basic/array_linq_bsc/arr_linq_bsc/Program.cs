@@ -17,7 +17,7 @@
             GetNumberValue(10);
 
             GetMoreWords(3);
-            GetFirstWord("e");
+            GetFirstLetter("e");
             GetName("mochi");
             GetLastWord("ackerman");
 
@@ -121,7 +121,7 @@
         }
 
         // Ambil elemen array yang berawalan huruf tertentu
-        private static void GetFirstWord(string value)
+        private static void GetFirstLetter(string value)
         {
             IEnumerable<string> startWith = from name in names where name.StartsWith(value) select name;
 
