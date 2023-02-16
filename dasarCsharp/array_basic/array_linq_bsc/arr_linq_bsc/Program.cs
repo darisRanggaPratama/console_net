@@ -12,14 +12,14 @@
         static void Main(string[] args)
         {
             SetArrayValue();
-            // GetNumberUnder(500);
-            // GetNumberOverAndOdd(100);
-            // GetNumberValue(10);
-            //
-            // GetMoreWords(3);
-            // GetFirstLetter("e");
-            // GetName("oyen");
-            // GetLastWord("ackerman");
+            GetNumberUnder(500);
+            GetNumberOverAndOdd(100);
+            GetNumberValue(10);
+            
+            GetMoreWords(3);
+            GetFirstLetter("e");
+            GetName("oyen");
+            GetLastWord("ackerman");
 
             Console.ReadLine();
         }
