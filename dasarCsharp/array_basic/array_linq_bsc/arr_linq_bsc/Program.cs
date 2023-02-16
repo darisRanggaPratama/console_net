@@ -18,7 +18,7 @@
 
             GetMoreWords(3);
             GetFirstLetter("e");
-            GetName("mochi");
+            GetName("oyen");
             GetLastWord("ackerman");
 
             Console.ReadLine();
@@ -38,7 +38,7 @@
             names[2] = "oyen indra praja";
             names[3] = "nizham";
             names[4] = "mochi";
-            names[5] = "haifa";
+            names[5] = "haifa azzura";
             names[6] = "panther";
             names[7] = "mikasa ackerman";
             names[8] = "eren jeager";
@@ -51,10 +51,10 @@
             // Sort Array item value
             Array.Sort(numbers);
             // Loop Array to show value
-            Console.WriteLine($"\nAll Array Number: ");
+            Console.WriteLine($"\n All Array Number: ");
             foreach (int number in numbers)
             {
-                Console.Write($"{number} ");
+                Console.Write($" {number} ");
             }
         }
         
@@ -64,10 +64,10 @@
             ShowAllArrayNumber();
             
             IEnumerable<int> lessThan = from number in numbers where number < value select number;
-            Console.WriteLine($"\n\nLess than {value}: ");
+            Console.WriteLine($"\n\n Less than {value}: ");
             foreach (int item in lessThan)
             {
-                Console.Write($"{item} ");
+                Console.Write($" {item} ");
             }
         }
 
@@ -76,10 +76,10 @@
         {
             IEnumerable<int> overThanNodd =
                 from number in numbers where number > value && number % 2 != 0 select number;
-            Console.WriteLine($"\n\nGreater than {value} and odd: ");
+            Console.WriteLine($"\n\n Greater than {value} and odd: ");
             foreach (int item in overThanNodd)
             {
-                Console.Write($"{item} ");
+                Console.Write($" {item} ");
             }
         }
 
@@ -89,7 +89,7 @@
             int getValue = numbers.FirstOrDefault(x => x == value);
             if (getValue != 0)
             {
-                Console.WriteLine($"\n\nThe first item with the value of {value} is: {getValue}");
+                Console.WriteLine($"\n\n The first item with the value of {value} is: {getValue}");
             }
             else
             {
@@ -100,10 +100,10 @@
         // Show All array string item
         private static void ShowAllStringArray()
         {
-            Console.WriteLine($"\nAll Array item: ");
+            Console.WriteLine($"\n All Array item: ");
             foreach (string name in names)
             {
-                Console.WriteLine($"{name}");
+                Console.WriteLine($" {name}");
             }
         }
 
@@ -113,10 +113,10 @@
             ShowAllStringArray();
             
             IEnumerable<string> moreWords = from name in names where name.Split().Length == value select name;
-            Console.WriteLine($"\nNames with {value} words: ");
+            Console.WriteLine($"\n Names with {value} words: ");
             foreach (string item in moreWords)
             {
-                Console.WriteLine($"{item} ");
+                Console.WriteLine($" {item} ");
             }
         }
 
@@ -125,10 +125,10 @@
         {
             IEnumerable<string> startWith = from name in names where name.StartsWith(value) select name;
 
-            Console.WriteLine($"\nNames starting with the letter {value}: ");
+            Console.WriteLine($"\n Names starting with the letter {value}: ");
             foreach (string item in startWith)
             {
-                Console.WriteLine($"{item} ");
+                Console.WriteLine($" {item} ");
             }
         }
 
@@ -138,22 +138,80 @@
             string? name = names.FirstOrDefault(x => x == value);
             if (name != null)
             {
-                Console.WriteLine($"\nThe first element with the value of {value} is: {name}");
+                Console.WriteLine($"\n The first element with the value of {value} is: {name}");
             }
             else
             {
-                Console.WriteLine($"\nThere is no item with the value of {value} in the array");
+                Console.WriteLine($"\n  There is no item with the value of {value} in the array");
             }
         }
         
         // Ambil elemen array yang berakhiran kata tertentu
         private static void GetLastWord(string value)
         {
-            Console.WriteLine($"\nNames ended by the word {value}: ");
+            Console.WriteLine($"\n Names ended by the word {value}: ");
             string[] lastWord = names.Where(name => name.EndsWith(value)).ToArray();
             foreach (string word in lastWord) {
-                Console.WriteLine(word);
+                Console.WriteLine($" {word}");
             }
         }
     }
 }
+
+/*
+ * SetArrayValue()
+1. Mengisi elemen array
+a. Mengisi array bernilai integer
+b. Mengisi array bernilai string
+  
+ShowAllArrayNumber()
+2. Menampilkan elemen array
+a. Mengurutkan array (Ascending)
+b. Menampilkan elemen array menggunakan perulangan (loop: foreach)
+
+GetNumberUnder(int value)
+3. Mengambil nilai lebih kecil dari kriteria angka tertentu
+a. Memanggil method ShowAllArrayNumber()
+b. Mengambil elemen yang kurang dari kriteria value
+c. Menampung hasilnya di variable lessThan
+d. Menampilkan hasinya dengan perulangan (loop: foreach)
+
+GetNumberOverAndOdd(int value)
+4. Mengmabil nilai lebih dari kriteria angka tertentu dan bernilai ganjil
+a. Mengmabil elemen array dimana nilainya lebih dari kriteria value dan nilainya bila dibagi 2 sisanya tidak sama dengan 0.
+b. Menampung hasilnya di variable overThanNOdd
+c. Menampilkan isi variable tersebut menggunakan perulangan (loop: foreach)
+
+GetNumberValue(int value)
+5. Mengambil 1 angka tertentu
+a. Mengambil nilai dari elemen array sesuai kriteria value
+b. Menampung hasil di variable getValue
+c. Bila isi variable getValue tidak kosong/ nol, artinya ditemukan maka munculkan pesan
+d. Munculkan pesan juga bila isi variable kosong.
+
+ShowAllStringArray()
+6. Menampilkan semua elemen array
+
+GetMoreWords(int value)
+7. Mengambil elemen array dengan jumlah suku kata tertentu
+a. Memanggil method ShowAllStringArray();
+b. Memecah kata berdasarkan spasi, sesuai kriteria value lalu hasilnya ditampung ke variable moreWords.
+c. Menampilkan elemen yang sesuai kriteria value
+
+GetFirstLetter(string value)
+8. Mengambil kata yang huruf pertama sesuai kriteria
+a. Mengambil elemen array yang dimulai huruf tertentu
+b. Menampilkan hasilnya
+
+GetName(string value)
+9. Mengambil nilai elemen tertentu yang memiliki 1 suku kata
+a. Menampilkan pesan jika menemukan elemen dengan nilai tertentu
+b. Menampilkan pesan bila tidak menemukan kriterianya
+
+GetLastWord(string value)
+10. Mengambil elemen tertentu diakhir kata
+a. Mengambil kata yang diakhir suku kata sesuai kriteria value
+b. Menampilkan hasilnya dengan perulangan (loop: foreach)
+* 
+*/
+ 
