@@ -12,14 +12,14 @@
         static void Main(string[] args)
         {
             SetArrayValue();
-            GetNumberUnder(500);
-            GetNumberOverAndOdd(100);
-            GetNumberValue(10);
-
-            GetMoreWords(3);
-            GetFirstLetter("e");
-            GetName("oyen");
-            GetLastWord("ackerman");
+            // GetNumberUnder(500);
+            // GetNumberOverAndOdd(100);
+            // GetNumberValue(10);
+            //
+            // GetMoreWords(3);
+            // GetFirstLetter("e");
+            // GetName("oyen");
+            // GetLastWord("ackerman");
 
             Console.ReadLine();
         }
@@ -57,12 +57,12 @@
                 Console.Write($" {number} ");
             }
         }
-        
+
         // Ambil elemen array yang bernilai kurang dari, misal 500 menggunakan LINQ
         private static void GetNumberUnder(int value)
         {
             ShowAllArrayNumber();
-            
+
             IEnumerable<int> lessThan = from number in numbers where number < value select number;
             Console.WriteLine($"\n\n Less than {value}: ");
             foreach (int item in lessThan)
@@ -96,7 +96,7 @@
                 Console.WriteLine($"\n\nThere is no element with the value of {value} in the array.");
             }
         }
-        
+
         // Show All array string item
         private static void ShowAllStringArray()
         {
@@ -111,7 +111,7 @@
         private static void GetMoreWords(int value)
         {
             ShowAllStringArray();
-            
+
             IEnumerable<string> moreWords = from name in names where name.Split().Length == value select name;
             Console.WriteLine($"\n Names with {value} words: ");
             foreach (string item in moreWords)
@@ -145,13 +145,14 @@
                 Console.WriteLine($"\n  There is no item with the value of {value} in the array");
             }
         }
-        
+
         // Ambil elemen array yang berakhiran kata tertentu
         private static void GetLastWord(string value)
         {
             Console.WriteLine($"\n Names ended by the word {value}: ");
             string[] lastWord = names.Where(name => name.EndsWith(value)).ToArray();
-            foreach (string word in lastWord) {
+            foreach (string word in lastWord)
+            {
                 Console.WriteLine($" {word}");
             }
         }
@@ -214,4 +215,3 @@ a. Mengambil kata yang diakhir suku kata sesuai kriteria value
 b. Menampilkan hasilnya dengan perulangan (loop: foreach)
 * 
 */
- 
