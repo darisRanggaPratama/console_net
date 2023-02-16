@@ -159,7 +159,7 @@
 }
 
 /*
- * SetArrayValue()
+SetArrayValue()
 1. Mengisi elemen array
 a. Mengisi array bernilai integer
 b. Mengisi array bernilai string
