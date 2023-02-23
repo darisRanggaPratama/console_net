@@ -1,0 +1,15 @@
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\12Method\MethodBsc\bin\Debug\net6.0\MethodBsc.exe
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\12Method\MethodBsc\bin\Debug\net6.0\MethodBsc.deps.json
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\12Method\MethodBsc\bin\Debug\net6.0\MethodBsc.runtimeconfig.json
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\12Method\MethodBsc\bin\Debug\net6.0\MethodBsc.dll
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\12Method\MethodBsc\bin\Debug\net6.0\MethodBsc.pdb
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\12Method\MethodBsc\obj\Debug\net6.0\MethodBsc.csproj.AssemblyReference.cache
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\12Method\MethodBsc\obj\Debug\net6.0\MethodBsc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\12Method\MethodBsc\obj\Debug\net6.0\MethodBsc.AssemblyInfoInputs.cache
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\12Method\MethodBsc\obj\Debug\net6.0\MethodBsc.AssemblyInfo.cs
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\12Method\MethodBsc\obj\Debug\net6.0\MethodBsc.csproj.CoreCompileInputs.cache
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\12Method\MethodBsc\obj\Debug\net6.0\MethodBsc.dll
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\12Method\MethodBsc\obj\Debug\net6.0\refint\MethodBsc.dll
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\12Method\MethodBsc\obj\Debug\net6.0\MethodBsc.pdb
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\12Method\MethodBsc\obj\Debug\net6.0\MethodBsc.genruntimeconfig.cache
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\12Method\MethodBsc\obj\Debug\net6.0\ref\MethodBsc.dll
