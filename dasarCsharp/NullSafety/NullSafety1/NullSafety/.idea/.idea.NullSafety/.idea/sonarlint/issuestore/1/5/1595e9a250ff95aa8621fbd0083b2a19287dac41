@@ -1,0 +1,6 @@
+
+xcsharpsquid:S1118"OAdd a 'protected' constructor or the 'static' keyword to the class declaration.(√√π‹¯ˇˇˇˇ8ı»«·Ë0
+ëcsharpsquid:S2583"mChange this condition so that it does not always evaluate to 'false'; some subsequent code is never executed.(«“‘Õ8ìÔ··Ë0
+êcsharpsquid:S2583"mChange this condition so that it does not always evaluate to 'false'; some subsequent code is never executed.(¢Ëëe8Ù Ê·Ë0
+[csharpsquid:S2589"8Change this expression which always evaluates to 'null'.(ø•“Z8ìÔ··Ë0
+Lcsharpsquid:S1481"(Remove the unused local variable 'name'.(Ä≤ìç8ı»«·Ë0

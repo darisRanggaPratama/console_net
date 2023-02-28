@@ -1,0 +1,1 @@
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\console_net\Belajar_NET_MAUI\NetMAUI1\password\XPassword\XPassword.csproj;x64
