@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-MyShopBlazorServer-ed1d3056-8c0b-43e1-87ab-fe906c5b617e")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyShopBlazorServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
