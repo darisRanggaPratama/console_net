@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\up2github\\console_net\\BelajarOOPCSharp\\CSharpObjectOP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{206722C3-2EC7-4AA0-9426-A3CA42966F70}|CSharpObjectOP.csproj|d:\\up2github\\console_net\\belajaroopcsharp\\csharpobjectop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{206722C3-2EC7-4AA0-9426-A3CA42966F70}|CSharpObjectOP.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{206722C3-2EC7-4AA0-9426-A3CA42966F70}|CSharpObjectOP.csproj|d:\\up2github\\console_net\\belajaroopcsharp\\csharpobjectop\\inheritpoly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{206722C3-2EC7-4AA0-9426-A3CA42966F70}|CSharpObjectOP.csproj|solutionrelative:inheritpoly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{206722C3-2EC7-4AA0-9426-A3CA42966F70}|CSharpObjectOP.csproj|d:\\up2github\\console_net\\belajaroopcsharp\\csharpobjectop\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{206722C3-2EC7-4AA0-9426-A3CA42966F70}|CSharpObjectOP.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{206722C3-2EC7-4AA0-9426-A3CA42966F70}|CSharpObjectOP.csproj|d:\\up2github\\console_net\\belajaroopcsharp\\csharpobjectop\\inheritencap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{206722C3-2EC7-4AA0-9426-A3CA42966F70}|CSharpObjectOP.csproj|solutionrelative:inheritencap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InheritPoly.cs",
+              "DocumentMoniker": "D:\\up2github\\console_net\\BelajarOOPCSharp\\CSharpObjectOP\\InheritPoly.cs",
+              "RelativeDocumentMoniker": "InheritPoly.cs",
+              "ToolTip": "D:\\up2github\\console_net\\BelajarOOPCSharp\\CSharpObjectOP\\InheritPoly.cs",
+              "RelativeToolTip": "InheritPoly.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T04:37:14.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InheritEncap.cs",
+              "DocumentMoniker": "D:\\up2github\\console_net\\BelajarOOPCSharp\\CSharpObjectOP\\InheritEncap.cs",
+              "RelativeDocumentMoniker": "InheritEncap.cs",
+              "ToolTip": "D:\\up2github\\console_net\\BelajarOOPCSharp\\CSharpObjectOP\\InheritEncap.cs",
+              "RelativeToolTip": "InheritEncap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T07:32:36.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\up2github\\console_net\\BelajarOOPCSharp\\CSharpObjectOP\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\up2github\\console_net\\BelajarOOPCSharp\\CSharpObjectOP\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAYwEYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T06:37:09.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\up2github\\console_net\\BelajarOOPCSharp\\CSharpObjectOP\\Player.cs",
+              "RelativeDocumentMoniker": "Player.cs",
+              "ToolTip": "D:\\up2github\\console_net\\BelajarOOPCSharp\\CSharpObjectOP\\Player.cs",
+              "RelativeToolTip": "Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T06:36:49.457Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

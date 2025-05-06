@@ -1,0 +1,15 @@
+D:\up2github\console_net\BelajarOOPVBNet\VBNetObjectOP\bin\Debug\net8.0\VBNetObjectOP.exe
+D:\up2github\console_net\BelajarOOPVBNet\VBNetObjectOP\bin\Debug\net8.0\VBNetObjectOP.deps.json
+D:\up2github\console_net\BelajarOOPVBNet\VBNetObjectOP\bin\Debug\net8.0\VBNetObjectOP.runtimeconfig.json
+D:\up2github\console_net\BelajarOOPVBNet\VBNetObjectOP\bin\Debug\net8.0\VBNetObjectOP.dll
+D:\up2github\console_net\BelajarOOPVBNet\VBNetObjectOP\bin\Debug\net8.0\VBNetObjectOP.pdb
+D:\up2github\console_net\BelajarOOPVBNet\VBNetObjectOP\obj\Debug\net8.0\VBNetObjectOP.GeneratedMSBuildEditorConfig.editorconfig
+D:\up2github\console_net\BelajarOOPVBNet\VBNetObjectOP\obj\Debug\net8.0\VBNetObjectOP.AssemblyInfoInputs.cache
+D:\up2github\console_net\BelajarOOPVBNet\VBNetObjectOP\obj\Debug\net8.0\VBNetObjectOP.AssemblyInfo.vb
+D:\up2github\console_net\BelajarOOPVBNet\VBNetObjectOP\obj\Debug\net8.0\VBNetObjectOP.vbproj.CoreCompileInputs.cache
+D:\up2github\console_net\BelajarOOPVBNet\VBNetObjectOP\obj\Debug\net8.0\VBNetObjectOP.sourcelink.json
+D:\up2github\console_net\BelajarOOPVBNet\VBNetObjectOP\obj\Debug\net8.0\VBNetObjectOP.dll
+D:\up2github\console_net\BelajarOOPVBNet\VBNetObjectOP\obj\Debug\net8.0\refint\VBNetObjectOP.dll
+D:\up2github\console_net\BelajarOOPVBNet\VBNetObjectOP\obj\Debug\net8.0\VBNetObjectOP.pdb
+D:\up2github\console_net\BelajarOOPVBNet\VBNetObjectOP\obj\Debug\net8.0\VBNetObjectOP.genruntimeconfig.cache
+D:\up2github\console_net\BelajarOOPVBNet\VBNetObjectOP\obj\Debug\net8.0\ref\VBNetObjectOP.dll

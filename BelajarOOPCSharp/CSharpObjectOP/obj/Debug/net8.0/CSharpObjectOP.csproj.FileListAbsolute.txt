@@ -1,0 +1,15 @@
+D:\up2github\console_net\BelajarOOPCSharp\CSharpObjectOP\bin\Debug\net8.0\CSharpObjectOP.exe
+D:\up2github\console_net\BelajarOOPCSharp\CSharpObjectOP\bin\Debug\net8.0\CSharpObjectOP.deps.json
+D:\up2github\console_net\BelajarOOPCSharp\CSharpObjectOP\bin\Debug\net8.0\CSharpObjectOP.runtimeconfig.json
+D:\up2github\console_net\BelajarOOPCSharp\CSharpObjectOP\bin\Debug\net8.0\CSharpObjectOP.dll
+D:\up2github\console_net\BelajarOOPCSharp\CSharpObjectOP\bin\Debug\net8.0\CSharpObjectOP.pdb
+D:\up2github\console_net\BelajarOOPCSharp\CSharpObjectOP\obj\Debug\net8.0\CSharpObjectOP.GeneratedMSBuildEditorConfig.editorconfig
+D:\up2github\console_net\BelajarOOPCSharp\CSharpObjectOP\obj\Debug\net8.0\CSharpObjectOP.AssemblyInfoInputs.cache
+D:\up2github\console_net\BelajarOOPCSharp\CSharpObjectOP\obj\Debug\net8.0\CSharpObjectOP.AssemblyInfo.cs
+D:\up2github\console_net\BelajarOOPCSharp\CSharpObjectOP\obj\Debug\net8.0\CSharpObjectOP.csproj.CoreCompileInputs.cache
+D:\up2github\console_net\BelajarOOPCSharp\CSharpObjectOP\obj\Debug\net8.0\CSharpObjectOP.sourcelink.json
+D:\up2github\console_net\BelajarOOPCSharp\CSharpObjectOP\obj\Debug\net8.0\CSharpObjectOP.dll
+D:\up2github\console_net\BelajarOOPCSharp\CSharpObjectOP\obj\Debug\net8.0\refint\CSharpObjectOP.dll
+D:\up2github\console_net\BelajarOOPCSharp\CSharpObjectOP\obj\Debug\net8.0\CSharpObjectOP.pdb
+D:\up2github\console_net\BelajarOOPCSharp\CSharpObjectOP\obj\Debug\net8.0\CSharpObjectOP.genruntimeconfig.cache
+D:\up2github\console_net\BelajarOOPCSharp\CSharpObjectOP\obj\Debug\net8.0\ref\CSharpObjectOP.dll

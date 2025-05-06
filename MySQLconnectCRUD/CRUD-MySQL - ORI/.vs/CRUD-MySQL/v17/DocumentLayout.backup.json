@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\up2github\\console_net\\MySQLconnectCRUD\\CRUD-MySQL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC2FD2D-9EFA-41B4-8A37-B800F3D614AB}|CRUD-MySQL.vbproj|D:\\up2github\\console_net\\MySQLconnectCRUD\\CRUD-MySQL\\crud.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{0AC2FD2D-9EFA-41B4-8A37-B800F3D614AB}|CRUD-MySQL.vbproj|solutionrelative:crud.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC2FD2D-9EFA-41B4-8A37-B800F3D614AB}|CRUD-MySQL.vbproj|d:\\up2github\\console_net\\mysqlconnectcrud\\crud-mysql\\crud.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{0AC2FD2D-9EFA-41B4-8A37-B800F3D614AB}|CRUD-MySQL.vbproj|solutionrelative:crud.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC2FD2D-9EFA-41B4-8A37-B800F3D614AB}|CRUD-MySQL.vbproj|D:\\up2github\\console_net\\MySQLconnectCRUD\\CRUD-MySQL\\crud.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{0AC2FD2D-9EFA-41B4-8A37-B800F3D614AB}|CRUD-MySQL.vbproj|solutionrelative:crud.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CRUD.Designer.vb",
+              "DocumentMoniker": "D:\\up2github\\console_net\\MySQLconnectCRUD\\CRUD-MySQL\\CRUD.Designer.vb",
+              "RelativeDocumentMoniker": "CRUD.Designer.vb",
+              "ToolTip": "D:\\up2github\\console_net\\MySQLconnectCRUD\\CRUD-MySQL\\CRUD.Designer.vb",
+              "RelativeToolTip": "CRUD.Designer.vb",
+              "ViewState": "AgIAAJkAAAAAAAAAAAA0wKUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-02T23:39:43.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CRUD.vb",
+              "DocumentMoniker": "D:\\up2github\\console_net\\MySQLconnectCRUD\\CRUD-MySQL\\CRUD.vb",
+              "RelativeDocumentMoniker": "CRUD.vb",
+              "ToolTip": "D:\\up2github\\console_net\\MySQLconnectCRUD\\CRUD-MySQL\\CRUD.vb",
+              "RelativeToolTip": "CRUD.vb",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAowNsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-02T08:48:58.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CRUD.vb [Design]",
+              "DocumentMoniker": "D:\\up2github\\console_net\\MySQLconnectCRUD\\CRUD-MySQL\\CRUD.vb",
+              "RelativeDocumentMoniker": "CRUD.vb",
+              "ToolTip": "D:\\up2github\\console_net\\MySQLconnectCRUD\\CRUD-MySQL\\CRUD.vb [Design]",
+              "RelativeToolTip": "CRUD.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-02T23:37:43.541Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

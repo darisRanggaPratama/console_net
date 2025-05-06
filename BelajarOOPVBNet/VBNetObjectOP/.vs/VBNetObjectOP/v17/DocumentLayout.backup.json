@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\up2github\\console_net\\BelajarOOPVBNet\\VBNetObjectOP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01680A38-FF34-4274-8AE4-1810A5F01FE2}|VBNetObjectOP.vbproj|d:\\up2github\\console_net\\belajaroopvbnet\\vbnetobjectop\\program.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{01680A38-FF34-4274-8AE4-1810A5F01FE2}|VBNetObjectOP.vbproj|solutionrelative:program.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01680A38-FF34-4274-8AE4-1810A5F01FE2}|VBNetObjectOP.vbproj|d:\\up2github\\console_net\\belajaroopvbnet\\vbnetobjectop\\inheritpoly.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{01680A38-FF34-4274-8AE4-1810A5F01FE2}|VBNetObjectOP.vbproj|solutionrelative:inheritpoly.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01680A38-FF34-4274-8AE4-1810A5F01FE2}|VBNetObjectOP.vbproj|d:\\up2github\\console_net\\belajaroopvbnet\\vbnetobjectop\\player.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{01680A38-FF34-4274-8AE4-1810A5F01FE2}|VBNetObjectOP.vbproj|solutionrelative:player.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01680A38-FF34-4274-8AE4-1810A5F01FE2}|VBNetObjectOP.vbproj|d:\\up2github\\console_net\\belajaroopvbnet\\vbnetobjectop\\inheritencap.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{01680A38-FF34-4274-8AE4-1810A5F01FE2}|VBNetObjectOP.vbproj|solutionrelative:inheritencap.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InheritPoly.vb",
+              "DocumentMoniker": "D:\\up2github\\console_net\\BelajarOOPVBNet\\VBNetObjectOP\\InheritPoly.vb",
+              "RelativeDocumentMoniker": "InheritPoly.vb",
+              "ToolTip": "D:\\up2github\\console_net\\BelajarOOPVBNet\\VBNetObjectOP\\InheritPoly.vb",
+              "RelativeToolTip": "InheritPoly.vb",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAmwDMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-30T08:51:01.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InheritEncap.vb",
+              "DocumentMoniker": "D:\\up2github\\console_net\\BelajarOOPVBNet\\VBNetObjectOP\\InheritEncap.vb",
+              "RelativeDocumentMoniker": "InheritEncap.vb",
+              "ToolTip": "D:\\up2github\\console_net\\BelajarOOPVBNet\\VBNetObjectOP\\InheritEncap.vb",
+              "RelativeToolTip": "InheritEncap.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-29T16:52:57.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.vb",
+              "DocumentMoniker": "D:\\up2github\\console_net\\BelajarOOPVBNet\\VBNetObjectOP\\Player.vb",
+              "RelativeDocumentMoniker": "Player.vb",
+              "ToolTip": "D:\\up2github\\console_net\\BelajarOOPVBNet\\VBNetObjectOP\\Player.vb",
+              "RelativeToolTip": "Player.vb",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwBoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-29T04:43:46.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.vb",
+              "DocumentMoniker": "D:\\up2github\\console_net\\BelajarOOPVBNet\\VBNetObjectOP\\Program.vb",
+              "RelativeDocumentMoniker": "Program.vb",
+              "ToolTip": "D:\\up2github\\console_net\\BelajarOOPVBNet\\VBNetObjectOP\\Program.vb",
+              "RelativeToolTip": "Program.vb",
+              "ViewState": "AgIAACwAAAAAAAAAAAAYwCkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-29T02:36:09.944Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

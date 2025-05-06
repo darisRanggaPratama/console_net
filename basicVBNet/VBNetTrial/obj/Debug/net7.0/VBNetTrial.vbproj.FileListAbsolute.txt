@@ -1,0 +1,14 @@
+D:\up2github\console_net\basicVBNet\VBNetTrial\bin\Debug\net7.0\VBNetTrial.exe
+D:\up2github\console_net\basicVBNet\VBNetTrial\bin\Debug\net7.0\VBNetTrial.deps.json
+D:\up2github\console_net\basicVBNet\VBNetTrial\bin\Debug\net7.0\VBNetTrial.runtimeconfig.json
+D:\up2github\console_net\basicVBNet\VBNetTrial\bin\Debug\net7.0\VBNetTrial.dll
+D:\up2github\console_net\basicVBNet\VBNetTrial\bin\Debug\net7.0\VBNetTrial.pdb
+D:\up2github\console_net\basicVBNet\VBNetTrial\obj\Debug\net7.0\VBNetTrial.GeneratedMSBuildEditorConfig.editorconfig
+D:\up2github\console_net\basicVBNet\VBNetTrial\obj\Debug\net7.0\VBNetTrial.AssemblyInfoInputs.cache
+D:\up2github\console_net\basicVBNet\VBNetTrial\obj\Debug\net7.0\VBNetTrial.AssemblyInfo.vb
+D:\up2github\console_net\basicVBNet\VBNetTrial\obj\Debug\net7.0\VBNetTrial.vbproj.CoreCompileInputs.cache
+D:\up2github\console_net\basicVBNet\VBNetTrial\obj\Debug\net7.0\VBNetTrial.dll
+D:\up2github\console_net\basicVBNet\VBNetTrial\obj\Debug\net7.0\refint\VBNetTrial.dll
+D:\up2github\console_net\basicVBNet\VBNetTrial\obj\Debug\net7.0\VBNetTrial.pdb
+D:\up2github\console_net\basicVBNet\VBNetTrial\obj\Debug\net7.0\VBNetTrial.genruntimeconfig.cache
+D:\up2github\console_net\basicVBNet\VBNetTrial\obj\Debug\net7.0\ref\VBNetTrial.dll

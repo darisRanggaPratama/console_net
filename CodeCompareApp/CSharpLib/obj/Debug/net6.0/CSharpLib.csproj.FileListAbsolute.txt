@@ -1,0 +1,11 @@
+D:\up2github\console_net\CodeCompareApp\CSharpLib\bin\Debug\net6.0\CSharpLib.deps.json
+D:\up2github\console_net\CodeCompareApp\CSharpLib\bin\Debug\net6.0\CSharpLib.dll
+D:\up2github\console_net\CodeCompareApp\CSharpLib\bin\Debug\net6.0\CSharpLib.pdb
+D:\up2github\console_net\CodeCompareApp\CSharpLib\obj\Debug\net6.0\CSharpLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\up2github\console_net\CodeCompareApp\CSharpLib\obj\Debug\net6.0\CSharpLib.AssemblyInfoInputs.cache
+D:\up2github\console_net\CodeCompareApp\CSharpLib\obj\Debug\net6.0\CSharpLib.AssemblyInfo.cs
+D:\up2github\console_net\CodeCompareApp\CSharpLib\obj\Debug\net6.0\CSharpLib.csproj.CoreCompileInputs.cache
+D:\up2github\console_net\CodeCompareApp\CSharpLib\obj\Debug\net6.0\CSharpLib.dll
+D:\up2github\console_net\CodeCompareApp\CSharpLib\obj\Debug\net6.0\refint\CSharpLib.dll
+D:\up2github\console_net\CodeCompareApp\CSharpLib\obj\Debug\net6.0\CSharpLib.pdb
+D:\up2github\console_net\CodeCompareApp\CSharpLib\obj\Debug\net6.0\ref\CSharpLib.dll

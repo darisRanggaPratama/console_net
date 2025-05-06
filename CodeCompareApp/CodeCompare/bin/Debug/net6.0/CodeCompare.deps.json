@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CodeCompare/1.0.0": {
+        "dependencies": {
+          "CSharpLib": "1.0.0",
+          "VBLib": "1.0.0"
+        },
+        "runtime": {
+          "CodeCompare.dll": {}
+        }
+      },
+      "CSharpLib/1.0.0": {
+        "runtime": {
+          "CSharpLib.dll": {}
+        }
+      },
+      "VBLib/1.0.0": {
+        "runtime": {
+          "VBLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CodeCompare/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CSharpLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VBLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

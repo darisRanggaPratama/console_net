@@ -1,0 +1,11 @@
+D:\up2github\console_net\CodeCompareApp\VBLib\bin\Debug\net6.0\VBLib.deps.json
+D:\up2github\console_net\CodeCompareApp\VBLib\bin\Debug\net6.0\VBLib.dll
+D:\up2github\console_net\CodeCompareApp\VBLib\bin\Debug\net6.0\VBLib.pdb
+D:\up2github\console_net\CodeCompareApp\VBLib\obj\Debug\net6.0\VBLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\up2github\console_net\CodeCompareApp\VBLib\obj\Debug\net6.0\VBLib.AssemblyInfoInputs.cache
+D:\up2github\console_net\CodeCompareApp\VBLib\obj\Debug\net6.0\VBLib.AssemblyInfo.vb
+D:\up2github\console_net\CodeCompareApp\VBLib\obj\Debug\net6.0\VBLib.vbproj.CoreCompileInputs.cache
+D:\up2github\console_net\CodeCompareApp\VBLib\obj\Debug\net6.0\VBLib.dll
+D:\up2github\console_net\CodeCompareApp\VBLib\obj\Debug\net6.0\refint\VBLib.dll
+D:\up2github\console_net\CodeCompareApp\VBLib\obj\Debug\net6.0\VBLib.pdb
+D:\up2github\console_net\CodeCompareApp\VBLib\obj\Debug\net6.0\ref\VBLib.dll
