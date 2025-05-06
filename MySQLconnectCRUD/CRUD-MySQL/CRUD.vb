@@ -19,7 +19,7 @@ Public Class Display
 		LoadDataWithPagination()
 	End Sub
 
-		' Get total record count
+	' Get total record count
 	Private Function GetTotalRecords(whereClause As String, parameters As List(Of MySqlParameter)) As Integer
 		Dim count As Integer = 0
 		Try
@@ -62,7 +62,7 @@ Public Class Display
 		btnNextPage.Enabled = (currentPage < totalPages)
 	End Sub
 
-		Private Sub LoadData()
+	Private Sub LoadData()
 		isSearchMode = False
 		searchName = ""
 		searchPhone = ""
@@ -304,7 +304,7 @@ Public Class Display
 		End If
 	End Sub
 
-		Private Sub btnSearch_Click(sender As Object, e As EventArgs) Handles btnSearch.Click
+	Private Sub btnSearch_Click(sender As Object, e As EventArgs) Handles btnSearch.Click
 		SearchData(txtName.Text.Trim(), txtPhone.Text.Trim())
 	End Sub
 
@@ -314,7 +314,7 @@ Public Class Display
 		isSearchMode = (searchName <> "" Or searchPhone <> "")
 		currentPage = 1 ' start from the first page when searching
 		LoadDataWithPagination()
-	End Sub	
+	End Sub
 
 	Private Sub btnUpload_Click(sender As Object, e As EventArgs) Handles btnUpload.Click
 		Try
@@ -485,7 +485,7 @@ Public Class Display
 							query &= " AND phone LIKE @phone"
 							cmd.Parameters.AddWithValue("@phone", "%" & searchPhone & "%")
 						End If
-						
+
 					Else
 						query = "SELECT COUNT(*) FROM data_kontak"
 					End If
@@ -681,5 +681,5 @@ Public Class Display
 		pageSize = CInt(nudPageSize.Value)
 		currentPage = 1 ' Reset to first page
 		LoadDataWithPagination()
-	End Sub	
+	End Sub
 End Class
