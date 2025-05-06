@@ -1,0 +1,2830 @@
+<!DOCTYPE html>
+<!-- saved from url=(0118)https://learn.microsoft.com/en-us/training/modules/build-mobile-and-desktop-apps/3-create-a-maui-project-visual-studio -->
+<html class="is-full hasPageActions hasBreadcrumb moduleunit has-default-focus js-focus-visible mathjax-complete theme-dark" lang="en-us" dir="ltr" data-css-variable-support="true" data-authenticated="true" data-auth-status-determined="true" data-target="docs" x-ms-format-detection="none" data-js-focus-visible=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Create a .NET MAUI project in Visual Studio - Training">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://learn.microsoft.com/en-us/training/modules/build-mobile-and-desktop-apps/3-create-a-maui-project-visual-studio">
+			<meta property="og:description" content="Learn how to use the .NET MAUI template in Visual Studio to create a new .NET MAUI app.">
+
+	<meta property="og:image" content="https://learn.microsoft.com/en-us/media/logos/logo-ms-social.png">
+
+	<meta property="og:image:alt" content="Microsoft Logo">
+
+	<meta name="twitter:card" content="summary">
+
+	<meta name="twitter:site" content="@docsmsft">
+
+	<meta name="color-scheme" content="light dark">
+
+
+	<meta name="author" content="codemillmatt">
+<meta name="azure_sandbox" content="false">
+<meta name="breadcrumb_path" content="/learn/breadcrumb/toc.json">
+<meta name="clicktale" content="true">
+<meta name="depot_name" content="Docs.learn-pr">
+<meta name="description" content="Learn how to use the .NET MAUI template in Visual Studio to create a new .NET MAUI app.">
+<meta name="document_id" content="34acf607-899f-9dcf-2d05-4c67e1f4a6ab">
+<meta name="document_version_independent_id" content="34acf607-899f-9dcf-2d05-4c67e1f4a6ab">
+<meta name="gitcommit" content="https://github.com/MicrosoftDocs/learn-pr/blob/823606c458757bbfd777f6ea56d7174e37cdf5ac/learn-pr/dot-net-maui/build-mobile-and-desktop-apps/3-create-a-maui-project-visual-studio.yml">
+<meta name="locale" content="en-us">
+<meta name="localization_scopes" content="de-de">
+<meta name="localization_scopes" content="es-es">
+<meta name="localization_scopes" content="fr-fr">
+<meta name="localization_scopes" content="it-it">
+<meta name="localization_scopes" content="ru-ru">
+<meta name="localization_scopes" content="pt-br">
+<meta name="localization_scopes" content="ja-jp">
+<meta name="localization_scopes" content="ko-kr">
+<meta name="localization_scopes" content="zh-cn">
+<meta name="localization_scopes" content="zh-tw">
+<meta name="localization_scopes" content="cs-cz">
+<meta name="localization_scopes" content="hu-hu">
+<meta name="localization_scopes" content="nl-nl">
+<meta name="localization_scopes" content="pl-pl">
+<meta name="localization_scopes" content="pt-pt">
+<meta name="localization_scopes" content="tr-tr">
+<meta name="localization_scopes" content="sv-se">
+<meta name="ms.author" content="masoucou">
+<meta name="ms.date" content="04/27/2022">
+<meta name="ms.prod" content="learning-languages">
+<meta name="ms.topic" content="interactive-tutorial">
+<meta name="original_content_git_url" content="https://github.com/MicrosoftDocs/learn-pr/blob/live/learn-pr/dot-net-maui/build-mobile-and-desktop-apps/3-create-a-maui-project-visual-studio.yml">
+<meta name="page_kind" content="unit">
+<meta name="page_type" content="learn">
+<meta name="ROBOTS" content="noindex">
+<meta name="sandbox" content="false">
+<meta name="schema" content="ModuleUnit">
+<meta name="site_name" content="Docs">
+<meta name="uhfHeaderId" content="MSDocsHeader-Learn">
+<meta name="uid" content="learn.dotnet-maui.build-mobile-and-desktop-apps.create-a-maui-project-visual-studio">
+<meta name="unit_completion_type" content="quiz">
+<meta name="unitType" content="unit">
+<meta name="updated_at" content="2022-07-12 11:34 PM">
+
+
+	<meta name="persistent_id" content="00000000-0000-0000-0000-000000000000">
+	
+
+
+	<meta name="github_feedback_content_git_url" content="https://github.com/MicrosoftDocs/learn/blob/main/learn-pr/dot-net-maui/build-mobile-and-desktop-apps/3-create-a-maui-project-visual-studio.yml">
+<link href="https://learn.microsoft.com/en-us/training/modules/build-mobile-and-desktop-apps/3-create-a-maui-project-visual-studio" rel="canonical">
+	<title>Create a .NET MAUI project in Visual Studio - Training | Microsoft Learn</title>
+
+		<link rel="stylesheet" href="./Create a .NET MAUI project in Visual Studio - Training _ Microsoft Learn_files/f54cf2aa.site-ltr.css">
+
+	
+
+	<script id="msdocs-script">
+	var msDocs = {
+		data: {
+			timeOrigin: Date.now(),
+			contentLocale: 'en-us',
+			contentDir: 'ltr',
+			userLocale: 'en-us',
+			userDir: 'ltr',
+			pageTemplate: 'ModuleUnit',
+			brand: '',
+			context: {
+			},
+			hasBinaryRating: false,
+			hasGithubIssues: false,
+			standardFeedback: false,
+			showFeedbackReport: false,
+			enableTutorialFeedback: false,
+			feedbackSystem: 'GitHub',
+			feedbackGitHubRepo: 'MicrosoftDocs/learn',
+			feedbackProductUrl: '',
+			extendBreadcrumb: false,
+			isEditDisplayable: false,
+			hideViewSource: false,
+			hasPageActions: true,
+			hasPrintButton: false,
+			hasBookmark: true,
+			hasShare: false,
+			isPermissioned: false,
+			hasRecommendations: false,
+			mathjax: {
+			},
+		},
+		functions:{}
+	};
+	</script>
+	<script src="./Create a .NET MAUI project in Visual Studio - Training _ Microsoft Learn_files/wcp-consent.js.download"></script>
+	<script src="./Create a .NET MAUI project in Visual Studio - Training _ Microsoft Learn_files/ms.jsll-3.min.js.download"></script>
+
+	<script src="./Create a .NET MAUI project in Visual Studio - Training _ Microsoft Learn_files/67a45209.deprecation.js.download"></script>
+		<script src="./Create a .NET MAUI project in Visual Studio - Training _ Microsoft Learn_files/ee05ec0.index-docs.js.download"></script><style></style>
+<style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"name":"Learn","position":1,"@type":"ListItem","item":"/en-us/"},{"name":"Training","position":2,"@type":"ListItem","item":"/en-us/training/"},{"name":"Browse","position":3,"@type":"ListItem","item":"/en-us/training/browse/"},{"name":"Build mobile and desktop apps with .NET MAUI","position":4,"@type":"ListItem","item":"/en-us/training/paths/build-apps-with-dotnet-maui/"},{"name":"Create a cross-platform app with .NET MAUI","position":5,"@type":"ListItem","item":"/en-us/training/modules/build-mobile-and-desktop-apps/"}]}</script></head>
+
+<body lang="en-us" dir="ltr"><div id="MathJax_Message" style="display: none;"></div>
+	<div class="header-holder has-default-focus">
+		<a href="https://learn.microsoft.com/en-us/training/modules/build-mobile-and-desktop-apps/3-create-a-maui-project-visual-studio#main" class="skip-to-main-link has-outline-color-text visually-hidden-until-focused position-fixed has-inner-focus focus-visible top-0 left-0 right-0 padding-xs has-text-centered has-body-background" tabindex="1">Skip to main content</a>
+
+		<div hidden="" id="cookie-consent-holder"></div>
+
+		<div id="unsupported-browser" style="
+			background-color: white;
+			color: black;
+			padding: 16px;
+			border-bottom: 1px solid grey;" hidden="">
+			<div style="max-width: 800px; margin: 0 auto;">
+				<p style="font-size: 24px">This browser is no longer supported.</p>
+				<p style="font-size: 16px; margin-top: 16px;">Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.</p>
+				<div style="margin-top: 12px;">
+					<a href="https://go.microsoft.com/fwlink/p/?LinkID=2092881" style="
+						background-color: #0078d4;
+						border: 1px solid #0078d4;
+						color: white;
+						padding: 6px 12px;
+						border-radius: 2px;
+						display: inline-block;
+						">
+Download Microsoft Edge					</a>
+					<a href="https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge" style="
+							background-color: white;
+							padding: 6px 12px;
+							border: 1px solid #505050;
+							color: #171717;
+							border-radius: 2px;
+							display: inline-block;
+							">
+More info about Internet Explorer and Microsoft Edge					</a>
+				</div>
+			</div>
+
+		</div>
+		<!-- liquid-tag banners global -->
+		<div id="headerAreaHolder" data-bi-name="header">
+<header role="banner" itemscope="itemscope" itemtype="http://schema.org/Organization"><!----> <div class="nav-bar"><!----> <div class="nav-bar-brand display-flex align-items-center padding-none margin-left-xs margin-left-none-tablet margin-right-xxs">
+		
+					<a class="nav-bar-button padding-inline-none" itemprop="url" href="https://www.microsoft.com/" aria-label="Microsoft">
+						 <div class="nav-bar-logo" role="presentation" aria-hidden="true" itemprop="logo" itemscope="itemscope">
+				
+		<svg xmlns="http://www.w3.org/2000/svg" width="108" height="23" viewBox="72 72 337 74" preserveAspectRatio="xMidYMin slice">
+			<g data-name="MS-symbol">
+				<clippath>
+					<path transform="matrix(1 0 0 -1 0 216)" d="M0 216h482V0H0z"></path>
+				</clippath>
+				<g clip-path="url(#a)">
+					<path d="M394.942 104.59h-10.858v25.003h-7.38V104.59h-5.182v-5.965h5.182v-4.308c0-3.254 1.06-5.92 3.178-7.998 2.12-2.079 4.835-3.118 8.15-3.118.882 0 1.666.045 2.35.135a9.37 9.37 0 011.806.407v6.296c-.24-.14-.663-.31-1.265-.512-.603-.2-1.296-.3-2.078-.3-1.528 0-2.702.476-3.526 1.43-.824.954-1.235 2.365-1.235 4.232v3.736h10.858v-6.959l7.321-2.229v9.188h7.381v5.965h-7.38v14.49c0 1.91.345 3.254 1.038 4.037.693.783 1.782 1.175 3.27 1.175.42 0 .927-.1 1.52-.3a7.178 7.178 0 001.552-.724v6.025c-.463.261-1.23.502-2.305.723a15.742 15.742 0 01-3.178.331c-3.073 0-5.378-.817-6.914-2.455-1.537-1.637-2.305-4.102-2.305-7.396zm-48.407 9.73c0 3.233.733 5.703 2.2 7.411 1.465 1.707 3.564 2.56 6.295 2.56 2.652 0 4.67-.853 6.055-2.56 1.386-1.708 2.08-4.238 2.08-7.592 0-3.334-.719-5.849-2.155-7.547-1.436-1.697-3.45-2.545-6.04-2.545-2.67 0-4.745.888-6.22 2.666-1.477 1.777-2.215 4.313-2.215 7.607m-7.592.24c0-5.12 1.446-9.177 4.338-12.17 2.892-2.993 6.91-4.489 12.05-4.489 4.841 0 8.621 1.441 11.343 4.323 2.721 2.883 4.082 6.774 4.082 11.674 0 5.021-1.447 9.018-4.338 11.99-2.892 2.973-6.829 4.458-11.81 4.458-4.8 0-8.61-1.41-11.432-4.232-2.822-2.82-4.233-6.673-4.233-11.554m-16.417-7.802c0 1.045.331 1.863.994 2.456.662.592 2.128 1.34 4.398 2.243 2.912 1.166 4.956 2.476 6.131 3.932 1.175 1.456 1.762 3.22 1.762 5.287 0 2.912-1.12 5.252-3.359 7.02-2.24 1.767-5.267 2.65-9.083 2.65-1.285 0-2.706-.155-4.263-.467-1.556-.31-2.877-.707-3.96-1.19v-7.169a17.945 17.945 0 004.277 2.198c1.526.543 2.911.814 4.157.814 1.647 0 2.862-.23 3.645-.693.784-.46 1.175-1.235 1.175-2.319 0-1.005-.406-1.853-1.22-2.546-.813-.693-2.355-1.492-4.624-2.395-2.69-1.125-4.599-2.39-5.724-3.796-1.125-1.406-1.687-3.193-1.687-5.362 0-2.792 1.11-5.086 3.33-6.884 2.217-1.797 5.095-2.696 8.63-2.696 1.084 0 2.3.12 3.645.361 1.346.242 2.47.553 3.374.934v6.93c-.964-.644-2.089-1.195-3.374-1.658-1.286-.462-2.56-.693-3.826-.693-1.386 0-2.465.271-3.238.813-.774.543-1.16 1.286-1.16 2.23m-35.066 7.562c0 3.233.733 5.703 2.2 7.411 1.465 1.707 3.564 2.56 6.295 2.56 2.652 0 4.67-.853 6.055-2.56 1.386-1.708 2.08-4.238 2.08-7.592 0-3.334-.719-5.849-2.155-7.547-1.436-1.697-3.449-2.545-6.039-2.545-2.672 0-4.745.888-6.222 2.666-1.476 1.777-2.214 4.313-2.214 7.607m-7.592.24c0-5.12 1.446-9.177 4.338-12.17 2.893-2.993 6.91-4.489 12.051-4.489 4.84 0 8.621 1.441 11.342 4.323 2.721 2.883 4.082 6.774 4.082 11.674 0 5.021-1.446 9.018-4.338 11.99-2.892 2.973-6.828 4.458-11.809 4.458-4.8 0-8.61-1.41-11.433-4.232-2.822-2.82-4.233-6.673-4.233-11.554m-3.136-16.448c.582 0 1.105.041 1.567.121.462.08.853.18 1.175.301v7.38c-.382-.28-.939-.546-1.672-.798-.733-.25-1.622-.376-2.666-.376-1.788 0-3.299.753-4.534 2.26-1.235 1.505-1.853 3.825-1.853 6.958v15.635h-7.29V98.624h7.29v4.88h.12c.663-1.687 1.667-3.007 3.013-3.96 1.346-.954 2.962-1.432 4.85-1.432m-27.956 26.18c1.084 0 2.28-.25 3.585-.754a15.06 15.06 0 003.615-1.988v6.778c-1.165.663-2.485 1.165-3.962 1.506-1.475.342-3.098.512-4.865.512-4.559 0-8.265-1.44-11.116-4.323-2.852-2.88-4.278-6.562-4.278-11.04 0-4.98 1.456-9.083 4.37-12.307 2.91-3.224 7.037-4.835 12.38-4.835 1.366 0 2.746.176 4.143.527 1.395.352 2.504.758 3.328 1.22v6.99c-1.125-.824-2.274-1.462-3.45-1.914a9.966 9.966 0 00-3.599-.678c-2.872 0-5.192.934-6.959 2.802-1.768 1.868-2.652 4.388-2.652 7.562 0 3.132.85 5.573 2.546 7.32 1.697 1.748 4.002 2.621 6.914 2.621m-22.112 5.302h-7.29V98.624h7.29zm-8.044-39.916c0-1.205.437-2.214 1.311-3.028.874-.813 1.913-1.22 3.118-1.22 1.285 0 2.35.417 3.193 1.25.844.834 1.266 1.833 1.266 2.998 0 1.185-.432 2.18-1.296 2.982-.864.804-1.918 1.205-3.163 1.205-1.246 0-2.295-.406-3.148-1.219-.854-.815-1.28-1.803-1.28-2.968m-6.274-3.284v43.2h-7.5v-33.86h-.12l-13.408 33.86h-4.97l-13.738-33.86h-.09v33.86h-6.929v-43.2h10.755l12.412 32.024h.18l13.105-32.024z" class="fill-current-color fill-link-text-forced-colors color-text-subtle"></path>
+					<path d="M106.214 106.214H71.996V71.996h34.218z" fill="#f25022"></path>
+					<path d="M143.993 106.214h-34.218V71.996h34.218z" fill="#7fba00"></path>
+					<path d="M106.214 143.993H71.996v-34.218h34.218z" fill="#00a4ef"></path>
+					<path d="M143.993 143.993h-34.218v-34.218h34.218z" fill="#ffb900"></path>
+				</g>
+			</g>
+		</svg>
+	
+		  </div>
+					</a>
+			  
+	</div> 
+				
+		<div class="nav-bar-item is-hidden-tablet">
+			<div class="nav-bar-menu">
+				<button class="nav-bar-button is-title" title="Global navigation" aria-expanded="false">
+					<span class="nav-bar-menu-title"><!---->Training<!----></span>
+					<div class="nav-bar-burger">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span class="nav-bar-burger-label"><!---->Global navigation<!----></span>
+					</div>
+				</button>
+			</div>
+		</div>
+	
+				
+		<nav class="nav-bar-nav" role="navigation" aria-label="Global">
+			<ul class="nav-bar-nav-list">
+				
+		<li class="nav-bar-item is-category">
+			<a class="nav-bar-button is-title has-hover-underline" itemprop="url" href="https://learn.microsoft.com/en-us/">
+				<span><!---->Learn<!----></span>
+			</a>
+		</li>
+	
+				<!---->
+				<li class="nav-bar-item">
+					<a class=" nav-bar-button has-hover-underline " href="https://learn.microsoft.com/en-us/docs/">
+						<span><!---->Documentation<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class=" nav-bar-button has-hover-underline is-active" href="https://learn.microsoft.com/en-us/training/">
+						<span><!---->Training<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class=" nav-bar-button has-hover-underline " href="https://learn.microsoft.com/en-us/certifications/">
+						<span><!---->Certifications<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class=" nav-bar-button has-hover-underline " href="https://learn.microsoft.com/en-us/answers/">
+						<span><!---->Q&amp;A<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class=" nav-bar-button has-hover-underline " href="https://learn.microsoft.com/en-us/samples/browse/">
+						<span><!---->Code Samples<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class=" nav-bar-button has-hover-underline " href="https://learn.microsoft.com/en-us/assessments/">
+						<span><!---->Assessments<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class=" nav-bar-button has-hover-underline " href="https://learn.microsoft.com/en-us/shows/">
+						<span><!---->Shows<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class=" nav-bar-button has-hover-underline " href="https://learn.microsoft.com/en-us/events/">
+						<span><!---->Events<!----></span>
+					</a>
+				</li>
+		  <!----> <li class="dropdown nav-bar-item" hidden="">
+		<button aria-expanded="false" class="dropdown-trigger nav-bar-button  has-hover-underline" aria-controls="ax-215">
+			<span><!---->More<!----></span>
+			<span class="nav-bar-button-chevron" aria-hidden="true">
+				<span class="docon docon-chevron-down-light expanded-indicator"></span>
+			</span>
+		</button>
+		<ul class="dropdown-menu" id="ax-215" aria-label="More">
+			<!---->
+				<li class="nav-bar-item" hidden="">
+					<a class=" nav-bar-button " href="https://learn.microsoft.com/en-us/docs/">
+						Documentation
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item" hidden="">
+					<a class=" nav-bar-button is-active" href="https://learn.microsoft.com/en-us/training/">
+						Training
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item" hidden="">
+					<a class=" nav-bar-button " href="https://learn.microsoft.com/en-us/certifications/">
+						Certifications
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item" hidden="">
+					<a class=" nav-bar-button " href="https://learn.microsoft.com/en-us/answers/">
+						Q&amp;A
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item" hidden="">
+					<a class=" nav-bar-button " href="https://learn.microsoft.com/en-us/samples/browse/">
+						Code Samples
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item" hidden="">
+					<a class=" nav-bar-button " href="https://learn.microsoft.com/en-us/assessments/">
+						Assessments
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item" hidden="">
+					<a class=" nav-bar-button " href="https://learn.microsoft.com/en-us/shows/">
+						Shows
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item" hidden="">
+					<a class=" nav-bar-button " href="https://learn.microsoft.com/en-us/events/">
+						Events
+					</a>
+				</li>
+		  <!---->
+		</ul>
+	</li><!---->
+			</ul>
+		</nav>
+	
+				<span class="nav-bar-spacer"></span>
+				
+		<div class="nav-bar-search " id="ax-216" hidden="">
+			
+		<form class="nav-bar-search-form" method="GET" name="nav-bar-search-form" role="search" id="nav-bar-search-form" aria-label="Search" action="https://learn.microsoft.com/en-us/search/">
+			<div class="autocomplete" data-bi-name="autocomplete"><!---->
+			<div class="field-body control ">
+				<input role="combobox" maxlength="100" aria-autocomplete="list" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" id="site-search-input" class="autocomplete-input input input-sm
+						
+						" type="search" name="terms" aria-expanded="false" aria-owns="ax-217-listbox" aria-controls="ax-217-listbox" aria-activedescendant="" aria-label="Search" aria-describedby="ms--site-search-input-description" placeholder="Search" pattern=".*">
+
+				<span aria-hidden="true" class="icon is-small is-left" hidden="">
+					<span class="has-text-primary docon docon-undefined"></span>
+				</span>
+
+				<span aria-hidden="true" class="autocomplete-loader loader has-text-primary " hidden=""></span>
+
+				<span hidden="" id="ms--site-search-input-description">
+					Suggestions will filter as you type
+				</span>
+			</div>
+
+			<ul role="listbox" id="ax-217-listbox" class="autocomplete-suggestions is-vertically-scrollable padding-xs " aria-label="Suggestions" hidden="">
+				
+				
+			</ul>
+		<!----></div>
+			<!-- mobile safari will not dispatch submit event unless there's a submit button that is not display:none -->
+			<button type="submit" class="visually-hidden" tabindex="-1" aria-hidden="true"></button>
+			<input name="category" hidden="" value="Training">
+			
+			
+			
+		</form>
+	
+		</div>
+		
+					<div class="nav-bar-search">
+						<!-- hidden when the width drops to tablet -->
+						
+		<form class="nav-bar-search-form" method="GET" name="nav-bar-search-form" role="search" id="nav-bar-search-form-desktop" aria-label="Search" action="https://learn.microsoft.com/en-us/search/">
+			<div class="autocomplete" data-bi-name="autocomplete"><!---->
+			<div class="field-body control has-icons-left">
+				<input role="combobox" maxlength="100" aria-autocomplete="list" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" id="ax-218" class="autocomplete-input input input-sm
+						control has-icons-left
+						" type="search" name="terms" aria-expanded="false" aria-owns="ax-219-listbox" aria-controls="ax-219-listbox" aria-activedescendant="" aria-label="Search" aria-describedby="ms--ax-218-description" placeholder="Search" pattern=".*">
+
+				<span aria-hidden="true" class="icon is-small is-left">
+					<span class="has-text-primary docon docon-search"></span>
+				</span>
+
+				<span aria-hidden="true" class="autocomplete-loader loader has-text-primary " hidden=""></span>
+
+				<span hidden="" id="ms--ax-218-description">
+					Suggestions will filter as you type
+				</span>
+			</div>
+
+			<ul role="listbox" id="ax-219-listbox" class="autocomplete-suggestions is-vertically-scrollable padding-xs " aria-label="Suggestions" hidden="">
+				
+				
+			</ul>
+		<!----></div>
+			<!-- mobile safari will not dispatch submit event unless there's a submit button that is not display:none -->
+			<button type="submit" class="visually-hidden" tabindex="-1" aria-hidden="true"></button>
+			<input name="category" hidden="" value="Training">
+			
+			
+			
+		</form>
+	
+					</div>
+			  
+		<div class="nav-bar-search " hidden="">
+			<div class="nav-bar-search-form-expander">
+				<button id="form-expander" class="nav-bar-button has-hover-underline " title="Search" aria-expanded="false" aria-controls="ax-216">
+					
+		<span class="is-visually-hidden-mobile"><!---->Search<!----></span>
+		<span class="icon margin-left-xxs" aria-hidden="true">
+			<span class="docon docon-search"></span>
+		</span>
+	
+				</button>
+			</div>
+		</div>
+	
+				
+		<div class="nav-bar-profile">
+			
+		<a class="docs-sign-in auth-status-determined not-authenticated" href="https://learn.microsoft.com/en-us/training/modules/build-mobile-and-desktop-apps/3-create-a-maui-project-visual-studio#"> Sign in </a>
+	 
+		<div class="dropdown has-caret auth-status-determined authenticated">
+			<button class="dropdown-trigger button-reset" aria-controls="user-menu" aria-expanded="false" aria-label="Your Account">
+				<figure class="image is-36x36">
+					<img class="has-body-background-medium border-radius-rounded" alt="" data-profile-property="avatarUrl" src="./Create a .NET MAUI project in Visual Studio - Training _ Microsoft Learn_files/user-profile.png">
+				</figure>
+			</button>
+			<div class="dropdown-menu box justify-content-flex-start has-body-background" id="user-menu" role="menu">
+				<div class="media is-user-dir">
+					<div class="media-left">
+						<figure class="image is-48x48" aria-hidden="true">
+							<img class="has-body-background-medium border-radius-rounded" aria-labelledby="displayName" alt="" data-profile-property="avatarUrl" src="./Create a .NET MAUI project in Visual Studio - Training _ Microsoft Learn_files/user-profile.png">
+						</figure>
+					</div>
+					<div class="media-content">
+						<h2 class="title font-size-lg">
+							<span id="displayName" class="is-inline-truncated has-max-width-200" data-profile-property="displayName">raden rangga pratama</span>
+						</h2>
+						<p class="subtitle font-size-sm margin-bottom-none">
+							<span class="is-inline-truncated has-max-width-200" data-profile-property="upn">raden.rangga.pratama@gmail.com</span>
+						</p>
+					</div>
+				</div>
+				<ul class="padding-top-xs padding-bottom-xs">
+					<li class="padding-bottom-xs">
+						<a data-profile-property="profileUrl" href="https://learn.microsoft.com/en-us/users/me/activity/"><!---->Profile<!----></a>
+					</li>
+					<li>
+						<a data-profile-property="settingsUrl" href="https://learn.microsoft.com/en-us/users/me/settings/"><!---->Settings<!----></a>
+					</li>
+				</ul>
+				<div class="border-top padding-top-xs">
+					<a class="docs-sign-out" href="https://learn.microsoft.com/en-us/training/modules/build-mobile-and-desktop-apps/3-create-a-maui-project-visual-studio#"><!---->Sign out<!----></a>
+				</div>
+			</div>
+		</div>
+	
+		</div>
+	
+			 <!----></div> <div class="nav-bar border-top is-hidden-mobile"><!----> 
+		<a class="nav-bar-button is-title has-hover-underline" itemprop="url" href="https://learn.microsoft.com/en-us/training/">
+			<span>
+				Training
+				
+			</span>
+		</a>
+	 
+		
+		<nav class="nav-bar-nav" role="navigation" aria-label="Site">
+			<ul class="nav-bar-nav-list">
+				
+				<!----> <li class="dropdown nav-bar-item">
+		<button aria-expanded="false" class="dropdown-trigger nav-bar-button is-active has-hover-underline" aria-controls="ax-220">
+			<span><!---->Products<!----></span>
+			<span class="nav-bar-button-chevron" aria-hidden="true">
+				<span class="docon docon-chevron-down-light expanded-indicator"></span>
+			</span>
+		</button>
+		<ul class="dropdown-menu" id="ax-220" aria-label="Products">
+			<!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/azure/">
+						Azure
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/dynamics365/">
+						Dynamics 365
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/github/">
+						GitHub
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/m365/">
+						Microsoft 365
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/dotnet/">
+						.NET
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/powerplatform/">
+						Power Platform
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/teams/">
+						Teams
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/browse/">
+						Browse all paths
+					</a>
+				</li>
+		  <!---->
+		</ul>
+	</li><!----> <li class="dropdown nav-bar-item">
+		<button aria-expanded="false" class="dropdown-trigger nav-bar-button  has-hover-underline" aria-controls="ax-221">
+			<span><!---->Career Paths<!----></span>
+			<span class="nav-bar-button-chevron" aria-hidden="true">
+				<span class="docon docon-chevron-down-light expanded-indicator"></span>
+			</span>
+		</button>
+		<ul class="dropdown-menu" id="ax-221" aria-label="Career Paths">
+			<!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/career-paths/administrator/">
+						Administrator
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/career-paths/ai-engineer/">
+						AI Engineer
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/career-paths/app-maker/">
+						App Maker
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/career-paths/auditor/">
+						Auditor
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/career-paths/business-user/">
+						Business User
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/career-paths/data-analyst/">
+						Data Analyst
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/career-paths/data-engineer/">
+						Data Engineer
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/career-paths/data-scientist/">
+						Data Scientist
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/career-paths/developer/">
+						Developer
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/career-paths/devops-engineer/">
+						DevOps Engineer
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/career-paths/functional-consultant/">
+						Functional Consultant
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/career-paths/security-engineer/">
+						Security Engineer
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/career-paths/solution-architect/">
+						Solutions Architect
+					</a>
+				</li>
+		  <!---->
+		</ul>
+	</li><!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button has-hover-underline " href="https://learn.microsoft.com/en-us/training/browse/">
+						<span><!---->Learning Paths<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button has-hover-underline " href="https://learn.microsoft.com/en-us/training/courses/browse/">
+						<span><!---->Courses<!----></span>
+					</a>
+				</li>
+		  <!----> <li class="dropdown nav-bar-item">
+		<button aria-expanded="false" class="dropdown-trigger nav-bar-button  has-hover-underline" aria-controls="ax-222">
+			<span><!---->Educator Center<!----></span>
+			<span class="nav-bar-button-chevron" aria-hidden="true">
+				<span class="docon docon-chevron-down-light expanded-indicator"></span>
+			</span>
+		</button>
+		<ul class="dropdown-menu" id="ax-222" aria-label="Educator Center">
+			<!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/">
+						Overview
+					</a>
+				</li>
+		  <!----> <li class="dropdown nav-bar-item">
+		<button aria-expanded="false" class="dropdown-trigger nav-bar-button  " aria-controls="ax-223">
+			<span><!---->Professional development<!----></span>
+			<span class="nav-bar-button-chevron" aria-hidden="true">
+				<span class="docon docon-chevron-right-light "></span>
+			</span>
+		</button>
+		<ul class="dropdown-menu" id="ax-223" aria-label="Professional development">
+			<!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/topics/whats-new">
+						What's happening in education
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/topics/stem">
+						STEM, coding, and esports
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/topics/student-centered-learning">
+						Student-centered learning
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/topics/accessibility">
+						Accessibility and inclusivity
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/topics/education-leadership">
+						Education leadership and staff collaboration
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/topics/social-emotional-learning">
+						Social emotional learning
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/topics/blended-learning">
+						Blended, remote, and hybrid learning
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/topics/instructional-toolbox">
+						Microsoft instructional toolbox
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/browse/?roles=k-12-educator,higher-ed-educator,school-leader,parent-guardian">
+						Browse all
+					</a>
+				</li>
+		  <!---->
+		</ul>
+	</li><!----> <li class="dropdown nav-bar-item">
+		<button aria-expanded="false" class="dropdown-trigger nav-bar-button  " aria-controls="ax-224">
+			<span><!---->Product guides<!----></span>
+			<span class="nav-bar-button-chevron" aria-hidden="true">
+				<span class="docon docon-chevron-right-light "></span>
+			</span>
+		</button>
+		<ul class="dropdown-menu" id="ax-224" aria-label="Product guides">
+			<!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/product-guides/teams">
+						Microsoft Teams for Education
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/product-guides/onenote">
+						OneNote for education
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/product-guides/office">
+						Office 365 for education
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/product-guides/minecraft">
+						Minecraft Education
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/product-guides/flip">
+						Flip
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/product-guides/windows">
+						Windows for education
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/product-guides/powerpoint">
+						PowerPoint for education
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/product-guides/immersive-reader/">
+						Immersive Reader
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/product-guides/reading-progress/">
+						Reading Progress
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/browse/?roles=k-12-educator,higher-ed-educator,school-leader,parent-guardian">
+						Browse all
+					</a>
+				</li>
+		  <!---->
+		</ul>
+	</li><!----> <li class="dropdown nav-bar-item">
+		<button aria-expanded="false" class="dropdown-trigger nav-bar-button  " aria-controls="ax-225">
+			<span><!---->Instructor materials<!----></span>
+			<span class="nav-bar-button-chevron" aria-hidden="true">
+				<span class="docon docon-chevron-right-light "></span>
+			</span>
+		</button>
+		<ul class="dropdown-menu" id="ax-225" aria-label="Instructor materials">
+			<!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/instructor-materials/bbc-my-world-global-curriculum">
+						BBC My World
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/instructor-materials/day-data-orcas">
+						Day of Data
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/instructor-materials/digital-literacy">
+						Digital literacy
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/instructor-materials/farmbeats-for-students">
+						FarmBeats for Students
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/instructor-materials/hacking-stem">
+						Hacking STEM
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/instructor-materials/microsoft-office-2019-certification-preparation-materials">
+						Microsoft Office Specialist
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/instructor-materials/special-olympics">
+						Special Olympics Unified Champion Schools®
+					</a>
+				</li>
+		  <!---->
+		</ul>
+	</li><!----> <li class="dropdown nav-bar-item">
+		<button aria-expanded="false" class="dropdown-trigger nav-bar-button  " aria-controls="ax-226">
+			<span><!---->Educator programs<!----></span>
+			<span class="nav-bar-button-chevron" aria-hidden="true">
+				<span class="docon docon-chevron-right-light "></span>
+			</span>
+		</button>
+		<ul class="dropdown-menu" id="ax-226" aria-label="Educator programs">
+			<!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/programs/">
+						Programs overview
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/programs/microsoft-educator/">
+						Microsoft Educator (ME)
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/programs/microsoft-educator/trainer">
+						ME Trainer
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/programs/microsoft-educator/expert">
+						Microsoft Innovative Educator Expert
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/programs/microsoft-educator/showcase-schools">
+						Showcase Schools
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/programs/msle/">
+						Microsoft Learn for Educators
+					</a>
+				</li>
+		  <!---->
+		</ul>
+	</li><!---->
+		</ul>
+	</li><!----> <li class="dropdown nav-bar-item">
+		<button aria-expanded="false" class="dropdown-trigger nav-bar-button  has-hover-underline" aria-controls="ax-227">
+			<span><!---->Student Hub<!----></span>
+			<span class="nav-bar-button-chevron" aria-hidden="true">
+				<span class="docon docon-chevron-down-light expanded-indicator"></span>
+			</span>
+		</button>
+		<ul class="dropdown-menu" id="ax-227" aria-label="Student Hub">
+			<!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/student-hub/">
+						Overview
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/student-hub/certifications">
+						Student certifications
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/student-hub/student-events-on-demand">
+						Student events on-demand
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/student-hub/github-codespaces-for-students">
+						GitHub Codespaces for students
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/student-hub/become-a-student-ambassador">
+						Become a Student Ambassador
+					</a>
+				</li>
+		  <!---->
+		</ul>
+	</li><!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button has-hover-underline " href="https://learn.microsoft.com/en-us/training/support/">
+						<span><!---->FAQ &amp; Help<!----></span>
+					</a>
+				</li>
+		  <!----> <li class="dropdown nav-bar-item" hidden="">
+		<button aria-expanded="false" class="dropdown-trigger nav-bar-button  has-hover-underline" aria-controls="ax-228">
+			<span><!---->More<!----></span>
+			<span class="nav-bar-button-chevron" aria-hidden="true">
+				<span class="docon docon-chevron-down-light expanded-indicator"></span>
+			</span>
+		</button>
+		<ul class="dropdown-menu" id="ax-228" aria-label="More">
+			<!----> <li class="dropdown nav-bar-item" hidden="">
+		<button aria-expanded="false" class="dropdown-trigger nav-bar-button is-active " aria-controls="ax-229">
+			<span><!---->Products<!----></span>
+			<span class="nav-bar-button-chevron" aria-hidden="true">
+				<span class="docon docon-chevron-right-light "></span>
+			</span>
+		</button>
+		<ul class="dropdown-menu" id="ax-229" aria-label="Products">
+			<!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/azure/">
+						Azure
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/dynamics365/">
+						Dynamics 365
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/github/">
+						GitHub
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/m365/">
+						Microsoft 365
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/dotnet/">
+						.NET
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/powerplatform/">
+						Power Platform
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/teams/">
+						Teams
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/browse/">
+						Browse all paths
+					</a>
+				</li>
+		  <!---->
+		</ul>
+	</li><!----> <li class="dropdown nav-bar-item" hidden="">
+		<button aria-expanded="false" class="dropdown-trigger nav-bar-button  " aria-controls="ax-230">
+			<span><!---->Career Paths<!----></span>
+			<span class="nav-bar-button-chevron" aria-hidden="true">
+				<span class="docon docon-chevron-right-light "></span>
+			</span>
+		</button>
+		<ul class="dropdown-menu" id="ax-230" aria-label="Career Paths">
+			<!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/career-paths/administrator/">
+						Administrator
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/career-paths/ai-engineer/">
+						AI Engineer
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/career-paths/app-maker/">
+						App Maker
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/career-paths/auditor/">
+						Auditor
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/career-paths/business-user/">
+						Business User
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/career-paths/data-analyst/">
+						Data Analyst
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/career-paths/data-engineer/">
+						Data Engineer
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/career-paths/data-scientist/">
+						Data Scientist
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/career-paths/developer/">
+						Developer
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/career-paths/devops-engineer/">
+						DevOps Engineer
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/career-paths/functional-consultant/">
+						Functional Consultant
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/career-paths/security-engineer/">
+						Security Engineer
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/career-paths/solution-architect/">
+						Solutions Architect
+					</a>
+				</li>
+		  <!---->
+		</ul>
+	</li><!---->
+				<li class="nav-bar-item" hidden="">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/browse/">
+						Learning Paths
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item" hidden="">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/courses/browse/">
+						Courses
+					</a>
+				</li>
+		  <!----> <li class="dropdown nav-bar-item" hidden="">
+		<button aria-expanded="false" class="dropdown-trigger nav-bar-button  " aria-controls="ax-231">
+			<span><!---->Educator Center<!----></span>
+			<span class="nav-bar-button-chevron" aria-hidden="true">
+				<span class="docon docon-chevron-right-light "></span>
+			</span>
+		</button>
+		<ul class="dropdown-menu" id="ax-231" aria-label="Educator Center">
+			<!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/">
+						Overview
+					</a>
+				</li>
+		  <!----> <li class="dropdown nav-bar-item">
+		<button aria-expanded="false" class="dropdown-trigger nav-bar-button  " aria-controls="ax-232">
+			<span><!---->Professional development<!----></span>
+			<span class="nav-bar-button-chevron" aria-hidden="true">
+				<span class="docon docon-chevron-right-light "></span>
+			</span>
+		</button>
+		<ul class="dropdown-menu" id="ax-232" aria-label="Professional development">
+			<!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/topics/whats-new">
+						What's happening in education
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/topics/stem">
+						STEM, coding, and esports
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/topics/student-centered-learning">
+						Student-centered learning
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/topics/accessibility">
+						Accessibility and inclusivity
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/topics/education-leadership">
+						Education leadership and staff collaboration
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/topics/social-emotional-learning">
+						Social emotional learning
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/topics/blended-learning">
+						Blended, remote, and hybrid learning
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/topics/instructional-toolbox">
+						Microsoft instructional toolbox
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/browse/?roles=k-12-educator,higher-ed-educator,school-leader,parent-guardian">
+						Browse all
+					</a>
+				</li>
+		  <!---->
+		</ul>
+	</li><!----> <li class="dropdown nav-bar-item">
+		<button aria-expanded="false" class="dropdown-trigger nav-bar-button  " aria-controls="ax-233">
+			<span><!---->Product guides<!----></span>
+			<span class="nav-bar-button-chevron" aria-hidden="true">
+				<span class="docon docon-chevron-right-light "></span>
+			</span>
+		</button>
+		<ul class="dropdown-menu" id="ax-233" aria-label="Product guides">
+			<!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/product-guides/teams">
+						Microsoft Teams for Education
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/product-guides/onenote">
+						OneNote for education
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/product-guides/office">
+						Office 365 for education
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/product-guides/minecraft">
+						Minecraft Education
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/product-guides/flip">
+						Flip
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/product-guides/windows">
+						Windows for education
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/product-guides/powerpoint">
+						PowerPoint for education
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/product-guides/immersive-reader/">
+						Immersive Reader
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/product-guides/reading-progress/">
+						Reading Progress
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/browse/?roles=k-12-educator,higher-ed-educator,school-leader,parent-guardian">
+						Browse all
+					</a>
+				</li>
+		  <!---->
+		</ul>
+	</li><!----> <li class="dropdown nav-bar-item">
+		<button aria-expanded="false" class="dropdown-trigger nav-bar-button  " aria-controls="ax-234">
+			<span><!---->Instructor materials<!----></span>
+			<span class="nav-bar-button-chevron" aria-hidden="true">
+				<span class="docon docon-chevron-right-light "></span>
+			</span>
+		</button>
+		<ul class="dropdown-menu" id="ax-234" aria-label="Instructor materials">
+			<!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/instructor-materials/bbc-my-world-global-curriculum">
+						BBC My World
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/instructor-materials/day-data-orcas">
+						Day of Data
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/instructor-materials/digital-literacy">
+						Digital literacy
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/instructor-materials/farmbeats-for-students">
+						FarmBeats for Students
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/instructor-materials/hacking-stem">
+						Hacking STEM
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/instructor-materials/microsoft-office-2019-certification-preparation-materials">
+						Microsoft Office Specialist
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/instructor-materials/special-olympics">
+						Special Olympics Unified Champion Schools®
+					</a>
+				</li>
+		  <!---->
+		</ul>
+	</li><!----> <li class="dropdown nav-bar-item">
+		<button aria-expanded="false" class="dropdown-trigger nav-bar-button  " aria-controls="ax-235">
+			<span><!---->Educator programs<!----></span>
+			<span class="nav-bar-button-chevron" aria-hidden="true">
+				<span class="docon docon-chevron-right-light "></span>
+			</span>
+		</button>
+		<ul class="dropdown-menu" id="ax-235" aria-label="Educator programs">
+			<!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/programs/">
+						Programs overview
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/programs/microsoft-educator/">
+						Microsoft Educator (ME)
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/programs/microsoft-educator/trainer">
+						ME Trainer
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/programs/microsoft-educator/expert">
+						Microsoft Innovative Educator Expert
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/programs/microsoft-educator/showcase-schools">
+						Showcase Schools
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/educator-center/programs/msle/">
+						Microsoft Learn for Educators
+					</a>
+				</li>
+		  <!---->
+		</ul>
+	</li><!---->
+		</ul>
+	</li><!----> <li class="dropdown nav-bar-item" hidden="">
+		<button aria-expanded="false" class="dropdown-trigger nav-bar-button  " aria-controls="ax-236">
+			<span><!---->Student Hub<!----></span>
+			<span class="nav-bar-button-chevron" aria-hidden="true">
+				<span class="docon docon-chevron-right-light "></span>
+			</span>
+		</button>
+		<ul class="dropdown-menu" id="ax-236" aria-label="Student Hub">
+			<!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/student-hub/">
+						Overview
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/student-hub/certifications">
+						Student certifications
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/student-hub/student-events-on-demand">
+						Student events on-demand
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/student-hub/github-codespaces-for-students">
+						GitHub Codespaces for students
+					</a>
+				</li>
+		  <!---->
+				<li class="nav-bar-item">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/student-hub/become-a-student-ambassador">
+						Become a Student Ambassador
+					</a>
+				</li>
+		  <!---->
+		</ul>
+	</li><!---->
+				<li class="nav-bar-item" hidden="">
+					<a class="has-external-link-indicator nav-bar-button " href="https://learn.microsoft.com/en-us/training/support/">
+						FAQ &amp; Help
+					</a>
+				</li>
+		  <!---->
+		</ul>
+	</li><!---->
+			</ul>
+		</nav>
+	
+		<span class="nav-bar-spacer"></span>
+		 
+		<div id="level-status-container" class="display-flex align-items-center is-hidden-touch">
+			<div id="level-status" class="position-relative level margin-inline-xxs"><!---->
+	<span id="level-status-text" class="font-size-xs has-text-wrap is-inline-truncated is-uppercase font-weight-semibold">Level 2</span>
+	<span id="level-status-progress-container" class="hexagonal-progress">
+		<progress id="level-status-progress" class="progress is-hidden-mobile display-inline-block position-relative is-success" value="28" max="100">28%</progress>
+		<span class="hexagonal-progress-marker"></span>
+	</span>
+	<span id="level-status-points" class="font-size-xs has-text-wrap is-inline-truncated is-uppercase"><!----> <span class="font-weight-semibold"> 700 </span>/2499 XP<!----><!----></span>
+<!----></div>
+		</div>
+	
+	 <!----></div> <!----></header>		</div>
+
+
+			<div id="content-header" class="content-header uhf-container has-padding has-default-focus border-bottom-none" data-bi-name="content-header">
+				<div class="content-header-controls margin-xxs margin-inline-sm-tablet">
+					<button type="button" class="contents-button button button-sm margin-right-xxs" data-bi-name="contents-expand" aria-haspopup="true" data-contents-button="">
+						<span class="icon"><span class="docon docon-menu" aria-hidden="true"></span></span>
+						<span class="contents-expand-title">
+Table of contents						</span>
+					</button>
+					<button type="button" class="ap-collapse-behavior ap-expanded button button-sm" data-bi-name="ap-collapse" aria-controls="action-panel">
+						<span class="icon"><span class="docon docon-exit-mode" aria-hidden="true"></span></span>
+						<span>Exit focus mode</span>
+					</button>
+				</div>
+			</div>
+
+		<div id="disclaimer-holder" class="has-overflow-hidden has-default-focus">
+			<!-- liquid-tag banners sectional -->
+		</div>
+	</div>
+
+	<div class="mainContainer  uhf-container has-body-background-dark uhf-container is-full  has-default-focus" data-bi-name="body">
+
+		<div class="columns has-large-gaps is-gapless-mobile  is-gapless">
+
+
+			<!-- .primary-holder -->
+			<section class="primary-holder column  is-full ">
+				<!--div.columns -->
+				<div class="columns is-gapless-mobile has-large-gaps  is-gapless">
+
+
+					<div id="main-column" class="column  is-full ">
+
+						<main id="main" role="main" data-bi-name="content" lang="en-us" dir="ltr">
+							<!-- article-header -->
+							<div id="article-header" class="background-color-body  display-none-print">
+								<div class="display-flex align-items-center uhf-container">
+									<details id="article-header-breadcrumbs-overflow-popover" class="popover" data-for="article-header-breadcrumbs" hidden="">
+										<summary class="button button-clear button-primary button-sm" aria-label="All breadcrumbs">
+											<span class="icon">
+												<span class="docon docon-more"></span>
+											</span>
+										</summary>
+										<div id="article-header-breadcrumbs-overflow" class="popover-content padding-none"><!---->
+				<nav>
+					<ol class="list-style-none">
+						<!---->
+									<li class="line-clamp-1">
+										<a class="display-block has-inner-focus padding-inline-xs padding-block-xxs border-radius font-size-sm" href="https://learn.microsoft.com/en-us/">
+											Learn
+										</a>
+									</li>
+								<!----><!---->
+									<li class="line-clamp-1">
+										<a class="display-block has-inner-focus padding-inline-xs padding-block-xxs border-radius font-size-sm" href="https://learn.microsoft.com/en-us/training/">
+											Training
+										</a>
+									</li>
+								<!----><!---->
+									<li class="line-clamp-1">
+										<a class="display-block has-inner-focus padding-inline-xs padding-block-xxs border-radius font-size-sm" href="https://learn.microsoft.com/en-us/training/browse/">
+											Browse
+										</a>
+									</li>
+								<!----><!---->
+									<li class="line-clamp-1">
+										<a class="display-block has-inner-focus padding-inline-xs padding-block-xxs border-radius font-size-sm" href="https://learn.microsoft.com/en-us/training/paths/build-apps-with-dotnet-maui/">
+											Build mobile and desktop apps with .NET MAUI
+										</a>
+									</li>
+								<!----><!---->
+									<li class="line-clamp-1">
+										<a class="display-block has-inner-focus padding-inline-xs padding-block-xxs border-radius font-size-sm" href="https://learn.microsoft.com/en-us/training/modules/build-mobile-and-desktop-apps/">
+											Create a cross-platform app with .NET MAUI
+										</a>
+									</li>
+								<!---->
+					</ol>
+				</nav>
+				
+			<!----></div>
+									</details>
+									<bread-crumbs id="article-header-breadcrumbs" class="overflow-hidden flex-grow-1 margin-right-sm margin-right-md-tablet margin-right-lg-desktop" style="display: block; white-space: nowrap; overflow: hidden;"><!---->
+				<nav>
+					<ol class="breadcrumbs">
+						<!---->
+									<li class="breadcrumbs-item" data-bread-crumbs-collapse-target="">
+										<a href="https://learn.microsoft.com/en-us/"> Learn </a>
+									</li>
+								<!----><!---->
+									<li class="breadcrumbs-item" data-bread-crumbs-collapse-target="">
+										<a href="https://learn.microsoft.com/en-us/training/"> Training </a>
+									</li>
+								<!----><!---->
+									<li class="breadcrumbs-item" data-bread-crumbs-collapse-target="">
+										<a href="https://learn.microsoft.com/en-us/training/browse/"> Browse </a>
+									</li>
+								<!----><!---->
+									<li class="breadcrumbs-item" data-bread-crumbs-collapse-target="">
+										<a href="https://learn.microsoft.com/en-us/training/paths/build-apps-with-dotnet-maui/"> Build mobile and desktop apps with .NET MAUI </a>
+									</li>
+								<!----><!---->
+									<li class="breadcrumbs-item" data-bread-crumbs-collapse-target="" style="">
+										<a href="https://learn.microsoft.com/en-us/training/modules/build-mobile-and-desktop-apps/" style=""> Create a cross-platform app with .NET MAUI </a>
+									</li>
+								<!---->
+					</ol>
+				</nav>
+			<!----></bread-crumbs>
+
+									<div id="article-header-page-actions" class="margin-left-auto display-flex flex-wrap-no-wrap align-items-stretch">
+
+										<a id="lang-link-tablet" class="button button-primary button-clear button-sm display-none display-inline-flex-tablet" title="Read in English" data-bi-name="language-toggle" data-read-in-link="" hidden="" href="https://learn.microsoft.com/en-us/training/modules/build-mobile-and-desktop-apps/3-create-a-maui-project-visual-studio" data-bi="{&quot;cN&quot;:&quot;language-toggle&quot;,&quot;value&quot;:&quot;off&quot;}">
+											<span class="icon margin-none" aria-hidden="true" data-read-in-link-icon="">
+												<span class="docon docon-locale-globe"></span>
+											</span>
+											<span class="is-visually-hidden" data-read-in-link-text="">Read in English</span>
+										</a>
+
+											<button type="button" class="collection button button-clear button-sm button-primary display-none display-inline-flex-tablet" data-list-type="collection" data-bi-name="collection" title="Manage Create a .NET MAUI project in Visual Studio - Training | Microsoft Learn in collections" data-pressed="true">
+												<span class="icon margin-none" aria-hidden="true">
+													<span class="docon docon-circle-addition-solid"></span>
+												</span>
+												<span class="collection-status is-visually-hidden">Added</span>
+											</button>
+										
+
+										
+
+
+										
+										<details class="popover popover-right display-none-tablet" id="article-header-page-actions-overflow" data-reset-required="display-none-tablet">
+											<summary class="justify-content-flex-start button button-clear button-sm button-primary" aria-label="More actions">
+												<span class="icon" aria-hidden="true">
+													<span class="docon docon-more-vertical"></span>
+												</span>
+											</summary>
+											<div class="popover-content padding-none">
+
+												<a id="lang-link-overflow" class="justify-content-flex-start button-sm has-inner-focus button button-clear button-block display-none-tablet" title="Read in English" data-bi-name="language-toggle" data-page-action-item="overflow-mobile" data-check-hidden="true" data-read-in-link="" hidden="" href="https://learn.microsoft.com/en-us/training/modules/build-mobile-and-desktop-apps/3-create-a-maui-project-visual-studio" data-bi="{&quot;cN&quot;:&quot;language-toggle&quot;,&quot;value&quot;:&quot;off&quot;}">
+													<span class="icon" aria-hidden="true" data-read-in-link-icon="">
+														<span class="docon docon-locale-globe"></span>
+													</span>
+													<span data-read-in-link-text="">Read in English</span>
+												</a>
+
+													<button type="button" class="collection justify-content-flex-start button button-clear button-sm has-inner-focus button-block display-none-tablet" data-list-type="collection" data-bi-name="collection" title="Manage Create a .NET MAUI project in Visual Studio - Training | Microsoft Learn in collections" data-page-action-item="overflow-mobile" data-check-hidden="true" data-popover-close="" data-pressed="true">
+														<span class="icon" aria-hidden="true">
+															<span class="docon docon-circle-addition-solid"></span>
+														</span>
+														<span class="collection-status">Added</span>
+													</button>
+
+
+
+												
+											</div>
+										</details>
+										
+									</div>
+								</div>
+							</div>
+							<!-- end article-header -->
+
+
+							<div>
+								<button type="button" class="border contents-button button button-clear button-sm is-hidden-tablet has-inner-focus" data-bi-name="contents-expand" data-contents-button="" hidden="">
+									<span class="icon">
+										<span class="docon docon-editor-list-bullet" aria-hidden="true"></span>
+									</span>
+										<span class="contents-expand-title">Table of contents</span>
+								</button>
+							</div>
+
+							<!-- end mobile-contents button  -->
+
+							<div class="content ">
+
+<div class="modular-content-container" data-target="docs">
+    <nav class="pagination is-centered is-wide" role="navigation" aria-label="pagination" data-bi-name="module-nav">
+        <a class="pagination-previous button button-clear text-decoration-none is-hidden-portrait has-inner-focus" data-bi-name="previous-unit" id="previous-unit-link" href="https://learn.microsoft.com/en-us/training/modules/build-mobile-and-desktop-apps/2-describe-maui-architecture/">
+            <span aria-hidden="true" class="icon docon docon-chevron-left-light"></span>
+            <span>Previous</span>
+        </a>
+        <ul class="pagination-list">
+            <li class="dropdown has-centered-menu has-caret" data-bi-name="unit-menu">
+                <button aria-controls="module-menu" aria-expanded="false" class="pagination-link margin-inline-auto button button-clear text-decoration-none button-sm dropdown-trigger" data-bi-name="dropdown-trigger" title="Module menu">
+                    <span id="unit-place">Unit 3 of 7</span>
+                    <span aria-hidden="true" class="icon">
+                        <span class="docon docon-chevron-down-light expanded-indicator"></span>
+                    </span>
+                </button>
+                <div class="dropdown-menu width-300 width-450-desktop" id="module-menu"><!---->
+		<div class="nav-box">
+			<h2 class="nav-box-title font-size-md margin-top-none"><!---->Create a cross-platform app with .NET MAUI<!----></h2>
+			<ul class="margin-none font-size-sm has-text-subtle is-unstyled" data-bi-name="module-menu-links">
+				<!----> <li class="nav-box-line module-navigation-item completable is-unstyled is-complete" data-nav-uid="learn.dotnet-maui.build-mobile-and-desktop-apps.introduction" data-progress-uid="learn.dotnet-maui.build-mobile-and-desktop-apps.introduction">
+						<a class="line-item is-spaced has-inner-focus" href="https://learn.microsoft.com/en-us/training/modules/build-mobile-and-desktop-apps/1-introduction/">
+							<span><!---->Introduction<!----></span>
+							<div>
+								<span class="is-hidden-complete text-decoration-none has-no-wrap"><!---->2 min<!----></span>
+								<span class="is-shown-complete has-text-success docon docon-check">
+									<span class="is-visually-hidden">: Completed<!----></span>
+								</span>
+							</div>
+						</a>
+					</li><!----> <li class="nav-box-line module-navigation-item completable is-unstyled is-complete" data-nav-uid="learn.dotnet-maui.build-mobile-and-desktop-apps.describe-maui-architecture" data-progress-uid="learn.dotnet-maui.build-mobile-and-desktop-apps.describe-maui-architecture">
+						<a class="line-item is-spaced has-inner-focus" href="https://learn.microsoft.com/en-us/training/modules/build-mobile-and-desktop-apps/2-describe-maui-architecture/">
+							<span><!---->Describe the .NET MAUI architecture<!----></span>
+							<div>
+								<span class="is-hidden-complete text-decoration-none has-no-wrap"><!---->5 min<!----></span>
+								<span class="is-shown-complete has-text-success docon docon-check">
+									<span class="is-visually-hidden">: Completed<!----></span>
+								</span>
+							</div>
+						</a>
+					</li><!----> <li class="nav-box-line module-navigation-item completable is-unstyled is-current" data-nav-uid="learn.dotnet-maui.build-mobile-and-desktop-apps.create-a-maui-project-visual-studio" data-progress-uid="learn.dotnet-maui.build-mobile-and-desktop-apps.create-a-maui-project-visual-studio">
+						<a class="line-item is-spaced has-inner-focus" href="https://learn.microsoft.com/en-us/training/modules/build-mobile-and-desktop-apps/3-create-a-maui-project-visual-studio/" aria-current="page">
+							<span><!---->Create a .NET MAUI project in Visual Studio<!----></span>
+							<div>
+								<span class="is-hidden-complete text-decoration-none has-no-wrap"><!---->5 min<!----></span>
+								<span class="is-shown-complete has-text-success docon docon-check">
+									<span class="is-visually-hidden">: Completed<!----></span>
+								</span>
+							</div>
+						</a>
+					</li><!----> <li class="nav-box-line module-navigation-item completable is-unstyled" data-nav-uid="learn.dotnet-maui.build-mobile-and-desktop-apps.exercise-create-your-first-maui-app" data-progress-uid="learn.dotnet-maui.build-mobile-and-desktop-apps.exercise-create-your-first-maui-app">
+						<a class="line-item is-spaced has-inner-focus" href="https://learn.microsoft.com/en-us/training/modules/build-mobile-and-desktop-apps/4-exercise-create-your-first-maui-app/">
+							<span><!---->Exercise: Create your first .NET MAUI app<!----></span>
+							<div>
+								<span class="is-hidden-complete text-decoration-none has-no-wrap"><!---->5 min<!----></span>
+								<span class="is-shown-complete has-text-success docon docon-check">
+									<span class="is-visually-hidden">: Completed<!----></span>
+								</span>
+							</div>
+						</a>
+					</li><!----> <li class="nav-box-line module-navigation-item completable is-unstyled" data-nav-uid="learn.dotnet-maui.build-mobile-and-desktop-apps.add-controls-to-the-ui" data-progress-uid="learn.dotnet-maui.build-mobile-and-desktop-apps.add-controls-to-the-ui">
+						<a class="line-item is-spaced has-inner-focus" href="https://learn.microsoft.com/en-us/training/modules/build-mobile-and-desktop-apps/5-add-controls-to-the-ui/">
+							<span><!---->Add visual controls to a .NET MAUI app<!----></span>
+							<div>
+								<span class="is-hidden-complete text-decoration-none has-no-wrap"><!---->5 min<!----></span>
+								<span class="is-shown-complete has-text-success docon docon-check">
+									<span class="is-visually-hidden">: Completed<!----></span>
+								</span>
+							</div>
+						</a>
+					</li><!----> <li class="nav-box-line module-navigation-item completable is-unstyled" data-nav-uid="learn.dotnet-maui.build-mobile-and-desktop-apps.exercise-create-phone-number-translator-app" data-progress-uid="learn.dotnet-maui.build-mobile-and-desktop-apps.exercise-create-phone-number-translator-app">
+						<a class="line-item is-spaced has-inner-focus" href="https://learn.microsoft.com/en-us/training/modules/build-mobile-and-desktop-apps/6-exercise-create-phone-number-translator-app/">
+							<span><!---->Exercise: Create the phone number translator app<!----></span>
+							<div>
+								<span class="is-hidden-complete text-decoration-none has-no-wrap"><!---->10 min<!----></span>
+								<span class="is-shown-complete has-text-success docon docon-check">
+									<span class="is-visually-hidden">: Completed<!----></span>
+								</span>
+							</div>
+						</a>
+					</li><!----> <li class="nav-box-line module-navigation-item completable is-unstyled" data-nav-uid="learn.dotnet-maui.build-mobile-and-desktop-apps.summary" data-progress-uid="learn.dotnet-maui.build-mobile-and-desktop-apps.summary">
+						<a class="line-item is-spaced has-inner-focus" href="https://learn.microsoft.com/en-us/training/modules/build-mobile-and-desktop-apps/7-summary/">
+							<span><!---->Summary<!----></span>
+							<div>
+								<span class="is-hidden-complete text-decoration-none has-no-wrap"><!---->1 min<!----></span>
+								<span class="is-shown-complete has-text-success docon docon-check">
+									<span class="is-visually-hidden">: Completed<!----></span>
+								</span>
+							</div>
+						</a>
+					</li><!---->
+			</ul>
+		</div>
+	<!----></div>
+            </li>
+        </ul>
+        <a class="pagination-next button button-clear text-decoration-none is-hidden-portrait has-inner-focus" data-bi-name="next-unit" id="next-unit-link" href="https://learn.microsoft.com/en-us/training/modules/build-mobile-and-desktop-apps/4-exercise-create-your-first-maui-app/">
+            <span>Next</span>
+            <span aria-hidden="true" class="icon docon docon-chevron-right-light"></span>
+        </a>
+    </nav>
+</div>
+<div class="columns is-mobile is-gapless is-fixed-bottom is-hidden-tablet is-hidden-landscape has-body-background margin-none" id="mobile-nav">
+    <div class="column" id="previous-unit-link-mobile-col">
+        <a class="button button-block button-filled is-radiusless button-lg margin-none has-inner-focus" data-bi-name="previous-unit" id="previous-unit-link-mobile" href="https://learn.microsoft.com/en-us/training/modules/build-mobile-and-desktop-apps/2-describe-maui-architecture/">
+            <span aria-hidden="true" class="icon docon docon-chevron-left-light"></span>
+            <span>Previous</span>
+        </a>
+    </div>
+    <div class="column" id="next-unit-link-mobile-col">
+        <a class="button button-block button-filled button-primary button-lg is-radiusless margin-none has-inner-focus" data-bi-name="next-unit" id="next-unit-link-mobile" href="https://learn.microsoft.com/en-us/training/modules/build-mobile-and-desktop-apps/4-exercise-create-your-first-maui-app/">
+            <span>Next</span>
+            <span aria-hidden="true" class="icon docon docon-chevron-right-light"></span>
+        </a>
+    </div>
+</div>
+
+								
+
+
+
+								<!-- <content> -->
+									<div class="modular-content-container has-body-background box">
+	<div id="unit-inner-section" class="section is-uniform position-relative">
+		<h1 class="margin-right-xxl-desktop">Create a .NET MAUI project in Visual Studio</h1>
+		<div data-progress-uid="learn.dotnet-maui.build-mobile-and-desktop-apps.create-a-maui-project-visual-studio" class="xp-tag position-absolute top-0 right-0 margin-top-xs margin-top-sm-tablet margin-top-lg-desktop margin-top-xs-interactive margin-right-sm margin-right-lg-tablet margin-right-sm-interactive">
+			<div class="xp-tag-hexagon">
+				<span class="xp-tag-icon is-shown-complete docon docon-check">
+					<span class="visually-hidden">Completed</span>
+				</span>
+				<span class="xp-tag-xp">200 XP</span>
+			</div>
+		</div>
+		<ul class="metadata page-metadata">
+			<li>5 minutes</li>
+		</ul>
+			<p>After you install and configure the .NET MAUI tools, you can use Visual Studio to build a .NET MAUI app.</p>
+<p>In this unit, you'll learn about the structure of the .NET MAUI template in Visual Studio. You'll use this template for creating cross-platform mobile and desktop apps.</p>
+<h2 id="how-to-get-started">How to get started</h2>
+<p>To create a new .NET MAUI project with Visual Studio, in the <strong>Create a new project</strong> dialog box, select the .NET MAUI project type, and then choose the .NET MAUI App template:</p>
+<p><span class="mx-imgBorder">
+<img src="./Create a .NET MAUI project in Visual Studio - Training _ Microsoft Learn_files/3-create-maui-app.png" alt="A screenshot of the Create a new project dialog box in Visual Studio. The user has selected the .NET MAUI App template." data-linktype="relative-path">
+</span>
+</p>
+<p>Follow the steps in the wizard to name the project and specify a location.</p>
+<p>A newly created .NET MAUI project contains the items as shown:</p>
+<p><span class="mx-imgBorder">
+<img src="./Create a .NET MAUI project in Visual Studio - Training _ Microsoft Learn_files/3-new-solution.png" alt="A screenshot of the solution explorer of the default structure of a new .NET MAUI solution in Visual Studio." data-linktype="relative-path">
+</span>
+</p>
+<h2 id="net-maui-project-structure-and-application-startup">.NET MAUI project structure and application startup</h2>
+<p>The project contents include the following items:</p>
+<ul>
+<li><p><strong>App.xaml</strong>. This file defines the application resources that the app will use in the XAML layout. The default resources are located in the <code>Resources</code> folder and define app wide colors and default styles for every built-in control of .NET MAUI. Here you'll see the two resource dictionaries being merged together:</p>
+  <p><strong>App.xaml</strong>. File ini mendefinisikan sumber daya aplikasi yang akan digunakan aplikasi dalam tata letak XAML. Sumber daya default terletak di folder Resources dan mendefinisikan warna aplikasi dan gaya default untuk setiap kontrol bawaan .NET MAUI. Di sini Anda akan melihat dua kamus sumber daya yang digabungkan bersama:</p>
+<div class="codeHeader" id="code-try-0" data-bi-name="code-header"><span class="language">XML</span>
+  <button type="button" class="action position-relative display-none-print" data-bi-name="copy">
+			<span class="icon margin-right-xxs" aria-hidden="true">
+				<span class="docon docon-edit-copy"></span>
+			</span>
+			<span>Copy</span>
+			<div class="successful-copy-alert position-absolute right-0 top-0 left-0 bottom-0 display-flex align-items-center justify-content-center has-text-success-invert has-background-success is-transparent" aria-hidden="true">
+				<span class="icon font-size-lg">
+					<span class="docon docon-check-mark"></span>
+				</span>
+			</div>
+		</button>
+	</div><pre tabindex="0" class="has-inner-focus"><code class="lang-xml" data-author-content="&lt;?xml version = &quot;1.0&quot; encoding = &quot;UTF-8&quot; ?&gt;
+&lt;Application xmlns=&quot;http://schemas.microsoft.com/dotnet/2021/maui&quot;
+             xmlns:x=&quot;http://schemas.microsoft.com/winfx/2009/xaml&quot;
+             xmlns:local=&quot;clr-namespace:MyMauiApp&quot;
+             x:Class=&quot;MyMauiApp.App&quot;&gt;
+    &lt;Application.Resources&gt;
+        &lt;ResourceDictionary&gt;
+            &lt;ResourceDictionary.MergedDictionaries&gt;
+                &lt;ResourceDictionary Source=&quot;Resources/Colors.xaml&quot; /&gt;
+                &lt;ResourceDictionary Source=&quot;Resources/Styles.xaml&quot; /&gt;
+            &lt;/ResourceDictionary.MergedDictionaries&gt;
+        &lt;/ResourceDictionary&gt;
+    &lt;/Application.Resources&gt;
+&lt;/Application&gt;
+"><span><span class="hljs-meta">&lt;?xml version = "1.0" encoding = "UTF-8" ?&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">Application</span> <span class="hljs-attr">xmlns</span>=<span class="hljs-string">"http://schemas.microsoft.com/dotnet/2021/maui"</span>
+             <span class="hljs-attr">xmlns:x</span>=<span class="hljs-string">"http://schemas.microsoft.com/winfx/2009/xaml"</span>
+             <span class="hljs-attr">xmlns:local</span>=<span class="hljs-string">"clr-namespace:MyMauiApp"</span>
+             <span class="hljs-attr">x:Class</span>=<span class="hljs-string">"MyMauiApp.App"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">Application.Resources</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">ResourceDictionary</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">ResourceDictionary.MergedDictionaries</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">ResourceDictionary</span> <span class="hljs-attr">Source</span>=<span class="hljs-string">"Resources/Colors.xaml"</span> /&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">ResourceDictionary</span> <span class="hljs-attr">Source</span>=<span class="hljs-string">"Resources/Styles.xaml"</span> /&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">ResourceDictionary.MergedDictionaries</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">ResourceDictionary</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">Application.Resources</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">Application</span>&gt;</span>
+</span></code></pre>
+</li>
+<li><p><strong>App.xaml.cs</strong>. This is the code-behind for the App.xaml file. This file defines the App class. This class represents your application at runtime. The constructor in this class creates an initial window and assigns it to the <code>MainPage</code> property; this property determines which page is displayed when the application starts running. Additionally, this class enables you to override common platform-neutral application lifecycle event handlers. Events include <code>OnStart</code>, <code>OnResume</code>, and <code>OnSleep</code>. These handlers are defined as members of the <code>Application</code> base class. The code below shows examples:</p>
+  <p><strong>App.xaml.cs</strong>. Ini adalah kode di balik file App.xaml. File ini mendefinisikan kelas App. Kelas ini merepresentasikan aplikasi Anda pada saat runtime. Konstruktor dalam kelas ini membuat jendela awal dan menetapkannya ke properti MainPage; properti ini menentukan halaman mana yang ditampilkan ketika aplikasi mulai berjalan. Selain itu, kelas ini memungkinkan Anda untuk mengganti penangan event siklus hidup aplikasi yang netral terhadap platform. Peristiwa termasuk OnStart, OnResume, dan OnSleep. Penangan ini didefinisikan sebagai anggota kelas dasar Aplikasi. Kode di bawah ini menunjukkan contohnya:</p>
+<div class="alert is-info">
+<p class="alert-title"><span class="docon docon-status-error-outline" aria-hidden="true"></span> Note</p>
+<p>You can also override platform-specific lifecycle events when the app first starts running. This is described later.</p>
+</div>
+<div class="codeHeader" id="code-try-1" data-bi-name="code-header"><span class="language">C#</span>
+		<button type="button" class="action position-relative display-none-print" data-bi-name="copy">
+			<span class="icon margin-right-xxs" aria-hidden="true">
+				<span class="docon docon-edit-copy"></span>
+			</span>
+			<span>Copy</span>
+			<div class="successful-copy-alert position-absolute right-0 top-0 left-0 bottom-0 display-flex align-items-center justify-content-center has-text-success-invert has-background-success is-transparent" aria-hidden="true">
+				<span class="icon font-size-lg">
+					<span class="docon docon-check-mark"></span>
+				</span>
+			</div>
+		</button>
+	</div><pre tabindex="0" class="has-inner-focus"><code class="lang-csharp" data-author-content="namespace MyMauiApp;
+
+public partial class App : Application
+{
+    public App()
+    {
+        InitializeComponent();
+
+        MainPage = new AppShell();
+    }
+
+    protected override void OnStart()
+    {
+        base.OnStart();
+    }
+
+    protected override void OnResume()
+    {
+        base.OnResume();
+    }
+
+    protected override void OnSleep()
+    {
+        base.OnSleep();
+    }
+}
+"><span><span class="hljs-keyword">namespace</span> <span class="hljs-title">MyMauiApp</span>;
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">partial</span> <span class="hljs-keyword">class</span> <span class="hljs-title">App</span> : <span class="hljs-title">Application</span>
+{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">App</span>(<span class="hljs-params"></span>)</span>
+    {
+        InitializeComponent();
+
+        MainPage = <span class="hljs-keyword">new</span> AppShell();
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">protected</span> <span class="hljs-keyword">override</span> <span class="hljs-keyword">void</span> <span class="hljs-title">OnStart</span>(<span class="hljs-params"></span>)</span>
+    {
+        <span class="hljs-keyword">base</span>.OnStart();
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">protected</span> <span class="hljs-keyword">override</span> <span class="hljs-keyword">void</span> <span class="hljs-title">OnResume</span>(<span class="hljs-params"></span>)</span>
+    {
+        <span class="hljs-keyword">base</span>.OnResume();
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">protected</span> <span class="hljs-keyword">override</span> <span class="hljs-keyword">void</span> <span class="hljs-title">OnSleep</span>(<span class="hljs-params"></span>)</span>
+    {
+        <span class="hljs-keyword">base</span>.OnSleep();
+    }
+}
+</span></code></pre>
+</li>
+<li><p><strong>AppShell.xaml</strong>. This file is the main structure of a .NET MAUI application. The .NET MAUI <code>Shell</code> provides many features  that are beneficial for multiple-platform apps including app styling, URI based navigation, and layout options including flyout navigation and tabs for the root of the application. The default template provides a single page (or <code>ShellContent</code>) that is inflated when the app starts.</p>
+  <p><strong>AppShell.xaml. </strong>File ini adalah struktur utama dari aplikasi .NET MAUI. .NET MAUI Shell menyediakan banyak fitur yang bermanfaat untuk aplikasi berbagai platform termasuk penataan aplikasi, navigasi berbasis URI, dan opsi tata letak termasuk navigasi flyout dan tab untuk root aplikasi. Templat default menyediakan satu halaman (atau ShellContent) yang meningkat ketika aplikasi dimulai.</p>
+<div class="codeHeader" id="code-try-2" data-bi-name="code-header"><span class="language">XML</span>
+		<button type="button" class="action position-relative display-none-print" data-bi-name="copy">
+			<span class="icon margin-right-xxs" aria-hidden="true">
+				<span class="docon docon-edit-copy"></span>
+			</span>
+			<span>Copy</span>
+			<div class="successful-copy-alert position-absolute right-0 top-0 left-0 bottom-0 display-flex align-items-center justify-content-center has-text-success-invert has-background-success is-transparent" aria-hidden="true">
+				<span class="icon font-size-lg">
+					<span class="docon docon-check-mark"></span>
+				</span>
+			</div>
+		</button>
+	</div><pre tabindex="0" class="has-inner-focus"><code class="lang-xml" data-author-content="  &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
+  &lt;Shell
+      x:Class=&quot;MyMauiApp.AppShell&quot;
+      xmlns=&quot;http://schemas.microsoft.com/dotnet/2021/maui&quot;
+      xmlns:x=&quot;http://schemas.microsoft.com/winfx/2009/xaml&quot;
+      xmlns:local=&quot;clr-namespace:MyMauiApp&quot;
+      Shell.FlyoutBehavior=&quot;Disabled&quot;&gt;
+
+      &lt;ShellContent
+          Title=&quot;Home&quot;
+          ContentTemplate=&quot;{DataTemplate local:MainPage}&quot;
+          Route=&quot;MainPage&quot; /&gt;
+
+  &lt;/Shell&gt;
+"><span>  <span class="hljs-meta">&lt;?xml version="1.0" encoding="UTF-8" ?&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">Shell</span>
+      <span class="hljs-attr">x:Class</span>=<span class="hljs-string">"MyMauiApp.AppShell"</span>
+      <span class="hljs-attr">xmlns</span>=<span class="hljs-string">"http://schemas.microsoft.com/dotnet/2021/maui"</span>
+      <span class="hljs-attr">xmlns:x</span>=<span class="hljs-string">"http://schemas.microsoft.com/winfx/2009/xaml"</span>
+      <span class="hljs-attr">xmlns:local</span>=<span class="hljs-string">"clr-namespace:MyMauiApp"</span>
+      <span class="hljs-attr">Shell.FlyoutBehavior</span>=<span class="hljs-string">"Disabled"</span>&gt;</span>
+
+      <span class="hljs-tag">&lt;<span class="hljs-name">ShellContent</span>
+          <span class="hljs-attr">Title</span>=<span class="hljs-string">"Home"</span>
+          <span class="hljs-attr">ContentTemplate</span>=<span class="hljs-string">"{DataTemplate local:MainPage}"</span>
+          <span class="hljs-attr">Route</span>=<span class="hljs-string">"MainPage"</span> /&gt;</span>
+
+  <span class="hljs-tag">&lt;/<span class="hljs-name">Shell</span>&gt;</span>
+</span></code></pre>
+</li>
+<li><p><strong>MainPage.xaml</strong>. This file contains the user interface definition. The sample app generated by the MAUI App template contains two labels, a button, and an image. The controls are arranged using a <code>VerticalStackLayout</code> enclosed in a <code>ScrollView</code>. The <code>VerticalStackLayout</code> control causes the controls to be arranged vertically (in a stack), and the <code>ScrollView</code> provides a scrollbar if the view is too large to be displayed on the device. The intention is that you replace the contents of this file with your own UI layout. You can also define more XAML pages if you have a multi-page app.</p>
+  <p><strong>MainPage.xaml. </strong>File ini berisi definisi antarmuka pengguna. Contoh aplikasi yang dihasilkan oleh templat Aplikasi MAUI berisi dua label, tombol, dan gambar. Kontrol disusun menggunakan VerticalStackLayout yang diapit oleh ScrollView. Kontrol VerticalStackLayout menyebabkan kontrol disusun secara vertikal (dalam tumpukan), dan ScrollView menyediakan scrollbar jika tampilan terlalu besar untuk ditampilkan pada perangkat. Tujuannya adalah agar Anda dapat mengganti konten file ini dengan tata letak UI Anda sendiri. Anda juga dapat menentukan lebih banyak halaman XAML jika Anda memiliki aplikasi multi-halaman.</p>
+<div class="codeHeader" id="code-try-3" data-bi-name="code-header"><span class="language">XML</span>
+		<button type="button" class="action position-relative display-none-print" data-bi-name="copy">
+			<span class="icon margin-right-xxs" aria-hidden="true">
+				<span class="docon docon-edit-copy"></span>
+			</span>
+			<span>Copy</span>
+			<div class="successful-copy-alert position-absolute right-0 top-0 left-0 bottom-0 display-flex align-items-center justify-content-center has-text-success-invert has-background-success is-transparent" aria-hidden="true">
+				<span class="icon font-size-lg">
+					<span class="docon docon-check-mark"></span>
+				</span>
+			</div>
+		</button>
+	</div><pre tabindex="0" class="has-inner-focus"><code class="lang-xml" data-author-content="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+&lt;ContentPage xmlns=&quot;http://schemas.microsoft.com/dotnet/2021/maui&quot;
+             xmlns:x=&quot;http://schemas.microsoft.com/winfx/2009/xaml&quot;
+             x:Class=&quot;MyMauiApp.MainPage&quot;&gt;
+
+    &lt;ScrollView&gt;
+        &lt;VerticalStackLayout 
+            Spacing=&quot;25&quot; 
+            Padding=&quot;30,0&quot; 
+            VerticalOptions=&quot;Center&quot;&gt;
+
+            &lt;Image
+                Source=&quot;dotnet_bot.png&quot;
+                SemanticProperties.Description=&quot;Cute dot net bot waving hi to you!&quot;
+                HeightRequest=&quot;200&quot;
+                HorizontalOptions=&quot;Center&quot; /&gt;
+
+            &lt;Label 
+                Text=&quot;Hello, World!&quot;
+                SemanticProperties.HeadingLevel=&quot;Level1&quot;
+                FontSize=&quot;32&quot;
+                HorizontalOptions=&quot;Center&quot; /&gt;
+
+            &lt;Label 
+                Text=&quot;Welcome to .NET Multi-platform App UI&quot;
+                SemanticProperties.HeadingLevel=&quot;Level2&quot;
+                SemanticProperties.Description=&quot;Welcome to dot net Multi platform App U I&quot;
+                FontSize=&quot;18&quot;
+                HorizontalOptions=&quot;Center&quot; /&gt;
+
+            &lt;Button 
+                x:Name=&quot;CounterBtn&quot;
+                Text=&quot;Click me&quot;
+                SemanticProperties.Hint=&quot;Counts the number of times you click&quot;
+                Clicked=&quot;OnCounterClicked&quot;
+                HorizontalOptions=&quot;Center&quot; /&gt;
+
+        &lt;/VerticalStackLayout&gt;
+    &lt;/ScrollView&gt;
+
+&lt;/ContentPage&gt;
+"><span><span class="hljs-meta">&lt;?xml version="1.0" encoding="utf-8" ?&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">ContentPage</span> <span class="hljs-attr">xmlns</span>=<span class="hljs-string">"http://schemas.microsoft.com/dotnet/2021/maui"</span>
+             <span class="hljs-attr">xmlns:x</span>=<span class="hljs-string">"http://schemas.microsoft.com/winfx/2009/xaml"</span>
+             <span class="hljs-attr">x:Class</span>=<span class="hljs-string">"MyMauiApp.MainPage"</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;<span class="hljs-name">ScrollView</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">VerticalStackLayout</span> 
+            <span class="hljs-attr">Spacing</span>=<span class="hljs-string">"25"</span> 
+            <span class="hljs-attr">Padding</span>=<span class="hljs-string">"30,0"</span> 
+            <span class="hljs-attr">VerticalOptions</span>=<span class="hljs-string">"Center"</span>&gt;</span>
+
+            <span class="hljs-tag">&lt;<span class="hljs-name">Image</span>
+                <span class="hljs-attr">Source</span>=<span class="hljs-string">"dotnet_bot.png"</span>
+                <span class="hljs-attr">SemanticProperties.Description</span>=<span class="hljs-string">"Cute dot net bot waving hi to you!"</span>
+                <span class="hljs-attr">HeightRequest</span>=<span class="hljs-string">"200"</span>
+                <span class="hljs-attr">HorizontalOptions</span>=<span class="hljs-string">"Center"</span> /&gt;</span>
+
+            <span class="hljs-tag">&lt;<span class="hljs-name">Label</span> 
+                <span class="hljs-attr">Text</span>=<span class="hljs-string">"Hello, World!"</span>
+                <span class="hljs-attr">SemanticProperties.HeadingLevel</span>=<span class="hljs-string">"Level1"</span>
+                <span class="hljs-attr">FontSize</span>=<span class="hljs-string">"32"</span>
+                <span class="hljs-attr">HorizontalOptions</span>=<span class="hljs-string">"Center"</span> /&gt;</span>
+
+            <span class="hljs-tag">&lt;<span class="hljs-name">Label</span> 
+                <span class="hljs-attr">Text</span>=<span class="hljs-string">"Welcome to .NET Multi-platform App UI"</span>
+                <span class="hljs-attr">SemanticProperties.HeadingLevel</span>=<span class="hljs-string">"Level2"</span>
+                <span class="hljs-attr">SemanticProperties.Description</span>=<span class="hljs-string">"Welcome to dot net Multi platform App U I"</span>
+                <span class="hljs-attr">FontSize</span>=<span class="hljs-string">"18"</span>
+                <span class="hljs-attr">HorizontalOptions</span>=<span class="hljs-string">"Center"</span> /&gt;</span>
+
+            <span class="hljs-tag">&lt;<span class="hljs-name">Button</span> 
+                <span class="hljs-attr">x:Name</span>=<span class="hljs-string">"CounterBtn"</span>
+                <span class="hljs-attr">Text</span>=<span class="hljs-string">"Click me"</span>
+                <span class="hljs-attr">SemanticProperties.Hint</span>=<span class="hljs-string">"Counts the number of times you click"</span>
+                <span class="hljs-attr">Clicked</span>=<span class="hljs-string">"OnCounterClicked"</span>
+                <span class="hljs-attr">HorizontalOptions</span>=<span class="hljs-string">"Center"</span> /&gt;</span>
+
+        <span class="hljs-tag">&lt;/<span class="hljs-name">VerticalStackLayout</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ScrollView</span>&gt;</span>
+
+<span class="hljs-tag">&lt;/<span class="hljs-name">ContentPage</span>&gt;</span>
+</span></code></pre>
+</li>
+<li><p><strong>MainPage.xaml.cs</strong>. This is the code-behind for the page. In this file, you define the logic for the various event handlers and other actions that are triggered by the controls on the page. The example code implements a handler for the <code>Clicked</code> event for the button on the page. The code simply increments a counter variable and displays the result in a label on the page. The Semantic service provided as part of the MAUI Essentials library supports accessibility. The static <code>Announce</code> method of the <code>SemanticScreenReader</code> class specifies the text announced by a screen reader when the user selects the button:</p>
+  <p><strong>MainPage.xaml.cs</strong>. Ini adalah kode di balik halaman. Di dalam berkas ini, Anda mendefinisikan logika untuk berbagai penangan peristiwa dan tindakan lain yang dipicu oleh kontrol pada halaman. Contoh kode mengimplementasikan penangan untuk peristiwa Diklik untuk tombol pada halaman. Kode tersebut hanya menambah variabel penghitung dan menampilkan hasilnya dalam sebuah label pada halaman. Layanan Semantik yang disediakan sebagai bagian dari pustaka MAUI Essentials mendukung aksesibilitas. Metode statis Announce dari kelas SemanticScreenReader menentukan teks yang diumumkan oleh pembaca layar ketika pengguna memilih tombol:</p>
+<div class="codeHeader" id="code-try-4" data-bi-name="code-header"><span class="language">C#</span>
+		<button type="button" class="action position-relative display-none-print" data-bi-name="copy">
+			<span class="icon margin-right-xxs" aria-hidden="true">
+				<span class="docon docon-edit-copy"></span>
+			</span>
+			<span>Copy</span>
+			<div class="successful-copy-alert position-absolute right-0 top-0 left-0 bottom-0 display-flex align-items-center justify-content-center has-text-success-invert has-background-success is-transparent" aria-hidden="true">
+				<span class="icon font-size-lg">
+					<span class="docon docon-check-mark"></span>
+				</span>
+			</div>
+		</button>
+	</div><pre tabindex="0" class="has-inner-focus"><code class="lang-csharp" data-author-content="namespace MyMauiApp;
+
+public partial class MainPage : ContentPage
+{
+    int count = 0;
+
+    public MainPage()
+    {
+        InitializeComponent();
+    }
+
+    private void OnCounterClicked(object sender, EventArgs e)
+    {
+        count++;
+
+        if (count == 1)
+            CounterBtn.Text = $&quot;Clicked {count} time&quot;;
+        else
+            CounterBtn.Text = $&quot;Clicked {count} times&quot;;
+
+        SemanticScreenReader.Announce(CounterBtn.Text);
+    }
+}
+"><span><span class="hljs-keyword">namespace</span> <span class="hljs-title">MyMauiApp</span>;
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">partial</span> <span class="hljs-keyword">class</span> <span class="hljs-title">MainPage</span> : <span class="hljs-title">ContentPage</span>
+{
+    <span class="hljs-built_in">int</span> count = <span class="hljs-number">0</span>;
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">MainPage</span>(<span class="hljs-params"></span>)</span>
+    {
+        InitializeComponent();
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">void</span> <span class="hljs-title">OnCounterClicked</span>(<span class="hljs-params"><span class="hljs-built_in">object</span> sender, EventArgs e</span>)</span>
+    {
+        count++;
+
+        <span class="hljs-keyword">if</span> (count == <span class="hljs-number">1</span>)
+            CounterBtn.Text = <span class="hljs-string">$"Clicked <span class="hljs-subst">{count}</span> time"</span>;
+        <span class="hljs-keyword">else</span>
+            CounterBtn.Text = <span class="hljs-string">$"Clicked <span class="hljs-subst">{count}</span> times"</span>;
+
+        SemanticScreenReader.Announce(CounterBtn.Text);
+    }
+}
+</span></code></pre>
+</li>
+<li><p><strong>MauiProgram.cs</strong>. Each native platform has a different starting point that creates and initializes the application. You can find this code under the <strong>Platforms</strong> folder in the project. This code is platform-specific, but at the end it  calls the <code>CreateMauiApp</code> method of the static <code>MauiProgram</code>class. You use the <code>CreateMauiApp</code> method to configure the application by creating an app builder object. At a minimum, you need to specify which class describes your application. You do this with the <code>UseMauiApp</code> generic method of the app builder object; the type parameter specifies the application class. The app builder also provides methods for tasks such as registering fonts, configuring services for dependency injection, registering custom handlers for controls, and more. The following code shows an example of using the app builder to register a font:</p>
+  <p><strong>MauiProgram.cs.</strong> Setiap platform asli memiliki titik awal yang berbeda yang membuat dan menginisialisasi aplikasi. Anda dapat menemukan kode ini di bawah folder Platforms di dalam proyek. Kode ini khusus untuk platform tertentu, tetapi pada akhirnya kode ini memanggil metode CreateMauiApp dari kelas MauiProgramclass statis. Anda menggunakan metode CreateMauiApp untuk mengonfigurasi aplikasi dengan membuat objek pembuat aplikasi. Minimal, Anda harus menentukan kelas mana yang mendeskripsikan aplikasi Anda. Anda melakukan ini dengan metode generik UseMauiApp dari objek pembangun aplikasi; parameter tipe menentukan kelas aplikasi. Pembangun aplikasi juga menyediakan metode untuk tugas-tugas seperti mendaftarkan font, mengonfigurasi layanan untuk injeksi ketergantungan, mendaftarkan penangan khusus untuk kontrol, dan banyak lagi. Kode berikut ini menunjukkan contoh penggunaan pembangun aplikasi untuk mendaftarkan font:</p>
+<div class="codeHeader" id="code-try-5" data-bi-name="code-header"><span class="language">C#</span>
+		<button type="button" class="action position-relative display-none-print" data-bi-name="copy">
+			<span class="icon margin-right-xxs" aria-hidden="true">
+				<span class="docon docon-edit-copy"></span>
+			</span>
+			<span>Copy</span>
+			<div class="successful-copy-alert position-absolute right-0 top-0 left-0 bottom-0 display-flex align-items-center justify-content-center has-text-success-invert has-background-success is-transparent" aria-hidden="true">
+				<span class="icon font-size-lg">
+					<span class="docon docon-check-mark"></span>
+				</span>
+			</div>
+		</button>
+	</div><pre tabindex="0" class="has-inner-focus"><code class="lang-csharp" data-author-content="namespace MyMauiApp;
+
+public static class MauiProgram
+{
+    public static MauiApp CreateMauiApp()
+    {
+        var builder = MauiApp.CreateBuilder();
+        builder
+            .UseMauiApp&lt;App&gt;()
+            .ConfigureFonts(fonts =&gt;
+            {
+                fonts.AddFont(&quot;OpenSans-Regular.ttf&quot;, &quot;OpenSansRegular&quot;);
+                fonts.AddFont(&quot;OpenSans-Semibold.ttf&quot;, &quot;OpenSansSemibold&quot;);
+            });
+
+        return builder.Build();
+    }
+}
+"><span><span class="hljs-keyword">namespace</span> <span class="hljs-title">MyMauiApp</span>;
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">class</span> <span class="hljs-title">MauiProgram</span>
+{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> MauiApp <span class="hljs-title">CreateMauiApp</span>(<span class="hljs-params"></span>)</span>
+    {
+        <span class="hljs-keyword">var</span> builder = MauiApp.CreateBuilder();
+        builder
+            .UseMauiApp&lt;App&gt;()
+            .ConfigureFonts(fonts =&gt;
+            {
+                fonts.AddFont(<span class="hljs-string">"OpenSans-Regular.ttf"</span>, <span class="hljs-string">"OpenSansRegular"</span>);
+                fonts.AddFont(<span class="hljs-string">"OpenSans-Semibold.ttf"</span>, <span class="hljs-string">"OpenSansSemibold"</span>);
+            });
+
+        <span class="hljs-keyword">return</span> builder.Build();
+    }
+}
+</span></code></pre>
+</li>
+<li><p><strong>Platforms</strong>. This folder contains platform-specific initialization code files and resources. There are folders for Android, iOS, MacCatalyst, and Windows. At runtime, the app starts up in a platform-specific way. Much of the start-up process is abstracted out by the internals of the MAUI libraries, but the code files in these folders provide a mechanism for hooking up your own custom initialization. The important point is that when initialization is complete, the platform-specific code calls the <code>MauiProgram.CreateMauiApp</code> method, which then creates and runs the <code>App</code> object, as described earlier. For example, the <strong>MainApplication.cs</strong> file in the <strong>Android</strong> folder, the <strong>AppDelegate.cs</strong> file in the <strong>iOS</strong> and <strong>MacCatalyst</strong> folder, and the <strong>App.xaml.cs</strong> file in the <strong>Windows</strong> folder all contain the overrides:</p>
+  <p><strong>Platform.</strong> Folder ini berisi file kode inisialisasi dan sumber daya khusus platform. Terdapat folder untuk Android, iOS, MacCatalyst, dan Windows. Pada saat runtime, aplikasi dimulai dengan cara yang spesifik untuk platform tertentu. Sebagian besar proses start-up diabstraksikan oleh internal perpustakaan MAUI, tetapi file kode dalam folder ini menyediakan mekanisme untuk menghubungkan inisialisasi kustom Anda sendiri. Hal yang penting adalah ketika inisialisasi selesai, kode khusus platform memanggil metode MauiProgram.CreateMauiApp, yang kemudian membuat dan menjalankan objek App, seperti yang dijelaskan sebelumnya. Sebagai contoh, file MainApplication.cs di folder Android, file AppDelegate.cs di folder iOS dan MacCatalyst, dan file App.xaml.cs di folder Windows, semuanya berisi penggantian:</p>
+<div class="codeHeader" id="code-try-6" data-bi-name="code-header"><span class="language">C#</span>
+		<button type="button" class="action position-relative display-none-print" data-bi-name="copy">
+			<span class="icon margin-right-xxs" aria-hidden="true">
+				<span class="docon docon-edit-copy"></span>
+			</span>
+			<span>Copy</span>
+			<div class="successful-copy-alert position-absolute right-0 top-0 left-0 bottom-0 display-flex align-items-center justify-content-center has-text-success-invert has-background-success is-transparent" aria-hidden="true">
+				<span class="icon font-size-lg">
+					<span class="docon docon-check-mark"></span>
+				</span>
+			</div>
+		</button>
+	</div><pre tabindex="0" class="has-inner-focus"><code class="lang-csharp" data-author-content="protected override MauiApp CreateMauiApp() =&gt; MauiProgram.CreateMauiApp();
+"><span><span class="hljs-function"><span class="hljs-keyword">protected</span> <span class="hljs-keyword">override</span> MauiApp <span class="hljs-title">CreateMauiApp</span>(<span class="hljs-params"></span>)</span> =&gt; MauiProgram.CreateMauiApp();
+</span></code></pre>
+</li>
+</ul>
+<p>The following image illustrates the flow of control when a .NET MAUI app starts up:</p>
+<p><img src="./Create a .NET MAUI project in Visual Studio - Training _ Microsoft Learn_files/3-startup-flow.png" alt="A diagram of the flow of control when a .NET MAUI app starts up. It flows from the native specific startup, to the create MAUI app function, to finally the app object constructor. " data-linktype="relative-path">
+</p>
+<h2 id="project-resources">Project resources</h2>
+<p>The <strong>.csproj</strong> file for the main project includes several noteworthy sections. The initial <code>PropertyGroup</code> specifies the platform frameworks that the project targets, as well as items such as the application title, ID, version, display version, and supported operating systems. You can amend these properties as necessary:</p>
+<p><strong>File .csproj </strong>untuk proyek utama mencakup beberapa bagian penting. PropertyGroup awal menentukan kerangka kerja platform yang menjadi target proyek, serta item seperti judul aplikasi, ID, versi, versi tampilan, dan sistem operasi yang didukung. Anda dapat mengubah properti ini sesuai kebutuhan:</p>
+<div class="codeHeader" id="code-try-7" data-bi-name="code-header"><span class="language">XML</span>
+		<button type="button" class="action position-relative display-none-print" data-bi-name="copy">
+			<span class="icon margin-right-xxs" aria-hidden="true">
+				<span class="docon docon-edit-copy"></span>
+			</span>
+			<span>Copy</span>
+			<div class="successful-copy-alert position-absolute right-0 top-0 left-0 bottom-0 display-flex align-items-center justify-content-center has-text-success-invert has-background-success is-transparent" aria-hidden="true">
+				<span class="icon font-size-lg">
+					<span class="docon docon-check-mark"></span>
+				</span>
+			</div>
+		</button>
+	</div><pre tabindex="0" class="has-inner-focus"><code class="lang-xml" data-author-content="&lt;Project Sdk=&quot;Microsoft.NET.Sdk&quot;&gt;
+
+    &lt;PropertyGroup&gt;
+		&lt;TargetFrameworks&gt;net6.0-android;net6.0-ios;net6.0-maccatalyst&lt;/TargetFrameworks&gt;
+		&lt;TargetFrameworks Condition=&quot;$([MSBuild]::IsOSPlatform(&#39;windows&#39;))&quot;&gt;$(TargetFrameworks);net6.0-windows10.0.19041.0&lt;/TargetFrameworks&gt;
+		&lt;!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET --&gt;
+		&lt;!-- &lt;TargetFrameworks&gt;$(TargetFrameworks);net6.0-tizen&lt;/TargetFrameworks&gt; --&gt;
+		&lt;OutputType&gt;Exe&lt;/OutputType&gt;
+		&lt;RootNamespace&gt;MyMauiApp&lt;/RootNamespace&gt;
+		&lt;UseMaui&gt;true&lt;/UseMaui&gt;
+		&lt;SingleProject&gt;true&lt;/SingleProject&gt;
+		&lt;ImplicitUsings&gt;enable&lt;/ImplicitUsings&gt;
+
+		&lt;!-- Display name --&gt;
+		&lt;ApplicationTitle&gt;MyMauiApp&lt;/ApplicationTitle&gt;
+
+		&lt;!-- App Identifier --&gt;
+		&lt;ApplicationId&gt;com.companyname.mymauiapp&lt;/ApplicationId&gt;
+		&lt;ApplicationIdGuid&gt;272B9ECE-E038-4E53-8553-E3C9EA05A5B2&lt;/ApplicationIdGuid&gt;
+
+		&lt;!-- Versions --&gt;
+		&lt;ApplicationDisplayVersion&gt;1.0&lt;/ApplicationDisplayVersion&gt;
+		&lt;ApplicationVersion&gt;1&lt;/ApplicationVersion&gt;
+
+		&lt;SupportedOSPlatformVersion Condition=&quot;$([MSBuild]::GetTargetPlatformIdentifier(&#39;$(TargetFramework)&#39;)) == &#39;ios&#39;&quot;&gt;14.2&lt;/SupportedOSPlatformVersion&gt;
+		&lt;SupportedOSPlatformVersion Condition=&quot;$([MSBuild]::GetTargetPlatformIdentifier(&#39;$(TargetFramework)&#39;)) == &#39;maccatalyst&#39;&quot;&gt;14.0&lt;/SupportedOSPlatformVersion&gt;
+		&lt;SupportedOSPlatformVersion Condition=&quot;$([MSBuild]::GetTargetPlatformIdentifier(&#39;$(TargetFramework)&#39;)) == &#39;android&#39;&quot;&gt;21.0&lt;/SupportedOSPlatformVersion&gt;
+		&lt;SupportedOSPlatformVersion Condition=&quot;$([MSBuild]::GetTargetPlatformIdentifier(&#39;$(TargetFramework)&#39;)) == &#39;windows&#39;&quot;&gt;10.0.17763.0&lt;/SupportedOSPlatformVersion&gt;
+		&lt;TargetPlatformMinVersion Condition=&quot;$([MSBuild]::GetTargetPlatformIdentifier(&#39;$(TargetFramework)&#39;)) == &#39;windows&#39;&quot;&gt;10.0.17763.0&lt;/TargetPlatformMinVersion&gt;
+		&lt;SupportedOSPlatformVersion Condition=&quot;$([MSBuild]::GetTargetPlatformIdentifier(&#39;$(TargetFramework)&#39;)) == &#39;tizen&#39;&quot;&gt;6.5&lt;/SupportedOSPlatformVersion&gt;
+	&lt;/PropertyGroup&gt;
+    ...
+
+&lt;/Project&gt;
+"><span><span class="hljs-tag">&lt;<span class="hljs-name">Project</span> <span class="hljs-attr">Sdk</span>=<span class="hljs-string">"Microsoft.NET.Sdk"</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;<span class="hljs-name">PropertyGroup</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">TargetFrameworks</span>&gt;</span>net6.0-android;net6.0-ios;net6.0-maccatalyst<span class="hljs-tag">&lt;/<span class="hljs-name">TargetFrameworks</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">TargetFrameworks</span> <span class="hljs-attr">Condition</span>=<span class="hljs-string">"$([MSBuild]::IsOSPlatform('windows'))"</span>&gt;</span>$(TargetFrameworks);net6.0-windows10.0.19041.0<span class="hljs-tag">&lt;/<span class="hljs-name">TargetFrameworks</span>&gt;</span>
+		<span class="hljs-comment">&lt;!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET --&gt;</span>
+		<span class="hljs-comment">&lt;!-- &lt;TargetFrameworks&gt;$(TargetFrameworks);net6.0-tizen&lt;/TargetFrameworks&gt; --&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">OutputType</span>&gt;</span>Exe<span class="hljs-tag">&lt;/<span class="hljs-name">OutputType</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">RootNamespace</span>&gt;</span>MyMauiApp<span class="hljs-tag">&lt;/<span class="hljs-name">RootNamespace</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">UseMaui</span>&gt;</span>true<span class="hljs-tag">&lt;/<span class="hljs-name">UseMaui</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">SingleProject</span>&gt;</span>true<span class="hljs-tag">&lt;/<span class="hljs-name">SingleProject</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">ImplicitUsings</span>&gt;</span>enable<span class="hljs-tag">&lt;/<span class="hljs-name">ImplicitUsings</span>&gt;</span>
+
+		<span class="hljs-comment">&lt;!-- Display name --&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">ApplicationTitle</span>&gt;</span>MyMauiApp<span class="hljs-tag">&lt;/<span class="hljs-name">ApplicationTitle</span>&gt;</span>
+
+		<span class="hljs-comment">&lt;!-- App Identifier --&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">ApplicationId</span>&gt;</span>com.companyname.mymauiapp<span class="hljs-tag">&lt;/<span class="hljs-name">ApplicationId</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">ApplicationIdGuid</span>&gt;</span>272B9ECE-E038-4E53-8553-E3C9EA05A5B2<span class="hljs-tag">&lt;/<span class="hljs-name">ApplicationIdGuid</span>&gt;</span>
+
+		<span class="hljs-comment">&lt;!-- Versions --&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">ApplicationDisplayVersion</span>&gt;</span>1.0<span class="hljs-tag">&lt;/<span class="hljs-name">ApplicationDisplayVersion</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">ApplicationVersion</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">ApplicationVersion</span>&gt;</span>
+
+		<span class="hljs-tag">&lt;<span class="hljs-name">SupportedOSPlatformVersion</span> <span class="hljs-attr">Condition</span>=<span class="hljs-string">"$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'"</span>&gt;</span>14.2<span class="hljs-tag">&lt;/<span class="hljs-name">SupportedOSPlatformVersion</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">SupportedOSPlatformVersion</span> <span class="hljs-attr">Condition</span>=<span class="hljs-string">"$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'"</span>&gt;</span>14.0<span class="hljs-tag">&lt;/<span class="hljs-name">SupportedOSPlatformVersion</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">SupportedOSPlatformVersion</span> <span class="hljs-attr">Condition</span>=<span class="hljs-string">"$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'"</span>&gt;</span>21.0<span class="hljs-tag">&lt;/<span class="hljs-name">SupportedOSPlatformVersion</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">SupportedOSPlatformVersion</span> <span class="hljs-attr">Condition</span>=<span class="hljs-string">"$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'"</span>&gt;</span>10.0.17763.0<span class="hljs-tag">&lt;/<span class="hljs-name">SupportedOSPlatformVersion</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">TargetPlatformMinVersion</span> <span class="hljs-attr">Condition</span>=<span class="hljs-string">"$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'"</span>&gt;</span>10.0.17763.0<span class="hljs-tag">&lt;/<span class="hljs-name">TargetPlatformMinVersion</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">SupportedOSPlatformVersion</span> <span class="hljs-attr">Condition</span>=<span class="hljs-string">"$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'"</span>&gt;</span>6.5<span class="hljs-tag">&lt;/<span class="hljs-name">SupportedOSPlatformVersion</span>&gt;</span>
+	<span class="hljs-tag">&lt;/<span class="hljs-name">PropertyGroup</span>&gt;</span>
+    ...
+
+<span class="hljs-tag">&lt;/<span class="hljs-name">Project</span>&gt;</span>
+</span></code></pre>
+<p>The <code>ItemGroup</code> section below the initial property group enables you to specify an image and color for the splash screen that appears while the app is loading, prior to the first window appearing. You can also set the default locations for fonts, images, and assets used by the app.</p>
+<p>Bagian ItemGroup di bawah grup properti awal memungkinkan Anda untuk menentukan gambar dan warna untuk layar pembuka yang muncul saat aplikasi dimuat, sebelum jendela pertama muncul. Anda juga dapat mengatur lokasi default untuk font, gambar, dan aset yang digunakan oleh aplikasi.</p>
+<div class="codeHeader" id="code-try-8" data-bi-name="code-header"><span class="language">XML</span>
+		<button type="button" class="action position-relative display-none-print" data-bi-name="copy">
+			<span class="icon margin-right-xxs" aria-hidden="true">
+				<span class="docon docon-edit-copy"></span>
+			</span>
+			<span>Copy</span>
+			<div class="successful-copy-alert position-absolute right-0 top-0 left-0 bottom-0 display-flex align-items-center justify-content-center has-text-success-invert has-background-success is-transparent" aria-hidden="true">
+				<span class="icon font-size-lg">
+					<span class="docon docon-check-mark"></span>
+				</span>
+			</div>
+		</button>
+	</div><pre tabindex="0" class="has-inner-focus"><code class="lang-xml" data-author-content="&lt;Project Sdk=&quot;Microsoft.NET.Sdk&quot;&gt;
+
+    ...
+
+   &lt;ItemGroup&gt;
+		&lt;!-- App Icon --&gt;
+		&lt;MauiIcon Include=&quot;Resources\appicon.svg&quot; 
+                  ForegroundFile=&quot;Resources\appiconfg.svg&quot; 
+                  Color=&quot;#512BD4&quot; /&gt;
+
+		&lt;!-- Splash Screen --&gt;
+		&lt;MauiSplashScreen Include=&quot;Resources\appiconfg.svg&quot; 
+                          Color=&quot;#512BD4&quot; 
+                          BaseSize=&quot;128,128&quot; /&gt;
+
+		&lt;!-- Images --&gt;
+		&lt;MauiImage Include=&quot;Resources\Images\*&quot; /&gt;
+		&lt;MauiImage Update=&quot;Resources\Images\dotnet_bot.svg&quot; 
+                   BaseSize=&quot;168,208&quot; /&gt;
+
+		&lt;!-- Custom Fonts --&gt;
+		&lt;MauiFont Include=&quot;Resources\Fonts\*&quot; /&gt;
+
+		&lt;!-- Raw Assets (also remove the &quot;Resources\Raw&quot; prefix) --&gt;
+		&lt;MauiAsset Include=&quot;Resources\Raw\**&quot; 
+                   LogicalName=&quot;%(RecursiveDir)%(Filename)%(Extension)&quot; /&gt;
+	&lt;/ItemGroup&gt;
+
+    ...
+
+&lt;/Project&gt;
+"><span><span class="hljs-tag">&lt;<span class="hljs-name">Project</span> <span class="hljs-attr">Sdk</span>=<span class="hljs-string">"Microsoft.NET.Sdk"</span>&gt;</span>
+
+    ...
+
+   <span class="hljs-tag">&lt;<span class="hljs-name">ItemGroup</span>&gt;</span>
+		<span class="hljs-comment">&lt;!-- App Icon --&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">MauiIcon</span> <span class="hljs-attr">Include</span>=<span class="hljs-string">"Resources\appicon.svg"</span> 
+                  <span class="hljs-attr">ForegroundFile</span>=<span class="hljs-string">"Resources\appiconfg.svg"</span> 
+                  <span class="hljs-attr">Color</span>=<span class="hljs-string">"#512BD4"</span> /&gt;</span>
+
+		<span class="hljs-comment">&lt;!-- Splash Screen --&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">MauiSplashScreen</span> <span class="hljs-attr">Include</span>=<span class="hljs-string">"Resources\appiconfg.svg"</span> 
+                          <span class="hljs-attr">Color</span>=<span class="hljs-string">"#512BD4"</span> 
+                          <span class="hljs-attr">BaseSize</span>=<span class="hljs-string">"128,128"</span> /&gt;</span>
+
+		<span class="hljs-comment">&lt;!-- Images --&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">MauiImage</span> <span class="hljs-attr">Include</span>=<span class="hljs-string">"Resources\Images\*"</span> /&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">MauiImage</span> <span class="hljs-attr">Update</span>=<span class="hljs-string">"Resources\Images\dotnet_bot.svg"</span> 
+                   <span class="hljs-attr">BaseSize</span>=<span class="hljs-string">"168,208"</span> /&gt;</span>
+
+		<span class="hljs-comment">&lt;!-- Custom Fonts --&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">MauiFont</span> <span class="hljs-attr">Include</span>=<span class="hljs-string">"Resources\Fonts\*"</span> /&gt;</span>
+
+		<span class="hljs-comment">&lt;!-- Raw Assets (also remove the "Resources\Raw" prefix) --&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">MauiAsset</span> <span class="hljs-attr">Include</span>=<span class="hljs-string">"Resources\Raw\**"</span> 
+                   <span class="hljs-attr">LogicalName</span>=<span class="hljs-string">"%(RecursiveDir)%(Filename)%(Extension)"</span> /&gt;</span>
+	<span class="hljs-tag">&lt;/<span class="hljs-name">ItemGroup</span>&gt;</span>
+
+    ...
+
+<span class="hljs-tag">&lt;/<span class="hljs-name">Project</span>&gt;</span>
+</span></code></pre>
+<p>In the Solution Explorer window in Visual Studio, you can expand the <strong>Resources</strong> folder to see these items. You can add any other fonts, images, and other graphical resources required by the application to this folder and subfolders.</p>
+<p>Pada jendela Solution Explorer di Visual Studio, Anda dapat memperluas folder Resources untuk melihat item-item ini. Anda dapat menambahkan font, gambar, dan sumber daya grafis lain yang diperlukan oleh aplikasi ke folder dan subfolder ini</p>
+<p><span class="mx-imgBorder">
+<img src="./Create a .NET MAUI project in Visual Studio - Training _ Microsoft Learn_files/3-resources-folder.png" alt="A screenshot of the resources folder in the main project with a rectangle around it in the Visual Studio solution explorer. Inside the folder are font and image files." data-linktype="relative-path">
+</span>
+</p>
+<p>You should register any fonts added to the fonts folder with the app builder object when your app starts running. Recall that the <strong>CreateMauiApp</strong> method in the <strong>MauiProgram</strong> class does this with the <code>ConfigureFonts</code> method:</p>
+<p>Anda harus mendaftarkan setiap font yang ditambahkan ke folder font dengan objek pembuat aplikasi ketika aplikasi Anda mulai berjalan. Ingatlah bahwa metode CreateMauiApp di kelas MauiProgram melakukan hal ini dengan metode ConfigureFonts:</p>
+<div class="codeHeader" id="code-try-9" data-bi-name="code-header"><span class="language">C#</span>
+		<button type="button" class="action position-relative display-none-print" data-bi-name="copy">
+			<span class="icon margin-right-xxs" aria-hidden="true">
+				<span class="docon docon-edit-copy"></span>
+			</span>
+			<span>Copy</span>
+			<div class="successful-copy-alert position-absolute right-0 top-0 left-0 bottom-0 display-flex align-items-center justify-content-center has-text-success-invert has-background-success is-transparent" aria-hidden="true">
+				<span class="icon font-size-lg">
+					<span class="docon docon-check-mark"></span>
+				</span>
+			</div>
+		</button>
+	</div><pre tabindex="0" class="has-inner-focus"><code class="lang-csharp" data-author-content="public static class MauiProgram
+{
+    public static MauiApp CreateMauiApp()
+    {
+        var builder = MauiApp.CreateBuilder();
+        builder
+            ...
+            .ConfigureFonts(fonts =&gt;
+            {
+                fonts.AddFont(&quot;OpenSans-Regular.ttf&quot;, &quot;OpenSansRegular&quot;);
+            });
+
+        ...
+    }
+}
+"><span><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">class</span> <span class="hljs-title">MauiProgram</span>
+{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> MauiApp <span class="hljs-title">CreateMauiApp</span>(<span class="hljs-params"></span>)</span>
+    {
+        <span class="hljs-keyword">var</span> builder = MauiApp.CreateBuilder();
+        builder
+            ...
+            .ConfigureFonts(fonts =&gt;
+            {
+                fonts.AddFont(<span class="hljs-string">"OpenSans-Regular.ttf"</span>, <span class="hljs-string">"OpenSansRegular"</span>);
+            });
+
+        ...
+    }
+}
+</span></code></pre>
+<p>In this example, the <code>AddFont</code> method associates the font with the name <code>OpenSansRegular</code>. You can specify this font when you format items in the XAML description of a page or in the application resource dictionary:</p>
+<p>Dalam contoh ini, metode AddFont mengasosiasikan font dengan nama OpenSansRegular. Anda dapat menentukan font ini saat memformat item dalam deskripsi XAML halaman atau dalam kamus sumber daya aplikasi:</p>
+<div class="codeHeader" id="code-try-10" data-bi-name="code-header"><span class="language">XML</span>
+		<button type="button" class="action position-relative display-none-print" data-bi-name="copy">
+			<span class="icon margin-right-xxs" aria-hidden="true">
+				<span class="docon docon-edit-copy"></span>
+			</span>
+			<span>Copy</span>
+			<div class="successful-copy-alert position-absolute right-0 top-0 left-0 bottom-0 display-flex align-items-center justify-content-center has-text-success-invert has-background-success is-transparent" aria-hidden="true">
+				<span class="icon font-size-lg">
+					<span class="docon docon-check-mark"></span>
+				</span>
+			</div>
+		</button>
+	</div><pre tabindex="0" class="has-inner-focus"><code class="lang-xml" data-author-content="&lt;Application ...&quot;&gt;
+    &lt;Application.Resources&gt;
+        &lt;ResourceDictionary&gt;
+            ...
+            &lt;Style TargetType=&quot;Button&quot;&gt;
+                ...
+                &lt;Setter Property=&quot;FontFamily&quot; Value=&quot;OpenSansRegular&quot; /&gt;
+                ...
+            &lt;/Style&gt;
+
+        &lt;/ResourceDictionary&gt;
+    &lt;/Application.Resources&gt;
+&lt;/Application&gt;
+"><span><span class="hljs-tag">&lt;<span class="hljs-name">Application</span> <span class="hljs-attr">...</span>"&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">Application.Resources</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">ResourceDictionary</span>&gt;</span>
+            ...
+            <span class="hljs-tag">&lt;<span class="hljs-name">Style</span> <span class="hljs-attr">TargetType</span>=<span class="hljs-string">"Button"</span>&gt;</span><span class="xml">
+                ...
+                <span class="hljs-tag">&lt;<span class="hljs-name">Setter</span> <span class="hljs-attr">Property</span>=<span class="hljs-string">"FontFamily"</span> <span class="hljs-attr">Value</span>=<span class="hljs-string">"OpenSansRegular"</span> /&gt;</span>
+                ...
+            </span><span class="hljs-tag">&lt;/<span class="hljs-name">Style</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;/<span class="hljs-name">ResourceDictionary</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">Application.Resources</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">Application</span>&gt;</span>
+</span></code></pre>
+<p>Use the <strong>Resources</strong> folders in the <strong>Android</strong>, and <strong>iOS</strong> folders under the <strong>Platforms</strong> folder for Android and iOS platform-specific resources.</p>
+
+	<h2>Knowledge check</h2>
+<form role="form" class="quiz-form margin-top-xs" data-bi-name="quiz" aria-label="Knowledge check">
+	<div role="list">
+		<div role="listitem" class="quiz-question" data-bi-name="question">
+			<div role="radiogroup" class="quiz-question-title font-size-md margin-top-sm margin-bottom-xs" aria-labelledby="quiz-question-1">
+				<div id="quiz-question-1" class="margin-top-sm margin-bottom-xs"><span class="font-weight-semibold">1. </span><p>In which method of the application object should you create the initial window displayed by the app?</p>
+</div>
+				<div class="margin-inline-lg-tablet margin-inline-none margin-top-xxs">
+					<input id="quiz-choice-0-0" type="radio" name="0" value="0" class="visually-hidden choice-input">
+					<label for="quiz-choice-0-0" aria-required="true" class="quiz-choice position-relative display-flex margin-bottom-xxs padding-block-xxs padding-inline-xs padding-block-none-tablet">
+						<span class="custom-radio" aria-hidden="true"></span>
+						<div class="margin-inline-sm">
+							<p>Startup</p>
+
+						</div>
+					</label>
+					<div class="quiz-choice-explanation margin-block-xxs font-weight-semibold margin-left-lg padding-left-xs font-size-md">
+					</div>
+					<input id="quiz-choice-0-1" type="radio" name="0" value="1" class="visually-hidden choice-input">
+					<label for="quiz-choice-0-1" aria-required="true" class="quiz-choice position-relative display-flex margin-bottom-xxs padding-block-xxs padding-inline-xs padding-block-none-tablet">
+						<span class="custom-radio" aria-hidden="true"></span>
+						<div class="margin-inline-sm">
+							<p>Configure</p>
+
+						</div>
+					</label>
+					<div class="quiz-choice-explanation margin-block-xxs font-weight-semibold margin-left-lg padding-left-xs font-size-md">
+					</div>
+					<input id="quiz-choice-0-2" type="radio" name="0" value="2" class="visually-hidden choice-input">
+					<label for="quiz-choice-0-2" aria-required="true" class="quiz-choice position-relative display-flex margin-bottom-xxs padding-block-xxs padding-inline-xs padding-block-none-tablet">
+						<span class="custom-radio" aria-hidden="true"></span>
+						<div class="margin-inline-sm">
+							<p>The constructor</p>
+
+						</div>
+					</label>
+					<div class="quiz-choice-explanation margin-block-xxs font-weight-semibold margin-left-lg padding-left-xs font-size-md">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div role="listitem" class="quiz-question" data-bi-name="question">
+			<div role="radiogroup" class="quiz-question-title font-size-md margin-top-sm margin-bottom-xs" aria-labelledby="quiz-question-2">
+				<div id="quiz-question-2" class="margin-top-sm margin-bottom-xs"><span class="font-weight-semibold">2. </span><p>Where do you implement the logic for an event handler for a control, such as the Clicked event for a button?</p>
+</div>
+				<div class="margin-inline-lg-tablet margin-inline-none margin-top-xxs">
+					<input id="quiz-choice-1-0" type="radio" name="1" value="0" class="visually-hidden choice-input">
+					<label for="quiz-choice-1-0" aria-required="true" class="quiz-choice position-relative display-flex margin-bottom-xxs padding-block-xxs padding-inline-xs padding-block-none-tablet">
+						<span class="custom-radio" aria-hidden="true"></span>
+						<div class="margin-inline-sm">
+							<p>In the XAML description of the page containing the control</p>
+
+						</div>
+					</label>
+					<div class="quiz-choice-explanation margin-block-xxs font-weight-semibold margin-left-lg padding-left-xs font-size-md">
+					</div>
+					<input id="quiz-choice-1-1" type="radio" name="1" value="1" class="visually-hidden choice-input">
+					<label for="quiz-choice-1-1" aria-required="true" class="quiz-choice position-relative display-flex margin-bottom-xxs padding-block-xxs padding-inline-xs padding-block-none-tablet">
+						<span class="custom-radio" aria-hidden="true"></span>
+						<div class="margin-inline-sm">
+							<p>You implement the logic in the code-behind file for the XAML page containing the control.</p>
+
+						</div>
+					</label>
+					<div class="quiz-choice-explanation margin-block-xxs font-weight-semibold margin-left-lg padding-left-xs font-size-md">
+					</div>
+					<input id="quiz-choice-1-2" type="radio" name="1" value="2" class="visually-hidden choice-input">
+					<label for="quiz-choice-1-2" aria-required="true" class="quiz-choice position-relative display-flex margin-bottom-xxs padding-block-xxs padding-inline-xs padding-block-none-tablet">
+						<span class="custom-radio" aria-hidden="true"></span>
+						<div class="margin-inline-sm">
+							<p>In the App.xaml.cs file</p>
+
+						</div>
+					</label>
+					<div class="quiz-choice-explanation margin-block-xxs font-weight-semibold margin-left-lg padding-left-xs font-size-md">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<button class="button button-primary button-filled is-radiusless margin-top-xs" type="submit" data-bi-name="check-answers">Check your answers</button>
+	<p role="alert" id="unanswered-question-error" class="font-size-sm has-text-danger font-weight-semibold margin-top-xxs is-hidden">You must answer all questions before checking your work.</p>
+	<p id="screen-reader-text" class="visually-hidden"></p>
+</form>
+		<div id="next-section" class="modular-content-container is-hidden-portrait"><div></div></div>
+	</div>
+</div>
+
+							</div>
+
+							<div id="assertive-live-region" role="alert" aria-live="assertive" class="visually-hidden" aria-relevant="additions" aria-atomic="true"></div>
+							<div id="polite-live-region" role="status" aria-live="polite" class="visually-hidden" aria-relevant="additions" aria-atomic="true"></div>
+							<!-- </content> -->
+
+						</main>
+
+<div class="modular-content-container margin-block-xs">
+	<section class="feedback-section section is-full-height is-uniform padding-block-none position-relative">
+		<p class="font-weight-semibold">
+Need help? See our <a id="troubleshooting-guide" class="has-text-primary" data-bi-name="troubleshooting" href="https://learn.microsoft.com/en-us/training/support/troubleshooting?uid=learn.dotnet-maui.build-mobile-and-desktop-apps.create-a-maui-project-visual-studio&amp;documentId=34acf607-899f-9dcf-2d05-4c67e1f4a6ab&amp;versionIndependentDocumentId=34acf607-899f-9dcf-2d05-4c67e1f4a6ab&amp;contentPath=%2FMicrosoftDocs%2Flearn-pr%2Fblob%2Flive%2Flearn-pr%2Fdot-net-maui%2Fbuild-mobile-and-desktop-apps%2F3-create-a-maui-project-visual-studio.yml&amp;url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Ftraining%2Fmodules%2Fbuild-mobile-and-desktop-apps%2F3-create-a-maui-project-visual-studio&amp;author=masoucou">troubleshooting guide</a> or provide specific feedback by <a id="module-unit-feedback-link" class="has-text-primary" data-bi-name="feedback" href="https://learn.microsoft.com/en-us/training/support/troubleshooting?uid=learn.dotnet-maui.build-mobile-and-desktop-apps.create-a-maui-project-visual-studio&amp;documentId=34acf607-899f-9dcf-2d05-4c67e1f4a6ab&amp;versionIndependentDocumentId=34acf607-899f-9dcf-2d05-4c67e1f4a6ab&amp;contentPath=%2FMicrosoftDocs%2Flearn-pr%2Fblob%2Flive%2Flearn-pr%2Fdot-net-maui%2Fbuild-mobile-and-desktop-apps%2F3-create-a-maui-project-visual-studio.yml&amp;url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Ftraining%2Fmodules%2Fbuild-mobile-and-desktop-apps%2F3-create-a-maui-project-visual-studio&amp;author=masoucou#report-feedback">reporting an issue</a>.		</p>
+	</section>
+</div>
+
+<div class="modular-content-container unit-page-module-rating margin-block-xs">
+	<section class="unit-page-rating-section section is-full-height is-uniform padding-block-none position-relative"><fieldset class="star-rating-control" data-bi-name="star-rating-control-progress"><!----> <div class="display-inline-flex"><!---->  <div class="rating-hint margin-bottom-xs margin-right-xs">
+				<span><!---->How are we doing?<!----></span>
+		  </div>
+		<div class="star-layout ">
+			<div class="font-size-m star-collection "><!----><!----> <input type="radio" value="1" id="ax-210" name="ax-209" aria-labelledby="ax-210" class="visually-hidden " data-bi-name="rating-1">
+			<label for="ax-210">
+				<span class="visually-hidden"><!---->Terrible<!----></span>
+				<span aria-hidden="true" class="docon rating-star"></span>
+			</label><!----> <input type="radio" value="2" id="ax-211" name="ax-209" aria-labelledby="ax-211" class="visually-hidden " data-bi-name="rating-2">
+			<label for="ax-211">
+				<span class="visually-hidden"><!---->Poor<!----></span>
+				<span aria-hidden="true" class="docon rating-star"></span>
+			</label><!----> <input type="radio" value="3" id="ax-212" name="ax-209" aria-labelledby="ax-212" class="visually-hidden " data-bi-name="rating-3">
+			<label for="ax-212">
+				<span class="visually-hidden"><!---->Fair<!----></span>
+				<span aria-hidden="true" class="docon rating-star"></span>
+			</label><!----> <input type="radio" value="4" id="ax-213" name="ax-209" aria-labelledby="ax-213" class="visually-hidden " data-bi-name="rating-4">
+			<label for="ax-213">
+				<span class="visually-hidden"><!---->Good<!----></span>
+				<span aria-hidden="true" class="docon rating-star"></span>
+			</label><!----> <input type="radio" value="5" id="ax-214" name="ax-209" aria-labelledby="ax-214" class="visually-hidden " data-bi-name="rating-5">
+			<label for="ax-214">
+				<span class="visually-hidden"><!---->Great<!----></span>
+				<span aria-hidden="true" class="docon rating-star"></span>
+			</label><!----><!----></div>
+			<output for="ax1 ax2 ax3 ax4 ax5" class="rating-output font-weight-semibold font-size-m "></output>
+		</div><!----></div><!----></fieldset></section>
+</div>
+
+
+						<!-- recommendations section -->
+						<!-- end recommendations section -->
+
+						<!-- feedback section -->
+						<!-- end feedback section -->
+
+						<!-- feedback report section -->
+						<!-- end feedback report section -->
+
+
+						<div class="border-top is-visible-interactive has-default-focus margin-top-sm  margin-top-none">
+
+
+
+	<footer id="footer-interactive" data-bi-name="footer" class="footer-layout">
+	<div class="display-flex is-full-height padding-right-lg-desktop">
+			<a data-mscc-ic="false" class="locale-selector-link button button-clear flex-shrink-0" href="https://learn.microsoft.com/en-us/locale?target=https://learn.microsoft.com/en-us/training/modules/build-mobile-and-desktop-apps/3-create-a-maui-project-visual-studio" data-bi-name="select-locale" aria-label="Content language selector. Currently set to English (United States).">
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-world"></span>
+					</span>
+					<span class="local-selector-link-text">English (United States)</span></a>
+		<div class="margin-inline-xs flex-shrink-0">
+<div class="dropdown has-caret-up">
+	<button class="dropdown-trigger button button-clear button-sm has-inner-focus theme-dropdown-trigger" aria-controls="theme-menu-interactive" aria-expanded="false" title="Theme" data-bi-name="theme">
+		<span class="icon">
+			<span class="docon docon-sun" aria-hidden="true"></span>
+		</span>
+		<span>Theme</span>
+	</button>
+	<div class="dropdown-menu" id="theme-menu-interactive" role="menu">
+		<ul class="theme-selector padding-xxs" role="none">
+			<li class="theme display-block" role="menuitem">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start" data-theme-to="light" aria-pressed="false">
+					<span class="theme-light margin-right-xxs">
+						<span class="theme-selector-icon css-variable-support border display-inline-block has-body-background" aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background"></rect>
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary"></rect>
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary"></rect>
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary"></rect>
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary"></rect>
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary"></rect>
+							</svg>
+						</span>
+					</span>
+					<span>
+Light					</span>
+				</button>
+			</li>
+			<li class="theme display-block" role="menuitem">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start is-selected" data-theme-to="dark" aria-pressed="true">
+					<span class="theme-dark margin-right-xxs">
+						<span class="border theme-selector-icon css-variable-support display-inline-block has-body-background" aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background"></rect>
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary"></rect>
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary"></rect>
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary"></rect>
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary"></rect>
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary"></rect>
+							</svg>
+						</span>
+					</span>
+					<span>
+Dark					</span>
+				</button>
+			</li>
+			<li class="theme display-block" role="menuitem">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start" data-theme-to="high-contrast" aria-pressed="false">
+					<span class="theme-high-contrast margin-right-xxs">
+						<span class="border theme-selector-icon css-variable-support display-inline-block has-body-background" aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background"></rect>
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary"></rect>
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary"></rect>
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary"></rect>
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary"></rect>
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary"></rect>
+							</svg>
+						</span>
+					</span>
+					<span>
+High contrast					</span>
+				</button>
+			</li>
+		</ul>
+	</div>
+</div>
+		</div>
+	</div>
+	<ul class="links" data-bi-name="footerlinks">
+		<li class="manage-cookies-holder" hidden=""></li>
+				<li><a data-mscc-ic="false" href="https://learn.microsoft.com/en-us/previous-versions/" data-bi-name="archivelink">Previous Versions</a></li>
+				<li><a data-mscc-ic="false" href="https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog" data-bi-name="bloglink">Blog</a></li>
+				<li><a data-mscc-ic="false" href="https://learn.microsoft.com/en-us/contribute/" data-bi-name="contributorGuide">Contribute</a></li>
+					<li><a data-mscc-ic="false" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-bi-name="privacy">Privacy</a></li>
+				<li><a data-mscc-ic="false" href="https://learn.microsoft.com/en-us/legal/termsofuse" data-bi-name="termsofuse">Terms of Use</a></li>
+				<li><a data-mscc-ic="false" href="https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/EN-US.aspx" data-bi-name="trademarks">Trademarks</a></li>
+		<li>© Microsoft 2023</li>
+	</ul>
+</footer>
+						</div>
+
+					</div>
+
+
+				</div>
+				<!--end of div.columns -->
+
+			</section>
+			<!--end of .primary-holder -->
+
+			<!-- interactive container -->
+			<aside id="interactive-container" class="interactive-container is-visible-interactive column has-body-background-dark ">
+			</aside>
+			<!-- end of interactive container -->
+		</div>
+
+	</div>
+	<!--end of .mainContainer -->
+
+	<section class="border-top has-default-focus is-hidden-interactive margin-top-sm  margin-top-none">
+
+
+
+	<footer id="footer" data-bi-name="footer" class="footer-layout uhf-container has-padding" role="contentinfo">
+	<div class="display-flex is-full-height padding-right-lg-desktop">
+			<a data-mscc-ic="false" class="locale-selector-link button button-clear flex-shrink-0" href="https://learn.microsoft.com/en-us/locale?target=https://learn.microsoft.com/en-us/training/modules/build-mobile-and-desktop-apps/3-create-a-maui-project-visual-studio" data-bi-name="select-locale" aria-label="Content language selector. Currently set to English (United States).">
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-world"></span>
+					</span>
+					<span class="local-selector-link-text">English (United States)</span></a>
+		<div class="margin-inline-xs flex-shrink-0">
+<div class="dropdown has-caret-up">
+	<button class="dropdown-trigger button button-clear button-sm has-inner-focus theme-dropdown-trigger" aria-controls="theme-menu" aria-expanded="false" title="Theme" data-bi-name="theme">
+		<span class="icon">
+			<span class="docon docon-sun" aria-hidden="true"></span>
+		</span>
+		<span>Theme</span>
+	</button>
+	<div class="dropdown-menu" id="theme-menu" role="menu" style="left: 0px;">
+		<ul class="theme-selector padding-xxs" role="none">
+			<li class="theme display-block" role="menuitem">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start" data-theme-to="light" aria-pressed="false">
+					<span class="theme-light margin-right-xxs">
+						<span class="theme-selector-icon css-variable-support border display-inline-block has-body-background" aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background"></rect>
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary"></rect>
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary"></rect>
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary"></rect>
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary"></rect>
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary"></rect>
+							</svg>
+						</span>
+					</span>
+					<span>
+Light					</span>
+				</button>
+			</li>
+			<li class="theme display-block" role="menuitem">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start is-selected" data-theme-to="dark" aria-pressed="true">
+					<span class="theme-dark margin-right-xxs">
+						<span class="border theme-selector-icon css-variable-support display-inline-block has-body-background" aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background"></rect>
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary"></rect>
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary"></rect>
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary"></rect>
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary"></rect>
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary"></rect>
+							</svg>
+						</span>
+					</span>
+					<span>
+Dark					</span>
+				</button>
+			</li>
+			<li class="theme display-block" role="menuitem">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start" data-theme-to="high-contrast" aria-pressed="false">
+					<span class="theme-high-contrast margin-right-xxs">
+						<span class="border theme-selector-icon css-variable-support display-inline-block has-body-background" aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background"></rect>
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary"></rect>
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary"></rect>
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary"></rect>
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary"></rect>
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary"></rect>
+							</svg>
+						</span>
+					</span>
+					<span>
+High contrast					</span>
+				</button>
+			</li>
+		</ul>
+	</div>
+</div>
+		</div>
+	</div>
+	<ul class="links" data-bi-name="footerlinks">
+		<li class="manage-cookies-holder" hidden=""></li>
+				<li><a data-mscc-ic="false" href="https://learn.microsoft.com/en-us/previous-versions/" data-bi-name="archivelink">Previous Versions</a></li>
+				<li><a data-mscc-ic="false" href="https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog" data-bi-name="bloglink">Blog</a></li>
+				<li><a data-mscc-ic="false" href="https://learn.microsoft.com/en-us/contribute/" data-bi-name="contributorGuide">Contribute</a></li>
+					<li><a data-mscc-ic="false" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-bi-name="privacy">Privacy</a></li>
+				<li><a data-mscc-ic="false" href="https://learn.microsoft.com/en-us/legal/termsofuse" data-bi-name="termsofuse">Terms of Use</a></li>
+				<li><a data-mscc-ic="false" href="https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/EN-US.aspx" data-bi-name="trademarks">Trademarks</a></li>
+		<li>© Microsoft 2023</li>
+	</ul>
+</footer>
+	</section>
+
+		<script src="./Create a .NET MAUI project in Visual Studio - Training _ Microsoft Learn_files/MathJax.js.download" integrity="sha384-RLsAi7wiVvnmHrRjlVvUjU45C0bfsIBg6Gsxue6azjJi+lA5q5uK+XbGzO3yn5g1" crossorigin="anonymous"></script>
+	<div id="action-panel" role="region" aria-label="Action Panel" class="action-panel has-default-focus" tabindex="-1"></div>
+
+
+</body></html>

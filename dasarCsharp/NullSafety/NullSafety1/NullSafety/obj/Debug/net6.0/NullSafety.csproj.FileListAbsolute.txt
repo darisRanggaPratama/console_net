@@ -1,0 +1,15 @@
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\NullSafety\NullSafety1\NullSafety\bin\Debug\net6.0\NullSafety.exe
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\NullSafety\NullSafety1\NullSafety\bin\Debug\net6.0\NullSafety.deps.json
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\NullSafety\NullSafety1\NullSafety\bin\Debug\net6.0\NullSafety.runtimeconfig.json
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\NullSafety\NullSafety1\NullSafety\bin\Debug\net6.0\NullSafety.dll
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\NullSafety\NullSafety1\NullSafety\bin\Debug\net6.0\NullSafety.pdb
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\NullSafety\NullSafety1\NullSafety\obj\Debug\net6.0\NullSafety.csproj.AssemblyReference.cache
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\NullSafety\NullSafety1\NullSafety\obj\Debug\net6.0\NullSafety.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\NullSafety\NullSafety1\NullSafety\obj\Debug\net6.0\NullSafety.AssemblyInfoInputs.cache
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\NullSafety\NullSafety1\NullSafety\obj\Debug\net6.0\NullSafety.AssemblyInfo.cs
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\NullSafety\NullSafety1\NullSafety\obj\Debug\net6.0\NullSafety.csproj.CoreCompileInputs.cache
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\NullSafety\NullSafety1\NullSafety\obj\Debug\net6.0\NullSafety.dll
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\NullSafety\NullSafety1\NullSafety\obj\Debug\net6.0\refint\NullSafety.dll
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\NullSafety\NullSafety1\NullSafety\obj\Debug\net6.0\NullSafety.pdb
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\NullSafety\NullSafety1\NullSafety\obj\Debug\net6.0\NullSafety.genruntimeconfig.cache
+C:\Users\raden\Documents\UploadGithub\Belajar_Csharp\Net_MAUI\Translate\console_net\dasarCsharp\NullSafety\NullSafety1\NullSafety\obj\Debug\net6.0\ref\NullSafety.dll
