@@ -32,9 +32,10 @@
               "RelativeDocumentMoniker": "CRUD.Designer.vb",
               "ToolTip": "D:\\up2github\\console_net\\MySQLconnectCRUD\\CRUD-MySQL\\CRUD.Designer.vb",
               "RelativeToolTip": "CRUD.Designer.vb",
-              "ViewState": "AgIAAN0AAAAAAAAAAAAYwOAAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAAAOAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-05-02T23:39:43.276Z"
+              "WhenOpened": "2025-05-02T23:39:43.276Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -44,7 +45,7 @@
               "RelativeDocumentMoniker": "CRUD.vb",
               "ToolTip": "D:\\up2github\\console_net\\MySQLconnectCRUD\\CRUD-MySQL\\CRUD.vb",
               "RelativeToolTip": "CRUD.vb",
-              "ViewState": "AgIAAI0CAAAAAAAAAAAIwJgCAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAMBAAAAAAAAAAAAACEBAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-05-02T08:48:58.078Z",
               "EditorCaption": ""
@@ -58,7 +59,8 @@
               "ToolTip": "D:\\up2github\\console_net\\MySQLconnectCRUD\\CRUD-MySQL\\CRUD.vb [Design]",
               "RelativeToolTip": "CRUD.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-05-02T23:37:43.541Z"
+              "WhenOpened": "2025-05-02T23:37:43.541Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

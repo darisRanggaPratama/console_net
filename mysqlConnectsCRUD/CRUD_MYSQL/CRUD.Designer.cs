@@ -175,9 +175,20 @@
 			// 
 			this.nudPageSize.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.nudPageSize.Location = new System.Drawing.Point(664, 56);
+			this.nudPageSize.Minimum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
 			this.nudPageSize.Name = "nudPageSize";
 			this.nudPageSize.Size = new System.Drawing.Size(120, 23);
 			this.nudPageSize.TabIndex = 12;
+			this.nudPageSize.Value = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+			this.nudPageSize.ValueChanged += new System.EventHandler(this.nudPageSize_ValueChanged);
 			// 
 			// btnNextPage
 			// 

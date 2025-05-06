@@ -279,7 +279,15 @@ Public Class Display
 	Private Sub btnReset_Click(sender As Object, e As EventArgs) Handles btnReset.Click
 		txtName.Clear()
 		txtPhone.Clear()
-		LoadData()
+
+		pageSize = 10
+		nudPageSize.Value = 10
+		currentPage = 1
+		isSearchMode = False
+		searchName = ""
+		searchPhone = ""
+
+		LoadDataWithPagination()
 	End Sub
 
 	Private Sub dgvContacts_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvContacts.CellContentClick

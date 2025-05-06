@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "D:\\up2github\\console_net\\mysqlConnectsCRUD\\CRUD_MYSQL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C223C6F2-47A5-44CB-95D7-4B0DFF195B5F}|CRUD_MYSQL.csproj|D:\\up2github\\console_net\\mysqlConnectsCRUD\\CRUD_MYSQL\\crud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C223C6F2-47A5-44CB-95D7-4B0DFF195B5F}|CRUD_MYSQL.csproj|d:\\up2github\\console_net\\mysqlconnectscrud\\crud_mysql\\crud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C223C6F2-47A5-44CB-95D7-4B0DFF195B5F}|CRUD_MYSQL.csproj|solutionrelative:crud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C223C6F2-47A5-44CB-95D7-4B0DFF195B5F}|CRUD_MYSQL.csproj|d:\\up2github\\console_net\\mysqlconnectscrud\\crud_mysql\\crud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C223C6F2-47A5-44CB-95D7-4B0DFF195B5F}|CRUD_MYSQL.csproj|solutionrelative:crud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C223C6F2-47A5-44CB-95D7-4B0DFF195B5F}|CRUD_MYSQL.csproj|D:\\up2github\\console_net\\mysqlConnectsCRUD\\CRUD_MYSQL\\crud.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +13,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{C223C6F2-47A5-44CB-95D7-4B0DFF195B5F}|CRUD_MYSQL.csproj|D:\\up2github\\console_net\\mysqlConnectsCRUD\\CRUD_MYSQL\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C223C6F2-47A5-44CB-95D7-4B0DFF195B5F}|CRUD_MYSQL.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C223C6F2-47A5-44CB-95D7-4B0DFF195B5F}|CRUD_MYSQL.csproj|D:\\up2github\\console_net\\mysqlConnectsCRUD\\CRUD_MYSQL\\crud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C223C6F2-47A5-44CB-95D7-4B0DFF195B5F}|CRUD_MYSQL.csproj|solutionrelative:crud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,13 +30,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CRUD.Designer.cs",
               "DocumentMoniker": "D:\\up2github\\console_net\\mysqlConnectsCRUD\\CRUD_MYSQL\\CRUD.Designer.cs",
               "RelativeDocumentMoniker": "CRUD.Designer.cs",
               "ToolTip": "D:\\up2github\\console_net\\mysqlConnectsCRUD\\CRUD_MYSQL\\CRUD.Designer.cs",
               "RelativeToolTip": "CRUD.Designer.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAABwAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAALoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T01:23:34.522Z",
               "EditorCaption": ""
@@ -49,14 +49,14 @@
               "RelativeDocumentMoniker": "CRUD.cs",
               "ToolTip": "D:\\up2github\\console_net\\mysqlConnectsCRUD\\CRUD_MYSQL\\CRUD.cs",
               "RelativeToolTip": "CRUD.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEkDAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAFcBAAAAAAAAAAAqwG0BAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-01T09:36:25.79Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\up2github\\console_net\\mysqlConnectsCRUD\\CRUD_MYSQL\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -64,11 +64,12 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T09:43:15.214Z"
+              "WhenOpened": "2025-05-01T09:43:15.214Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CRUD.cs [Design]",
               "DocumentMoniker": "D:\\up2github\\console_net\\mysqlConnectsCRUD\\CRUD_MYSQL\\CRUD.cs",
               "RelativeDocumentMoniker": "CRUD.cs",

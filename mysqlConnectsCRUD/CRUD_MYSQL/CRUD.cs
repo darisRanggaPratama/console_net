@@ -33,6 +33,7 @@ namespace CRUD_MYSQL
 
 		private void Display_Load(object sender, EventArgs e)
 		{
+			pageSize = (int)nudPageSize.Value;
 			nudPageSize.Value = pageSize;
 			LoadDataWithPagination();
 		}
@@ -299,8 +300,7 @@ namespace CRUD_MYSQL
 				currentPage = totalPages;
 			}
 
-			LoadCurrentPageData();
-			UpdatePaginationInfo();
+			LoadDataWithPagination();
 		}
 
 		private void UpdateData(int id)
@@ -326,7 +326,7 @@ namespace CRUD_MYSQL
 			{
 				UpdateData(currentId);
 				ClearForm();
-				LoadCurrentPageData();
+				LoadDataWithPagination();
 				UpdatePaginationInfo();
 			}
 			else
@@ -353,7 +353,17 @@ namespace CRUD_MYSQL
 		{
 			txtName.Clear();
 			txtPhone.Clear();
-			LoadData();
+
+			// Reset to default pagination settings
+			pageSize = 10;
+			nudPageSize.Value = 10;
+			currentPage = 1;
+			isSearchMode = false;
+			searchName = "";
+			searchPhone = "";
+
+			// Reset and load data with default settings
+			LoadDataWithPagination();
 		}
 
 		private void dgvContacts_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -378,7 +388,7 @@ namespace CRUD_MYSQL
 					if (result == DialogResult.Yes)
 					{
 						DeleteData(id);
-						LoadData();
+						LoadDataWithPagination();
 					}
 				}
 			}
